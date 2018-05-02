@@ -1,0 +1,44 @@
+{
+  "name": "ouvrage",
+  "version": "0.0.1",
+  "description": "Ouvrage est un projet pédagogique pour les élèves de Master 1 Développement, dans le cadre du cours de Javascript. Il s'agit créer portfolio des élèves et profs de l’ECV Digital en utilisant des technologies Javascript front/back modernes.",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify src/index.jsx -o bundle.js -t [ babelify --presets [ es2015 react ] ] -d",
+    "watch": "watchify src/index.jsx -o bundle.js -t [ babelify --presets [ es2015 react ] ] -d -v",
+    "precommit": "lint-staged",
+    "lint": "eslint 'src/**/*.{js,jsx}'",
+    "test": "jest . --env=jsdom"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecvdbdx/ouvrage.git"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,json}": [
+      "eslint",
+      "npm run test -- --findRelatedTests"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^8.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-react": "^7.7.0",
+    "husky": "^0.14.3",
+    "jest": "^22.4.3",
+    "lint-staged": "^7.0.5",
+    "react-test-renderer": "^16.3.2"
+  }
+}
