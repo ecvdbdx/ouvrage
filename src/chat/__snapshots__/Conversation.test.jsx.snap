@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  id="conversation"
+>
+  <h2>
+    La conversation
+  </h2>
+  epatrois
+</div>
+`;

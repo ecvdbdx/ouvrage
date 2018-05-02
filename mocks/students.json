@@ -3,7 +3,8 @@
     "username": "epatrois",
     "first_name": "Manu",
     "last_name": "Patrois",
-    "id": "2"
+    "id": "2",
+    "avatar": "https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg"
   },
   {
     "id": "5",
@@ -12,8 +13,7 @@
     "last_name": "De Waele",
     "email": "maxencedewaele@gmail.com",
     "birthdate": "838921463",
-    "avatar": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
-
+    "avatar": "https://info.bestfriendspetcare.com/hubfs/BestFriendSpetcare-Sep2016/images/img_dog_right-col-top.png?t=1521138713469"
   },
   {
     "id": "8",
@@ -22,20 +22,22 @@
     "last_name": "Rodriguez",
     "email": "vincentrodrigu@hotmail.fr",
     "birthdate": "14/05/1413",
-    "avatar": "http://etc.usf.edu/clipart/5500/5596/columbus_14_md.gif"
+    "avatar": "https://s3.amazonaws.com/mixture-mixed/21975/17188/img/photos/portraits/dogs/golden-retriever.jpg"
   },
   {
     "id": "6",
     "username": "erozis",
     "first_name": "Emilie",
     "last_name": "Rozis",
-    "email": "emilie.40@hotmail.com"
+    "email": "emilie.40@hotmail.com",
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwMFoeG86Nz19Ve8Cf2FqpdiMd9Q8r6cYS1lgmPKZCxJfvb7kK"
   },
   {
     "first_name": "Hubert",
     "username": "hmoncenis",
     "id": "1",
-    "last_name": "Montcenis"
+    "last_name": "Moncenis",
+    "avatar": "https://barknbrewwi.com/wp-content/uploads/2017/05/bark-and-brew-dog-img.png"
   },
   {
     "id": "7",
@@ -44,7 +46,7 @@
     "last_name": "Gonzalez",
     "email": "viviane.gonzalez@outlook.fr",
     "birthdate": "02/06/1995",
-    "avatar": "kikou.png"
+    "avatar": "https://img.freepik.com/free-photo/cute-golden-retriever-dog_1204-387.jpg?size=338&ext=jpg"
   },
   {
     "id": "3",
@@ -53,7 +55,7 @@
     "last_name": "de Sinety",
     "email": "fake@yopmail.fr",
     "birthdate": "08/06/1995",
-    "avatar": "Image.png"
+    "avatar": "https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg"
   },
   {
     "id": "4",
