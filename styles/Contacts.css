@@ -1,0 +1,30 @@
+.username {
+  font-size: 13px;
+  display: block;
+}
+
+#list-conversations h2 {
+  margin: 50px 0;
+  text-align: center;
+  font-size: 25px;
+}
+
+
+#list-conversations li {
+  display: block;
+  width: 100%;
+}
+
+.contact-conv {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+#list-conversations img {
+  border-radius: 50%;
+  max-width: 50px;
+  max-height: 50px;
+  margin-right: 10px;
+}
+

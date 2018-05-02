@@ -8,7 +8,8 @@
     "watch": "watchify src/index.jsx -o bundle.js -t [ babelify ] -d -v",
     "precommit": "lint-staged",
     "lint": "eslint 'src/**/*.{js,jsx}'",
-    "test": "jest . --env=jsdom"
+    "test": "jest . --env=jsdom",
+    "start": "php -S localhost:3000 | npm run watch "
   },
   "repository": {
     "type": "git",
@@ -38,6 +39,7 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "babelify": "^8.0.0",
+    "browserify-css": "^0.14.0",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "eslint": "^4.19.1",
@@ -46,6 +48,7 @@
     "husky": "^0.14.3",
     "jest": "^22.4.3",
     "lint-staged": "^7.0.5",
-    "react-test-renderer": "^16.3.2"
+    "react-test-renderer": "^16.3.2",
+    "watchify": "^3.11.0"
   }
 }
