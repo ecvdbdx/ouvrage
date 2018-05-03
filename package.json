@@ -4,8 +4,8 @@
   "description": "Ouvrage est un projet pédagogique pour les élèves de Master 1 Développement, dans le cadre du cours de Javascript. Il s'agit créer portfolio des élèves et profs de l’ECV Digital en utilisant des technologies Javascript front/back modernes.",
   "main": "index.js",
   "scripts": {
-    "build": "browserify src/index.jsx -o bundle.js -t [ babelify --presets [ es2015 react ] ] -d",
-    "watch": "watchify src/index.jsx -o bundle.js -t [ babelify --presets [ es2015 react ] ] -d -v",
+    "build": "browserify src/index.jsx -o bundle.js -t [ babelify --presets [ env react ] ] -d",
+    "watch": "watchify src/index.jsx -o bundle.js -t [ babelify --presets [ env react ] ] -d -v",
     "precommit": "lint-staged",
     "lint": "eslint 'src/**/*.{js,jsx}'",
     "test": "jest . --env=jsdom"
