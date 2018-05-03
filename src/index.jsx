@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Root from './Root.jsx';
+import Chat from './chat/Chat.jsx';
+
+import students from '../mocks/students.json';
 
 ReactDOM.render(
-  <Root />,
+  <Chat students={students} />,
   document.getElementById('root')
 );
