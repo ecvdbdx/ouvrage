@@ -5,5 +5,31 @@ exports[`renders correctly 1`] = `
   <h1>
     Ouvrage
   </h1>
+  <a
+    onClick={[Function]}
+    style={
+      Object {
+        "cursor": "pointer",
+      }
+    }
+  >
+    click me!
+  </a>
+  <div>
+    <h1>
+      Profile
+    </h1>
+    <img
+      alt="avatar"
+      src={undefined}
+    />
+    <p>
+      Manu
+      ,  
+      Patrois
+    </p>
+    <p />
+    <p />
+  </div>
 </div>
 `;
