@@ -20,10 +20,14 @@ export default class Profile extends React.Component {
     return (
       <div>
         <h1>Profile</h1>
-        <img src="http://www.personalbrandingblog.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640-300x300.png" alt="avatar"/>
-        <p>Nom, prénom</p>
-        <p>email@email.fr</p>
-        <p>Anniversaire</p>
+        <div className="avatar">
+          <img src={this.props.student.avatar} alt="avatar"/>
+        </div>
+        <div className="content">
+          <p>{this.props.student.first_name},  {this.props.student.last_name}</p>
+          <p>{this.props.student.email}</p>
+          <p>{this.props.student.birthdate}</p>
+        </div>
       </div>
     );
   }

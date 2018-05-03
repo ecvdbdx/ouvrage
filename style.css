@@ -1,3 +1,11 @@
 #root {
   color: blue;
 }
+
+.avatar, .content {
+    display: inline-block;
+}
+.avatar img {
+    width: 200px;
+    height: 200px;
+}
