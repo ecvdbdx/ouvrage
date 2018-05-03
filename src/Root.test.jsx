@@ -1,6 +1,6 @@
 import React from 'react';
-import Root from './Root';
 import renderer from 'react-test-renderer';
+import Root from './Root';
 
 it('renders correctly', () => {
   const tree = renderer

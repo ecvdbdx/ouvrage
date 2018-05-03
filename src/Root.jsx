@@ -5,7 +5,6 @@ export default class Root extends React.Component {
     super();
   }
 
-
   render () {
     return (
       <div>
