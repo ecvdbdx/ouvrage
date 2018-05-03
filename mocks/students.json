@@ -1,0 +1,65 @@
+[
+  {
+    "username": "epatrois",
+    "first_name": "Manu",
+    "last_name": "Patrois",
+    "id": "2"
+  },
+  {
+    "id": "5",
+    "username": "mdewaele",
+    "first_name": "Maxence",
+    "last_name": "De Waele",
+    "email": "maxencedewaele@gmail.com",
+    "birthdate": "838921463",
+    "avatar": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+
+  },
+  {
+    "id": "8",
+    "username": "rodrigodelanoche",
+    "first_name": "Vincent",
+    "last_name": "Rodriguez",
+    "email": "vincentrodrigu@hotmail.fr",
+    "birthdate": "14/05/1413",
+    "avatar": "http://etc.usf.edu/clipart/5500/5596/columbus_14_md.gif"
+  },
+  {
+    "id": "6",
+    "username": "erozis",
+    "first_name": "Emilie",
+    "last_name": "Rozis",
+    "email": "emilie.40@hotmail.com"
+  },
+  {
+    "first_name": "Hubert",
+    "username": "hmoncenis",
+    "id": "1",
+    "last_name": "Montcenis"
+  },
+  {
+    "id": "7",
+    "username": "vivianeglz",
+    "first_name": "Viviane",
+    "last_name": "Gonzalez",
+    "email": "viviane.gonzalez@outlook.fr",
+    "birthdate": "02/06/1995",
+    "avatar": "kikou.png"
+  },
+  {
+    "id": "3",
+    "username": "antoinesinety",
+    "first_name": "Antoine",
+    "last_name": "de Sinety",
+    "email": "fake@yopmail.fr",
+    "birthdate": "08/06/1995",
+    "avatar": "Image.png"
+  },
+  {
+    "id": "4",
+    "username": "tgauzin",
+    "first_name": "Thomas",
+    "last_name": "Gauzin",
+    "email": "thomas.gauzin@gmail.com"
+  }
+]
