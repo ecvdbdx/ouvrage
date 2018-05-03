@@ -2,9 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import students from './../../mocks/students.json';
 import Contacts from './Contacts.jsx';
-import enzyme from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
-enzyme.configure({ adapter: new Adapter() });
+import { shallow } from 'enzyme';
 
 const openConversationMock = jest.fn();
 
@@ -15,7 +13,7 @@ it('renders correctly', () => {
 
 
 it('open conversation on click', () => {
-  const element = enzyme.mount(<Contacts students={students} openConversation={openConversationMock} />);
+  const element = shallow(<Contacts students={students} openConversation={openConversationMock} />);
   element.find('li').at(0).simulate('click');
   expect(openConversationMock).toHaveBeenCalled();
 });
