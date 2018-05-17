@@ -18,8 +18,7 @@ export default class Chat extends React.Component {
 
   render () {
     return (
-      <div>
-        <h1>Le chat</h1>
+      <div id="chat">
         <Contacts students={this.props.students} openConversation={this.openConversation} />
         {
           this.state.currentContact !== null ?
