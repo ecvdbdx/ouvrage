@@ -3,7 +3,7 @@ import React from 'react';
 const EditBtn = props => (<button onClick={props.handleClick}>Modifier</button>);
 
 export default class Profile extends React.Component {
-  constructor(props) {
+  constructor (props) {
     super(props);
 
     this.state = {
@@ -13,7 +13,7 @@ export default class Profile extends React.Component {
     this.handleUpdating = this.handleUpdating.bind(this);
   }
 
-  handleUpdating() {
+  handleUpdating () {
     if (this.state.edit === false) {
       this.setState({
         edit: true
@@ -29,40 +29,40 @@ export default class Profile extends React.Component {
     if (this.state.edit) {
       return (
         <div>
-          <EditBtn handleClick={ this.handleUpdating } />
+          <EditBtn handleClick={this.handleUpdating} />
           <h1>Profile</h1>
           <div className="avatar">
             <img src={this.props.student.avatar} alt="avatar"/>
           </div>
           <div className="content">
             <div>
-              <label for="first_name">Prénom</label>
+              <label>Prénom</label>
               <input type="text" id="first_name" name="first_name" value={this.props.student.first_name} onChange={this.handleChange} />
             </div>
 
             <div>
-              <label for="last_name">Nom de famille</label>
+              <label>Nom de famille</label>
               <input type="text" id="last_name" name="last_name" value={this.props.student.last_name} onChange={this.handleChange} />
             </div>
 
             <div>
-              <label for="email">Adresse e-mail</label>
+              <label>Adresse e-mail</label>
               <input type="email" id="email" name="email" value={this.props.student.email} onChange={this.handleChange} />
             </div>
 
             <div>
-              <label for="birthdate">Date de naissance</label>
+              <label>Date de naissance</label>
               <input type="date" id="birthdate" name="birthdate" value={this.props.student.birthdate} onChange={this.handleChange} />
             </div>
           </div>
 
           <input type="submit" value="Submit" />
         </div>
-      )
+      );
     } else {
       return (
         <div>
-          <EditBtn handleClick={ this.handleUpdating } />
+          <EditBtn handleClick={this.handleUpdating} />
           <h1>Profile</h1>
           <div className="avatar">
             <img src={this.props.student.avatar} alt="avatar"/>
@@ -73,7 +73,7 @@ export default class Profile extends React.Component {
             <p>{this.props.student.birthdate}</p>
           </div>
         </div>
-      )
+      );
     }
   }
 }
