@@ -42,9 +42,9 @@ export default class Profile extends React.Component {
   render () {
     if (this.state.edit) {
       return (
-        <div>
+        <div className="profile">
           <EditBtn handleClick={this.handleUpdating} />
-          <h1>Profile</h1>
+          <h1 className="title">{this.props.student.first_name}</h1>
           <div className="avatar">
             <img src={this.props.student.avatar} alt="avatar"/>
           </div>
@@ -74,16 +74,21 @@ export default class Profile extends React.Component {
       );
     } else {
       return (
-        <div>
+        <div className="profile">
           <EditBtn handleClick={this.handleUpdating} />
-          <h1>Profile</h1>
-          <div className="avatar">
-            <img src={this.props.student.avatar} alt="avatar"/>
+          <div className="wrap-header">
+            <h1 className="title">{this.props.student.first_name} {this.props.student.last_name}</h1>
           </div>
-          <div className="content">
-            <p>{this.props.student.first_name},  {this.props.student.last_name}</p>
-            <p>{this.props.student.email}</p>
-            <p>{this.props.student.birthdate}</p>
+
+          <div className="wrap-content">
+            <div className="avatar">
+              <img src={this.props.student.avatar} alt="avatar"/>
+            </div>
+            <div className="content">
+              <p>{this.props.student.first_name},  {this.props.student.last_name}</p>
+              <p>{this.props.student.email}</p>
+              <p>{this.props.student.birthdate}</p>
+            </div>
           </div>
         </div>
       );

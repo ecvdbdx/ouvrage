@@ -14,7 +14,7 @@ export default class Root extends React.Component {
   render () {
     return (
       <div>
-        <h1>Ouvrage</h1>
+        <a href="index.jsx" title="Home page" className="logo">Ouvrage</a>
         <Profile student={this.state.student}/>
       </div>
     );
