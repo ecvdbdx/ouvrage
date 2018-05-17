@@ -4,12 +4,12 @@ import Student from '../components/Student.jsx';
 
 export default class Class extends Component {
   render () {
-    console.log('test', this.props);
+    var myStudents = this.props.students.map((item, index) => <Student key={index} username={item.username} />);
     return (
       <div>
         <h2>{ this.props.speciality }</h2>
         <div id="speciality" />
-        <Student students={this.props.students} />
+        <div>{myStudents}</div>
       </div>
     );
   }
