@@ -1,9 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<div
-  className="profile"
->
+<div>
   <button
     onClick={[Function]}
   >
@@ -38,6 +36,9 @@ exports[`renders correctly 1`] = `
         Maxence
         ,  
         De Waele
+      </p>
+      <p>
+        mdewaele
       </p>
       <p>
         maxencedewaele@gmail.com

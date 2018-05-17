@@ -31,12 +31,23 @@ export default class Profile extends React.Component {
     event.preventDefault();
     let firstName = event.target.elements.first_name.value,
       lastName = event.target.elements.last_name.value,
+      username = event.target.elements.username.value,
       email = event.target.elements.email.value,
-      birthdate = event.target.elements.birthdate.value;
-    console.log('Prenom : ' + firstName);
-    console.log('Nom : ' + lastName);
-    console.log('Email : ' + email);
-    console.log('Anniversaire : ' + birthdate);
+      birthdate = event.target.elements.birthdate.value,
+      idStudent = event.target.elements.id_student.value;
+
+    var Airtable = require('airtable');
+    var base = new Airtable({ apiKey: 'key62edqNCbsONmzJ' }).base('appzZZc8fxLYvDuPi');
+    // TODO : idStudent is incorrect, need to get all students from API to get correct ID and then perform update
+    base('Profil').update(idStudent, {
+      first_name: firstName,
+      last_name: lastName,
+      username: username,
+      email: email,
+      birthdate: birthdate
+    }, function (err, record) {
+      if (err) { console.error(err); return; }
+    });
   }
 
   render () {
@@ -49,6 +60,7 @@ export default class Profile extends React.Component {
             <img src={this.props.student.avatar} alt="avatar"/>
           </div>
           <form className="content" onSubmit={this.handleSubmit}>
+            <input name="id_student" type="hidden" value={this.props.student.id}/>
             <div>
               <label>Prénom</label>
               <input type="text" id="first_name" name="first_name" defaultValue={this.props.student.first_name}/>
@@ -57,6 +69,11 @@ export default class Profile extends React.Component {
             <div>
               <label>Nom de famille</label>
               <input type="text" id="last_name" name="last_name" defaultValue={this.props.student.last_name}/>
+            </div>
+
+            <div>
+              <label>Username</label>
+              <input type="text" id="username" name="username" defaultValue={this.props.student.username}/>
             </div>
 
             <div>
@@ -74,18 +91,18 @@ export default class Profile extends React.Component {
       );
     } else {
       return (
-        <div className="profile">
+        <div>
           <EditBtn handleClick={this.handleUpdating} />
           <div className="wrap-header">
             <h1 className="title">{this.props.student.first_name} {this.props.student.last_name}</h1>
           </div>
-
           <div className="wrap-content">
             <div className="avatar">
               <img src={this.props.student.avatar} alt="avatar"/>
             </div>
             <div className="content">
               <p>{this.props.student.first_name},  {this.props.student.last_name}</p>
+              <p>{this.props.student.username}</p>
               <p>{this.props.student.email}</p>
               <p>{this.props.student.birthdate}</p>
             </div>

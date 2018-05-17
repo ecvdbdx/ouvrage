@@ -9,9 +9,7 @@ exports[`renders correctly 1`] = `
   >
     Ouvrage
   </a>
-  <div
-    className="profile"
-  >
+  <div>
     <button
       onClick={[Function]}
     >
@@ -46,6 +44,9 @@ exports[`renders correctly 1`] = `
           Vincent
           ,  
           Rodriguez
+        </p>
+        <p>
+          rodrigodelanoche
         </p>
         <p>
           vincentrodrigu@hotmail.fr
