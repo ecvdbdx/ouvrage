@@ -6,6 +6,11 @@ exports[`renders correctly 1`] = `
     Ouvrage
   </h1>
   <div>
+    <button
+      onClick={[Function]}
+    >
+      Modifier
+    </button>
     <h1>
       Profile
     </h1>
