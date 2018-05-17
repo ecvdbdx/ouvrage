@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <section>
+    <header>
+      <h2>
+        L'ECV DIGITAL
+      </h2>
+    </header>
+    <p>
+      L’ECV Digital a été créée afin de combler les besoins du marché de l’emploi qui manque cruellement de profils web pour accompagner la transformation digitale de toutes les entreprises et de l’économie en général. Située à Paris, Nantes, Bordeaux et Aix-en-Provence, l’ECV Digital, l’école du numérique et du Web, forme à tous les métiers du digital. Issue du groupe ECV (École de Communication Visuelle), l’école se positionne comme une école généraliste du secteur internet. Son objectif est de former des profils polyvalents intégrant les compétences techniques, créatives et marketing.
+    </p>
+  </section>
+  <section>
+    <header>
+      <h2>
+        Voici la liste des classes
+      </h2>
+    </header>
+    <ol
+      className="grid-3"
+    >
+      <li>
+        <article>
+          <header>
+            <h3>
+              m1
+              <span>
+                2017/2018
+              </span>
+            </h3>
+          </header>
+          <div
+            className="promo-content"
+          >
+            <img
+              src="https://fakeimg.pl/250x100/"
+            />
+            <div
+              className="content-side"
+            >
+              <p>
+                Pas de délégué
+              </p>
+              <a
+                href="#"
+              >
+                Voir la classe
+              </a>
+            </div>
+          </div>
+        </article>
+      </li>
+      <li>
+        <article>
+          <header>
+            <h3>
+              m2
+              <span>
+                2017/2018
+              </span>
+            </h3>
+          </header>
+          <div
+            className="promo-content"
+          >
+            <img
+              src="https://fakeimg.pl/250x100/"
+            />
+            <div
+              className="content-side"
+            >
+              <p>
+                Pas de délégué
+              </p>
+              <a
+                href="#"
+              >
+                Voir la classe
+              </a>
+            </div>
+          </div>
+        </article>
+      </li>
+      <li>
+        <article>
+          <header>
+            <h3>
+              webD1
+              <span>
+                2017/2018
+              </span>
+            </h3>
+          </header>
+          <div
+            className="promo-content"
+          >
+            <img
+              src="https://fakeimg.pl/250x100/"
+            />
+            <div
+              className="content-side"
+            >
+              <p>
+                Pas de délégué
+              </p>
+              <a
+                href="#"
+              >
+                Voir la classe
+              </a>
+            </div>
+          </div>
+        </article>
+      </li>
+      <li>
+        <article>
+          <header>
+            <h3>
+              webD2
+              <span>
+                2017/2018
+              </span>
+            </h3>
+          </header>
+          <div
+            className="promo-content"
+          >
+            <img
+              src="https://fakeimg.pl/250x100/"
+            />
+            <div
+              className="content-side"
+            >
+              <p>
+                Pas de délégué
+              </p>
+              <a
+                href="#"
+              >
+                Voir la classe
+              </a>
+            </div>
+          </div>
+        </article>
+      </li>
+    </ol>
+  </section>
+</div>
+`;

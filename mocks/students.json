@@ -13,7 +13,6 @@
     "email": "maxencedewaele@gmail.com",
     "birthdate": "838921463",
     "avatar": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
-
   },
   {
     "id": "8",
@@ -54,6 +53,16 @@
     "email": "fake@yopmail.fr",
     "birthdate": "08/06/1995",
     "avatar": "Image.png"
+  },
+  {
+    "id": "9",
+    "username": "Floflo36",
+    "first_name": "Florian",
+    "last_name": "Crétin(ptdr)",
+    "email": "floindrix@gmail.com",
+    "birthdate": "08/12/2003",
+    "avatar":"https://scontent-cdt1-1.xx.fbcdn.net/v/t1.15752-9/31564082_10211602740766358_7499107362326708224_n.jpg?_nc_cat=0&oh=625d3b20b837757df071c3425c13e903&oe=5B506021",
+    "isChief": "true"
   },
   {
     "id": "4",
