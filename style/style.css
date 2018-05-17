@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:700,700i,900i');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gothic A1', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+}
+
+header > h1 {
+    font-weight: 900;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section {
+    margin: auto;
+    max-width: 1100px;
+}
+
+section h3 {
+    font-weight: 700;
+    margin: 0 0 15px 0;
+    text-transform: capitalize;
+    color: #1e3799;
+}
+
+section ol {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+section ol li {
+    width: calc(50% - 45px);
+    padding: 15px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    background-color: #f6f6f6;
+    transition: .3s ease-out;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+section ol li:hover {
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+}
+section ol li .promo-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+section ol li img {
+    height: 200px;
+    width: calc(50% - 15px);
+}
+
+section ol li .content-side {
+    width: calc(50% - 15px);
+}
