@@ -4,7 +4,7 @@ export default class Contacts extends React.Component {
   render () {
     return (
       <div>
-        <h2>Les contacts</h2>
+        <h2 className="test">Les contacts</h2>
         <ul>
           {
             this.props.students.map((student, index) => (
