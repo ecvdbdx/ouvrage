@@ -20,11 +20,7 @@ export default class Chat extends React.Component {
     return (
       <div id="chat">
         <Contacts students={this.props.students} openConversation={this.openConversation} />
-        {
-          this.state.currentContact !== null ?
-            <Conversation currentContact={this.state.currentContact}/> : <div />
-        }
-
+        <Conversation currentContact={this.state.currentContact}/>
       </div>
     );
   }
