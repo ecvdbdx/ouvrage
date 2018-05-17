@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  id="chat"
+>
+  <div
+    id="list-conversations"
+  >
+    <h2>
+      Les contacts
+    </h2>
+    <ul>
+      <li
+        onClick={[Function]}
+      >
+        epatrois
+      </li>
+      <li
+        onClick={[Function]}
+      >
+        mdewaele
+      </li>
+      <li
+        onClick={[Function]}
+      >
+        rodrigodelanoche
+      </li>
+      <li
+        onClick={[Function]}
+      >
+        erozis
+      </li>
+      <li
+        onClick={[Function]}
+      >
+        hmoncenis
+      </li>
+      <li
+        onClick={[Function]}
+      >
+        vivianeglz
+      </li>
+      <li
+        onClick={[Function]}
+      >
+        antoinesinety
+      </li>
+      <li
+        onClick={[Function]}
+      >
+        tgauzin
+      </li>
+    </ul>
+  </div>
+  <div />
+</div>
+`;
