@@ -2,40 +2,58 @@
 
 exports[`renders correctly 1`] = `
 <div>
-  <h1>
+  <a
+    className="logo"
+    href="index.jsx"
+    title="Home page"
+  >
     Ouvrage
-  </h1>
-  <div>
+  </a>
+  <div
+    className="profile"
+  >
     <button
       onClick={[Function]}
     >
       Modifier
     </button>
-    <h1>
-      Profile
-    </h1>
     <div
-      className="avatar"
+      className="wrap-header"
     >
-      <img
-        alt="avatar"
-        src="http://etc.usf.edu/clipart/5500/5596/columbus_14_md.gif"
-      />
+      <h1
+        className="title"
+      >
+        Vincent
+         
+        Rodriguez
+      </h1>
     </div>
     <div
-      className="content"
+      className="wrap-content"
     >
-      <p>
-        Vincent
-        ,  
-        Rodriguez
-      </p>
-      <p>
-        vincentrodrigu@hotmail.fr
-      </p>
-      <p>
-        14/05/1413
-      </p>
+      <div
+        className="avatar"
+      >
+        <img
+          alt="avatar"
+          src="http://etc.usf.edu/clipart/5500/5596/columbus_14_md.gif"
+        />
+      </div>
+      <div
+        className="content"
+      >
+        <p>
+          Vincent
+          ,  
+          Rodriguez
+        </p>
+        <p>
+          vincentrodrigu@hotmail.fr
+        </p>
+        <p>
+          14/05/1413
+        </p>
+      </div>
     </div>
   </div>
 </div>
