@@ -6,7 +6,7 @@ export default class Root extends React.Component {
     super(props);
 
     this.state = {
-      student: this.props.students[1]
+      student: this.props.students[2]
     };
   }
 
