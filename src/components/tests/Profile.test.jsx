@@ -5,7 +5,7 @@ import students from './../../../mocks/students.json';
 
 it('renders correctly', () => {
   const tree = renderer
-    .create(<Profile student={students[1]}/>)
+    .create(<Profile student={students[2]}/>)
     .toJSON();
   expect(tree).toMatchSnapshot();
 });

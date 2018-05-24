@@ -1,5 +1,6 @@
 import React from 'react';
 import moment from 'moment';
+import { getIdAirTable, destroyUser } from '../../utils/airtable';
 
 const EditBtn = props => (<button onClick={props.handleClick}>Modifier</button>);
 
@@ -44,6 +45,7 @@ export default class Profile extends React.Component {
         <div className="wrap-header">
           <h1 className="title">{firstName} {lastName}</h1>
           <EditBtn handleClick={this.handleUpdating} />
+          <button onClick={() => getIdAirTable(id, destroyUser)}>Supprimer</button>
         </div>
         {this.state.edit ? (
           <div className="wrap-content">
