@@ -1,0 +1,26 @@
+html, body, #root, .chat{
+    height: 100%;
+}
+
+.chat{
+  background-color: #fff;
+  display: flex;
+  font-size: 14px;
+  min-width: 500px;
+}
+
+.list-conversations{
+  flex: 0 0 25%;
+  max-width: 420px;
+  min-width: 240px;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.conversation{
+  border-left: 1px solid rgba(0, 0, 0, .20);
+  display: flex;
+  flex: 3;
+  flex-direction: column;
+  min-width: 0;
+}
