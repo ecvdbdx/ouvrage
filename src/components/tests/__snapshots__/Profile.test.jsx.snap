@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<div>
+<div
+  id="show-profile"
+>
   <div
     className="wrap-header"
   >
@@ -22,16 +24,71 @@ exports[`renders correctly 1`] = `
     className="wrap-content"
   >
     <div
-      className="avatar"
+      className="wrap-datas"
     >
-      <img
-        alt="avatar"
-        src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
-      />
+      <div
+        className="avatar"
+      >
+        <img
+          alt="avatar"
+          src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+        />
+      </div>
+      <div
+        className="github"
+      >
+        <h2
+          className="subtitle"
+        >
+          Profil Github
+        </h2>
+        <p>
+          <span
+            className="key"
+          >
+            Login : 
+          </span>
+        </p>
+        <p>
+          <span
+            className="key"
+          >
+            Created at : 
+          </span>
+          24-05-2018
+        </p>
+        <p>
+          <span
+            className="key"
+          >
+            Followers : 
+          </span>
+        </p>
+        <p>
+          <span
+            className="key"
+          >
+            Following : 
+          </span>
+        </p>
+        <p>
+          <span
+            className="key"
+          >
+            Public repos : 
+          </span>
+        </p>
+        <ul />
+      </div>
     </div>
     <div
       className="content"
     >
+      <h2
+        className="subtitle"
+      >
+        Profil personnel
+      </h2>
       <p>
         Maxence
           

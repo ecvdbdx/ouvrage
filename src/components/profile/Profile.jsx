@@ -1,5 +1,6 @@
 import React from 'react';
 import moment from 'moment';
+import "isomorphic-fetch";
 
 const EditBtn = props => (<button onClick={props.handleClick}>Modifier</button>);
 
@@ -9,10 +10,44 @@ export default class Profile extends React.Component {
 
     this.state = {
       edit: false,
-      birthdate: moment(this.props.birthdate).format('YYYY-MM-DD')
+      birthdate: moment(this.props.birthdate).format('YYYY-MM-DD'),
+      githubData: [],
+      githubRepoData: []
     };
 
     this.handleUpdating = this.handleUpdating.bind(this);
+  }
+
+  componentDidMount ()
+  {
+    fetch('https://api.github.com/users/' + this.props.student.username)
+      .then(resp => {
+        if(resp.ok) {
+          resp.json().then(res => {
+            console.log(res);
+            this.setState({
+              githubData: res
+            });
+          });
+        } else {
+          console.log('Mauvaise réponse du réseau');
+        }
+      })
+      .catch(err => console.log(`ERROR in fetchJson : ${err}`));
+    fetch('https://api.github.com/users/' + this.props.student.username + '/repos')
+      .then(resp => {
+        if(resp.ok) {
+          resp.json().then(res => {
+            console.log(res[0]);
+            this.setState({
+              githubRepoData: res
+            });
+          });
+        } else {
+          console.log('Mauvaise réponse du réseau');
+        }
+      })
+      .catch(err => console.log(`ERROR in fetchJson : ${err}`));
   }
 
   handleUpdating () {
@@ -40,7 +75,7 @@ export default class Profile extends React.Component {
     const { id, firstName, lastName, username, email, avatar } = this.props.student;
 
     return (
-      <div>
+      <div id="show-profile">
         <div className="wrap-header">
           <h1 className="title">{firstName} {lastName}</h1>
           <EditBtn handleClick={this.handleUpdating} />
@@ -79,10 +114,25 @@ export default class Profile extends React.Component {
           </div>
         ) : (
           <div className="wrap-content">
-            <div className="avatar">
-              <img src={avatar} alt="avatar"/>
+            <div className="wrap-datas">
+              <div className="avatar">
+                <img src={avatar ? avatar : this.state.githubData.avatar_url} alt="avatar"/>
+              </div>
+
+              <div className="github">
+                <h2 className="subtitle">Profil Github</h2>
+                <p><span className="key">Login : </span>{this.state.githubData.login}</p>
+                <p><span className="key">Created at : </span>{moment(this.state.githubData.created_at).format('DD-MM-YYYY')}</p>
+                <p><span className="key">Followers : </span>{this.state.githubData.followers}</p>
+                <p><span className="key">Following : </span>{this.state.githubData.following}</p>
+                <p><span className="key">Public repos : </span>{this.state.githubData.public_repos}</p>
+                <ul>
+                  {/*<li>{this.state.githubRepoData.0.name}</li>*/}
+                </ul>
+              </div>
             </div>
             <div className="content">
+              <h2 className="subtitle">Profil personnel</h2>
               <p>{firstName}  {lastName}</p>
               <p>{username}</p>
               <p>{email}</p>
