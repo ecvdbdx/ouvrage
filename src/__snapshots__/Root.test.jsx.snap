@@ -2,169 +2,117 @@
 
 exports[`renders correctly 1`] = `
 <div>
-  <header>
-    <h1>
-      Ouvrage - ECV Digital Bordeaux
-    </h1>
-  </header>
-  <div>
-    <section>
-      <header>
-        <h2>
-          L'ECV DIGITAL
-        </h2>
-      </header>
-      <p>
-        L’ECV Digital a été créée afin de combler les besoins du marché de l’emploi qui manque cruellement de profils web pour accompagner la transformation digitale de toutes les entreprises et de l’économie en général. Située à Paris, Nantes, Bordeaux et Aix-en-Provence, l’ECV Digital, l’école du numérique et du Web, forme à tous les métiers du digital. Issue du groupe ECV (École de Communication Visuelle), l’école se positionne comme une école généraliste du secteur internet. Son objectif est de former des profils polyvalents intégrant les compétences techniques, créatives et marketing.
-      </p>
-    </section>
-    <section>
-      <header>
-        <h2>
-          Voici la liste des classes
-        </h2>
-      </header>
-      <ol
-        className="grid-3"
+  <a
+    className="logo"
+    href="index.jsx"
+    title="Home page"
+  >
+    Ouvrage
+  </a>
+  <div
+    id="show-profile"
+  >
+    <div
+      className="wrap-header"
+    >
+      <h1
+        className="title"
       >
-        <li>
-          <article>
-            <header>
-              <h3>
-                m1
-                <span>
-                  2017/2018
-                </span>
-              </h3>
-            </header>
-            <div
-              className="promo-content"
+        Vincent
+         
+        Rodriguez
+      </h1>
+      <button
+        onClick={[Function]}
+      >
+        Modifier
+      </button>
+    </div>
+    <div
+      className="wrap-content"
+    >
+      <div
+        className="wrap-datas"
+      >
+        <div
+          className="avatar"
+        >
+          <img
+            alt="avatar"
+            src="https://s3.amazonaws.com/mixture-mixed/21975/17188/img/photos/portraits/dogs/golden-retriever.jpg"
+          />
+        </div>
+        <div
+          className="github"
+        >
+          <h2
+            className="subtitle"
+          >
+            Profil Github
+          </h2>
+          <p>
+            <span
+              className="key"
             >
-              <img
-                src="https://barknbrewwi.com/wp-content/uploads/2017/05/bark-and-brew-dog-img.png"
-              />
-              <div
-                className="content-side"
-              >
-                <p>
-                   Délégué : 
-                   
-                   AKA 
-                  hmoncenis
-                </p>
-                <a
-                  href="#"
-                >
-                  Voir la classe
-                </a>
-              </div>
-            </div>
-          </article>
-        </li>
-        <li>
-          <article>
-            <header>
-              <h3>
-                m1
-                <span>
-                  2017/2018
-                </span>
-              </h3>
-            </header>
-            <div
-              className="promo-content"
+              Login : 
+            </span>
+          </p>
+          <p>
+            <span
+              className="key"
             >
-              <img
-                src="https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg"
-              />
-              <div
-                className="content-side"
-              >
-                <p>
-                   Délégué : 
-                   
-                   AKA 
-                  antoinesinety
-                </p>
-                <a
-                  href="#"
-                >
-                  Voir la classe
-                </a>
-              </div>
-            </div>
-          </article>
-        </li>
-        <li>
-          <article>
-            <header>
-              <h3>
-                m1
-                <span>
-                  2017/2018
-                </span>
-              </h3>
-            </header>
-            <div
-              className="promo-content"
+              Created at : 
+            </span>
+            24-05-2018
+          </p>
+          <p>
+            <span
+              className="key"
             >
-              <img
-                src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
-              />
-              <div
-                className="content-side"
-              >
-                <p>
-                   Délégué : 
-                   
-                   AKA 
-                  mdewaele
-                </p>
-                <a
-                  href="#"
-                >
-                  Voir la classe
-                </a>
-              </div>
-            </div>
-          </article>
-        </li>
-        <li>
-          <article>
-            <header>
-              <h3>
-                m1
-                <span>
-                  2017/2018
-                </span>
-              </h3>
-            </header>
-            <div
-              className="promo-content"
+              Followers : 
+            </span>
+          </p>
+          <p>
+            <span
+              className="key"
             >
-              <img
-                src="https://img.freepik.com/free-photo/cute-golden-retriever-dog_1204-387.jpg?size=338&ext=jpg"
-              />
-              <div
-                className="content-side"
-              >
-                <p>
-                   Délégué : 
-                   
-                   AKA 
-                  vivianeglz
-                </p>
-                <a
-                  href="#"
-                >
-                  Voir la classe
-                </a>
-              </div>
-            </div>
-          </article>
-        </li>
-      </ol>
-    </section>
+              Following : 
+            </span>
+          </p>
+          <p>
+            <span
+              className="key"
+            >
+              Public repos : 
+            </span>
+          </p>
+          <ul />
+        </div>
+      </div>
+      <div
+        className="content"
+      >
+        <h2
+          className="subtitle"
+        >
+          Profil personnel
+        </h2>
+        <p>
+          Vincent
+            
+          Rodriguez
+        </p>
+        <p>
+          rodrigodelanoche
+        </p>
+        <p>
+          vincentrodrigu@hotmail.fr
+        </p>
+        <p>
+          2018-05-24
+        </p>
+      </div>
+    </div>
   </div>
 </div>
 `;

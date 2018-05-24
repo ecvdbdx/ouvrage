@@ -1,6 +1,6 @@
 import React from 'react';
 // import CreateProfil from './components/CreateProfil';
-// import Profile from './Profile.jsx';
+import Profile from './Profile.jsx';
 // import Chat from './chat/Chat.jsx';
 // import Class from './components/Class.jsx';
 import Home from './components/Home.jsx';
@@ -23,18 +23,10 @@ export default class Root extends React.Component {
 
     return (
       <div>
+        <a href="index.jsx" title="Home page" className="logo">Ouvrage</a>
         {
-          // <h1>Ouvrage</h1>
-          // <CreateProfil />
-          // <a href="index.jsx" title="Home page" className="logo">Ouvrage</a>
-          // <Profile student={this.state.student}/>
-          // <Chat students={this.props.students} />
-          // <div>{ myClassroom }</div>
+          <Profile student={this.props.students[2]}/>
         }
-        <header>
-          <h1>Ouvrage - ECV Digital Bordeaux</h1>
-        </header>
-        <Home promos={this.props.promos} students={this.props.students}/>
       </div>
     );
   }
