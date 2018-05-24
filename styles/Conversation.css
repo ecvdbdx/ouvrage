@@ -1,0 +1,51 @@
+.conversation header{
+    border-bottom: 1px solid rgba(0, 0, 0, .10);
+    box-sizing: border-box;
+    height: 50px;
+    padding: 8px;
+    position: relative;
+    text-align: center;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.conversation {
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+    min-height: 50px;
+    padding: 12px;
+    position: relative;
+}
+
+.conversation .user-avatar{
+    align-items: center;
+    background-color: rgba(0, 0, 0, .05);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+}
+
+.conversation .user-avatar img{
+    height: 100%;
+    width: 100%;
+}
+.conversation .user-info{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 10px;
+}
+.conversation h3{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+.conversation .user-info a{
+    color: #365899;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+}
