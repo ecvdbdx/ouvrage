@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="list-conversations"
+>
+  <h2>
+    Les contacts
+  </h2>
+  <ul>
+    <li
+      className=""
+      onClick={[Function]}
+    >
+      <div
+        className="contact-conv"
+      >
+        <img
+          alt="Photo de profil de epatrois"
+          src="https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg"
+        />
+        <p>
+          Manu
+           
+          Patrois
+           
+          <span
+            className="username"
+          >
+            (
+            epatrois
+            )
+          </span>
+        </p>
+      </div>
+    </li>
+    <li
+      className=""
+      onClick={[Function]}
+    >
+      <div
+        className="contact-conv"
+      >
+        <img
+          alt="Photo de profil de mdewaele"
+          src="https://info.bestfriendspetcare.com/hubfs/BestFriendSpetcare-Sep2016/images/img_dog_right-col-top.png?t=1521138713469"
+        />
+        <p>
+          Maxence
+           
+          De Waele
+           
+          <span
+            className="username"
+          >
+            (
+            mdewaele
+            )
+          </span>
+        </p>
+      </div>
+    </li>
+    <li
+      className=""
+      onClick={[Function]}
+    >
+      <div
+        className="contact-conv"
+      >
+        <img
+          alt="Photo de profil de rodrigodelanoche"
+          src="https://s3.amazonaws.com/mixture-mixed/21975/17188/img/photos/portraits/dogs/golden-retriever.jpg"
+        />
+        <p>
+          Vincent
+           
+          Rodriguez
+           
+          <span
+            className="username"
+          >
+            (
+            rodrigodelanoche
+            )
+          </span>
+        </p>
+      </div>
+    </li>
+    <li
+      className=""
+      onClick={[Function]}
+    >
+      <div
+        className="contact-conv"
+      >
+        <img
+          alt="Photo de profil de erozis"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwMFoeG86Nz19Ve8Cf2FqpdiMd9Q8r6cYS1lgmPKZCxJfvb7kK"
+        />
+        <p>
+          Emilie
+           
+          Rozis
+           
+          <span
+            className="username"
+          >
+            (
+            erozis
+            )
+          </span>
+        </p>
+      </div>
+    </li>
+    <li
+      className=""
+      onClick={[Function]}
+    >
+      <div
+        className="contact-conv"
+      >
+        <img
+          alt="Photo de profil de hmoncenis"
+          src="https://barknbrewwi.com/wp-content/uploads/2017/05/bark-and-brew-dog-img.png"
+        />
+        <p>
+          Hubert
+           
+          Moncenis
+           
+          <span
+            className="username"
+          >
+            (
+            hmoncenis
+            )
+          </span>
+        </p>
+      </div>
+    </li>
+    <li
+      className=""
+      onClick={[Function]}
+    >
+      <div
+        className="contact-conv"
+      >
+        <img
+          alt="Photo de profil de vivianeglz"
+          src="https://img.freepik.com/free-photo/cute-golden-retriever-dog_1204-387.jpg?size=338&ext=jpg"
+        />
+        <p>
+          Viviane
+           
+          Gonzalez
+           
+          <span
+            className="username"
+          >
+            (
+            vivianeglz
+            )
+          </span>
+        </p>
+      </div>
+    </li>
+    <li
+      className=""
+      onClick={[Function]}
+    >
+      <div
+        className="contact-conv"
+      >
+        <img
+          alt="Photo de profil de antoinesinety"
+          src="https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg"
+        />
+        <p>
+          Antoine
+           
+          de Sinety
+           
+          <span
+            className="username"
+          >
+            (
+            antoinesinety
+            )
+          </span>
+        </p>
+      </div>
+    </li>
+    <li
+      className=""
+      onClick={[Function]}
+    >
+      <div
+        className="contact-conv"
+      >
+        <img
+          alt="Photo de profil de tgauzin"
+          src="https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg"
+        />
+        <p>
+          Thomas
+           
+          Gauzin
+           
+          <span
+            className="username"
+          >
+            (
+            tgauzin
+            )
+          </span>
+        </p>
+      </div>
+    </li>
+  </ul>
+</div>
+`;

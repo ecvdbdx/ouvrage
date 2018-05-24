@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="conversation"
+>
+  <div>
+    <header>
+      <h2>
+        epatrois
+      </h2>
+    </header>
+    <section>
+      <h3>
+        <div
+          className="user-avatar"
+        >
+          <img
+            src="https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg"
+          />
+        </div>
+        <div
+          className="user-info"
+        >
+          <a>
+            epatrois
+          </a>
+        </div>
+      </h3>
+    </section>
+  </div>
+</div>
+`;
