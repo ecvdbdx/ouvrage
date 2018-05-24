@@ -235,3 +235,9 @@ button {
 #show-profile .wrap-input input {
     padding: .5rem 2rem;
 }
+
+.repo-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}

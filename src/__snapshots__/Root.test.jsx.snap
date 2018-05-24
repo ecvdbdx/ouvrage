@@ -86,7 +86,9 @@ exports[`renders correctly 1`] = `
               Public repos : 
             </span>
           </p>
-          <ul />
+          <ul>
+            
+          </ul>
         </div>
       </div>
       <div
