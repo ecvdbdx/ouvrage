@@ -1,6 +1,9 @@
 import React from 'react';
 import moment from 'moment';
+<<<<<<< HEAD
 import { getIdAirTable, destroyUser } from '../../utils/airtable';
+=======
+>>>>>>> Fixes profile.jsx eslint
 import 'isomorphic-fetch';
 
 const EditBtn = props => (<button onClick={props.handleClick}>Modifier</button>);
@@ -19,11 +22,10 @@ export default class Profile extends React.Component {
     this.handleUpdating = this.handleUpdating.bind(this);
   }
 
-  componentDidMount ()
-  {
+  componentDidMount () {
     fetch('https://api.github.com/users/' + this.props.student.username)
       .then(resp => {
-        if(resp.ok) {
+        if (resp.ok) {
           resp.json().then(res => {
             console.log(res);
             this.setState({
@@ -37,7 +39,7 @@ export default class Profile extends React.Component {
       .catch(err => console.log(`ERROR in fetchJson : ${err}`));
     fetch('https://api.github.com/users/' + this.props.student.username + '/repos')
       .then(resp => {
-        if(resp.ok) {
+        if (resp.ok) {
           resp.json().then(res => {
             this.setState({
               githubRepoData: res.slice(0, 3)
@@ -74,12 +76,12 @@ export default class Profile extends React.Component {
   render () {
     const { id, firstName, lastName, username, email, avatar } = this.props.student;
     const repos = this.state.githubRepoData.map((repo) =>
-      <li key={repo.id}>
+      (<li key={repo.id}>
         <img className="repo-icon" src="https://camo.githubusercontent.com/7710b43d0476b6f6d4b4b2865e35c108f69991f3/68747470733a2f2f7777772e69636f6e66696e6465722e636f6d2f646174612f69636f6e732f6f637469636f6e732f313032342f6d61726b2d6769746875622d3235362e706e67"/>
         <a href={repo.html_url} target="blank">
           {repo.name}
         </a>
-      </li>
+      </li>)
     );
 
     return (
