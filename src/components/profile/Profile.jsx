@@ -1,11 +1,9 @@
 import React from 'react';
 import moment from 'moment';
-<<<<<<< HEAD
-import { getIdAirTable, destroyUser } from '../../utils/airtable';
-=======
->>>>>>> Fixes profile.jsx eslint
 import 'isomorphic-fetch';
 // import base from '../../airtable/config.js';
+import { getIdAirTable, destroyUser } from '../../utils/airtable';
+import 'isomorphic-fetch';
 
 const EditBtn = props => (<button onClick={props.handleClick}>Modifier</button>);
 
