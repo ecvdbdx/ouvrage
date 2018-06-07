@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Student from '../components/Student.jsx';
+import Student from './Student.jsx';
 
 
 export default class Class extends Component {

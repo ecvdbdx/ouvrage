@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import students from './../../mocks/students.json';
-import Contacts from './Contacts.jsx';
+import students from './../../../mocks/students.json';
+import Contacts from './../chat/Contacts.jsx';
 import { shallow } from 'enzyme';
 
 const openConversationMock = jest.fn();
@@ -17,4 +17,3 @@ it('open conversation on click', () => {
   element.find('li').at(0).simulate('click');
   expect(openConversationMock).toHaveBeenCalled();
 });
-

@@ -42,15 +42,14 @@ exports[`renders correctly 1`] = `
             >
               <p>
                  Délégué : 
-                 
                  AKA 
                 hmoncenis
               </p>
-              <a
-                href="#"
+              <button
+                onClick={[Function]}
               >
                 Voir la classe
-              </a>
+              </button>
             </div>
           </div>
         </article>
@@ -76,15 +75,14 @@ exports[`renders correctly 1`] = `
             >
               <p>
                  Délégué : 
-                 
                  AKA 
                 antoinesinety
               </p>
-              <a
-                href="#"
+              <button
+                onClick={[Function]}
               >
                 Voir la classe
-              </a>
+              </button>
             </div>
           </div>
         </article>
@@ -110,15 +108,14 @@ exports[`renders correctly 1`] = `
             >
               <p>
                  Délégué : 
-                 
                  AKA 
                 mdewaele
               </p>
-              <a
-                href="#"
+              <button
+                onClick={[Function]}
               >
                 Voir la classe
-              </a>
+              </button>
             </div>
           </div>
         </article>
@@ -144,108 +141,14 @@ exports[`renders correctly 1`] = `
             >
               <p>
                  Délégué : 
-                 
                  AKA 
                 vivianeglz
               </p>
-              <a
-                href="#"
+              <button
+                onClick={[Function]}
               >
                 Voir la classe
-              </a>
-            </div>
-          </div>
-        </article>
-      </li>
-      <li>
-        <article>
-          <header>
-            <h3>
-              m1
-              <span>
-                2017/2018
-              </span>
-            </h3>
-          </header>
-          <div
-            className="promo-content"
-          >
-            <img
-              src="https://fakeimg.pl/250x100/"
-            />
-            <div
-              className="content-side"
-            >
-              <p>
-                Pas de délégué
-              </p>
-              <a
-                href="#"
-              >
-                Voir la classe
-              </a>
-            </div>
-          </div>
-        </article>
-      </li>
-      <li>
-        <article>
-          <header>
-            <h3>
-              m1
-              <span>
-                2017/2018
-              </span>
-            </h3>
-          </header>
-          <div
-            className="promo-content"
-          >
-            <img
-              src="https://fakeimg.pl/250x100/"
-            />
-            <div
-              className="content-side"
-            >
-              <p>
-                Pas de délégué
-              </p>
-              <a
-                href="#"
-              >
-                Voir la classe
-              </a>
-            </div>
-          </div>
-        </article>
-      </li>
-      <li>
-        <article>
-          <header>
-            <h3>
-              m1
-              <span>
-                2017/2018
-              </span>
-            </h3>
-          </header>
-          <div
-            className="promo-content"
-          >
-            <img
-              src="https://fakeimg.pl/250x100/"
-            />
-            <div
-              className="content-side"
-            >
-              <p>
-                Pas de délégué
-              </p>
-              <a
-                href="#"
-              >
-                Voir la classe
-              </a>
+              </button>
             </div>
           </div>
         </article>

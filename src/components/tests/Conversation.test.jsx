@@ -1,10 +1,11 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import CreateProfil from './CreateProfil.jsx';
+import students from './../../../mocks/students.json';
+import Conversation from './../chat/Conversation.jsx';
 
 it('renders correctly', () => {
   const tree = renderer
-    .create(<CreateProfil />)
+    .create(<Conversation currentContact={students[0]}/>)
     .toJSON();
   expect(tree).toMatchSnapshot();
 });

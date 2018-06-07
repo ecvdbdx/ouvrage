@@ -1,6 +1,6 @@
 import React from 'react';
 import Joi from 'joi';
-import base from '../airtable/config';
+import base from '../../airtable/config.js';
 
 const schema = {
   firstName: Joi.string().required(),
