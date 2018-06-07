@@ -1,7 +1,7 @@
 import React from 'react';
 import moment from 'moment';
 import 'isomorphic-fetch';
-import base from '../../airtable/config.js';
+// import base from '../../airtable/config.js';
 
 const EditBtn = props => (<button onClick={props.handleClick}>Modifier</button>);
 
