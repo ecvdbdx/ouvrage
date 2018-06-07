@@ -27,6 +27,7 @@ export default class Root extends React.Component {
 
     this.oneClass = this.oneClass.bind(this);
     this.getRoute = this.getRoute.bind(this);
+    this.goToProfile = this.goToProfile.bind(this);
   }
 
   getRoute (nameRoute) {
@@ -37,6 +38,10 @@ export default class Root extends React.Component {
     const studentsClass = students.filter(student => myClass.students.includes(student.id));
 
     this.setState({ route: 'oneClass', myClass: myClass, myClassStudents: studentsClass });
+  }
+
+  goToProfile (student) {
+    this.setState({ route: 'profil', student: student });
   }
 
   render () {
@@ -55,7 +60,7 @@ export default class Root extends React.Component {
         content = (<Chat students={this.props.students}/>);
         break;
       case 'oneClass':
-        content = (<Class key={this.state.myClass.id} {...this.state.myClass} students={this.state.myClassStudents}/>);
+        content = (<Class key={this.state.myClass.id} {...this.state.myClass} students={this.state.myClassStudents} studentClick={this.goToProfile}/>);
         break;
     }
 
