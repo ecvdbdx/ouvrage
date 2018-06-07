@@ -5,7 +5,7 @@ import { getIdAirTable, destroyUser } from '../../utils/airtable';
 =======
 >>>>>>> Fixes profile.jsx eslint
 import 'isomorphic-fetch';
-import base from '../../airtable/config.js';
+// import base from '../../airtable/config.js';
 
 const EditBtn = props => (<button onClick={props.handleClick}>Modifier</button>);
 
