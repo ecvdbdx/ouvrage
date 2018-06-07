@@ -8,14 +8,19 @@ exports[`renders correctly 1`] = `
     <h1
       className="title"
     >
-      Maxence
+      Vincent
        
-      De Waele
+      Rodriguez
     </h1>
     <button
       onClick={[Function]}
     >
       Modifier
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      Supprimer
     </button>
   </div>
   <div
@@ -26,22 +31,22 @@ exports[`renders correctly 1`] = `
     >
       <img
         alt="avatar"
-        src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+        src="https://s3.amazonaws.com/mixture-mixed/21975/17188/img/photos/portraits/dogs/golden-retriever.jpg"
       />
     </div>
     <div
       className="content"
     >
       <p>
-        Maxence
+        Vincent
           
-        De Waele
+        Rodriguez
       </p>
       <p>
-        mdewaele
+        rodrigodelanoche
       </p>
       <p>
-        maxencedewaele@gmail.com
+        vincentrodrigu@hotmail.fr
       </p>
       <p>
         2018-06-07
