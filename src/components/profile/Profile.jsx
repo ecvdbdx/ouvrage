@@ -1,8 +1,7 @@
 import React from 'react';
 import moment from 'moment';
 import 'isomorphic-fetch';
-// import base from '../../airtable/config.js';
-import { getIdAirTable, destroyUser } from '../../utils/airtable';
+import { getIdAirTable, destroyUser, editUser } from '../../utils/airtable';
 import 'isomorphic-fetch';
 
 const EditBtn = props => (<button onClick={props.handleClick}>Modifier</button>);
@@ -63,24 +62,7 @@ export default class Profile extends React.Component {
       email = event.target.elements.email.value,
       birthdate = event.target.elements.birthdate.value,
       idStudent = event.target.elements.id_student.value;
-
-    // base('Profil').update(idStudent, {
-    //   firstName,
-    //   lastName,
-    //   username,
-    //   email,
-    //   birthdate,
-    // }, function(err, record) {
-    //   if (err) { console.error(err); return; }
-    //   console.log(record.get('firstName'));
-    // });
-    console.log('Edit asked. Values : ');
-    console.log('firstname : ' + firstName);
-    console.log('lastname : ' + lastName);
-    console.log('username : ' + username);
-    console.log('email : ' + email);
-    console.log('birthdate : ' + birthdate);
-    console.log('idStudent : ' + idStudent);
+    getIdAirTable(idStudent, id => editUser(id, { firstName, lastName, username, email, birthdate }) );
   }
 
   render () {

@@ -7,6 +7,13 @@ export function destroyUser (id) {
   });
 }
 
+export function editUser (id, params) {
+  base('Profil').update(id, params, function (err, resp) {
+    if (err) { console.error(err); return; }
+    console.log('Profil edited', resp);
+  });
+}
+
 export function getIdAirTable (id, callback) {
   base('Profil').select({
     filterByFormula: '{id} = "' + id + '"'
