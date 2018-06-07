@@ -62,7 +62,7 @@ export default class Profile extends React.Component {
       email = event.target.elements.email.value,
       birthdate = event.target.elements.birthdate.value,
       idStudent = event.target.elements.id_student.value;
-    getIdAirTable(idStudent, id => editUser(id, { firstName, lastName, username, email, birthdate }) );
+    getIdAirTable(idStudent, id => editUser(id, { firstName, lastName, username, email, birthdate }));
   }
 
   render () {
