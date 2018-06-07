@@ -45,6 +45,7 @@ h1 {
   margin: 0;
   padding: 10px 20px;
   position: relative;
+    cursor: pointer;
 }
 .wrapper-students .content-student:nth-child(odd) {
   background-color: #d6d6d6;
@@ -191,7 +192,7 @@ button {
 }
 
 /* Classes */
-.logo {
+#show-profile .logo {
     display: block;
     text-align: center;
     margin: 1.5rem;
@@ -199,7 +200,7 @@ button {
     font-weight: 900;
     text-transform: uppercase;
 }
-.wrap-header {
+#show-profile .wrap-header {
     background: #780206;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -209,49 +210,65 @@ button {
     justify-content: center;
     align-items: center;
 }
-.wrap-header * {
+#show-profile .wrap-header * {
     margin: 1.5rem 2rem;
 }
-.title {
+#show-profile .title {
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+    display: block;
     text-align: center;
     color: #fff;
     font-size: 5rem;
     line-height: 6rem;
     font-weight: 900;
 }
-.wrap-content {
+#show-profile .subtitle {
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+#show-profile .wrap-content {
     width: 100%;
     padding: 0 10rem;
     display: flex;
     flex-flow: row nowrap;
 }
-.avatar img {
+#show-profile .avatar img {
     width: 20rem;
     max-width: 20rem;
     max-height: 20rem;
 }
 
-.content {
+#show-profile .content {
     width: calc(100% - 25rem);
     padding: 2rem 0;
     line-height: 2rem;
 }
-.content p {
+#show-profile .content p {
     margin: 1rem 0;
 }
-.wrap-input {
+#show-profile .wrap-input {
     display: flex;
     flex-flow: column wrap;
     margin: 1rem;
 }
-.wrap-input label {
+#show-profile .wrap-input label {
     font-size: 1.4rem;
     font-weight: 900;
     text-transform: uppercase;
 }
-.wrap-input input {
+#show-profile .wrap-input input {
     padding: .5rem 2rem;
 }
+#show-profile .wrap-datas {
+    margin-top: -2rem;
+    margin-right: 2rem;
+}
+#show-profile .github > ul {
+    padding-left: 1rem;
+}
+#show-profile .repo-icon {
+    width: 5rem;
+}
+
 .react-tabs__tab-list{
     margin: auto;
     display: flex;

@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class Student extends Component {
   render () {
     return (
-      <div className="content-student">
+      <div className="content-student" onClick={() => this.props.goToProfile(this.props)}>
         <img className="avatar" src={this.props.avatar} />
         <span className="username">{ this.props.username }</span>
         <span className="lastname">{ this.props.lastName }</span>
