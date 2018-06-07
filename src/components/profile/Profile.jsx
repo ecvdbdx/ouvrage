@@ -5,6 +5,7 @@ import { getIdAirTable, destroyUser } from '../../utils/airtable';
 =======
 >>>>>>> Fixes profile.jsx eslint
 import 'isomorphic-fetch';
+import base from '../../airtable/config.js';
 
 const EditBtn = props => (<button onClick={props.handleClick}>Modifier</button>);
 
@@ -64,6 +65,17 @@ export default class Profile extends React.Component {
       email = event.target.elements.email.value,
       birthdate = event.target.elements.birthdate.value,
       idStudent = event.target.elements.id_student.value;
+
+    // base('Profil').update(idStudent, {
+    //   firstName,
+    //   lastName,
+    //   username,
+    //   email,
+    //   birthdate,
+    // }, function(err, record) {
+    //   if (err) { console.error(err); return; }
+    //   console.log(record.get('firstName'));
+    // });
     console.log('Edit asked. Values : ');
     console.log('firstname : ' + firstName);
     console.log('lastname : ' + lastName);
