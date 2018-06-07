@@ -24,7 +24,8 @@ export function getIdAirTable (id, callback) {
   base('Profil').select({
     filterByFormula: '{id} = "' + id + '"'
   })
-  .eachPage(response => callback(response[0].id),
+  .eachPage(
+    response => callback(response[0].id),
     err => {
       if (err) {
         console.error(err);

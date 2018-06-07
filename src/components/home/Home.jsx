@@ -2,9 +2,16 @@ import React from 'react';
 
 class Promo extends React.Component {
   render () {
-    const chiefPresentation = this.props.chief ? (<p> Délégué : {this.props.chief.first_name}
-      {this.props.chief.last_name} AKA {this.props.chief.username}</p>) : (<p>Pas de délégué</p>);
-    const imgPromo = this.props.chief ? (<img src={this.props.chief.avatar} />) : (<img src="https://fakeimg.pl/250x100/" />);
+    const chiefPresentation = this.props.chief
+      ? (
+        <p> Délégué : {this.props.chief.first_name}
+          {this.props.chief.last_name} AKA {this.props.chief.username}
+        </p>
+      )
+      : <p>Pas de délégué</p>;
+    const imgPromo = this.props.chief
+      ? <img src={this.props.chief.avatar} />
+      : <img src="https://fakeimg.pl/250x100/" />;
 
     return (
       <li>
@@ -12,9 +19,7 @@ class Promo extends React.Component {
           <header>
             <h3>
               {this.props.promo.degree}
-              <span>
-                {this.props.promo.year}
-              </span>
+              <span>{this.props.promo.year}</span>
             </h3>
           </header>
           <div className="promo-content">
@@ -38,7 +43,7 @@ class PromoList extends React.Component {
         key={promo.id}
         oneClass={this.props.oneClass}
         students={this.props.students}
-        chief={this.props.students.filter(student => student.id === promo.idChief)[0]}/>)
+        chief={this.props.students.filter(student => student.aid === promo.idChief)[0]}/>)
     );
     return (
       <ol className="grid-3">

@@ -10,8 +10,6 @@ export default class ClassNavigator extends React.Component {
     props.promos.forEach(function (newYear, index) {
       if (availableYears.indexOf(newYear.year) === -1)
         availableYears.push(newYear.year);
-      else
-        console.log('This item already exists');
     });
 
     this.state = {

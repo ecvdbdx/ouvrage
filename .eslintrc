@@ -22,7 +22,11 @@
     "indent": [
       "warn",
       2,
-      { "MemberExpression": "off" }
+      {
+        "MemberExpression": "off",
+        "SwitchCase": 1,
+        "CallExpression": {"arguments": "first"}
+      }
     ],
     "quotes": [
       "error",
