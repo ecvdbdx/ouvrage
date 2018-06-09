@@ -3,7 +3,7 @@
     "degree": "m1",
     "speciality": "development",
     "avatar": "image.jpeg",
-    "students": ["1", "2"],
+    "students": ["1"],
     "id": "1",
     "idChief": "1",
     "year": "2017/2018"
@@ -34,5 +34,41 @@
     "idChief": "7",
     "id": "4",
     "year": "2017/2018"
+  },
+  {
+    "degree": "m1",
+    "speciality": "development",
+    "avatar": "image.jpeg",
+    "students": ["2"],
+    "id": "5",
+    "idChief": "2",
+    "year": "2018/2019"
+  },
+  {
+    "degree": "m1",
+    "speciality": "design",
+    "avatar": "image-design.jpeg",
+    "students": ["3", "4"],
+    "id": "6",
+    "idChief": "3",
+    "year": "2018/2019"
+  },
+  {
+    "degree": "m1",
+    "speciality": "ux",
+    "avatar": "image-ux.jpeg",
+    "students": ["5", "6", "8"],
+    "id": "7",
+    "idChief": "5",
+    "year": "2018/2019"
+  },
+  {
+    "degree": "m1",
+    "speciality": "marketing",
+    "avatar": "image-marketing.jpeg",
+    "students": ["7"],
+    "idChief": "7",
+    "id": "8",
+    "year": "2018/2019"
   }
 ]

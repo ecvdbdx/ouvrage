@@ -60,7 +60,7 @@ exports[`renders correctly 1`] = `
           >
             Created at : 
           </span>
-          07-06-2018
+          09-06-2018
         </p>
         <p>
           <span
@@ -108,7 +108,7 @@ exports[`renders correctly 1`] = `
         vincentrodrigu@hotmail.fr
       </p>
       <p>
-        2018-06-07
+        2018-06-09
       </p>
     </div>
   </div>

@@ -30,9 +30,9 @@ export default class Profile extends React.Component {
               githubData: res
             });
           });
-        } else {
-          console.log('Mauvaise réponse du réseau');
         }
+        else
+          console.log('Mauvaise réponse du réseau');
       })
       .catch(err => console.log(`ERROR in fetchJson : ${err}`));
     fetch('https://api.github.com/users/' + this.props.student.username + '/repos')
@@ -43,9 +43,9 @@ export default class Profile extends React.Component {
               githubRepoData: res.slice(0, 3)
             });
           });
-        } else {
-          console.log('Mauvaise réponse du réseau');
         }
+        else
+          console.log('Mauvaise réponse du réseau');
       })
       .catch(err => console.log(`ERROR in fetchJson : ${err}`));
   }
@@ -125,13 +125,19 @@ export default class Profile extends React.Component {
               <div className="github">
                 <h2 className="subtitle">Profil Github</h2>
                 <p><span className="key">Login : </span>{this.state.githubData.login}</p>
-                <p><span className="key">Created at : </span>{moment(this.state.githubData.created_at).format('DD-MM-YYYY')}</p>
+                <p>
+                  <span className="key">Created at : </span>
+                  {moment(this.state.githubData.created_at).format('DD-MM-YYYY')}
+                </p>
                 <p><span className="key">Followers : </span>{this.state.githubData.followers}</p>
                 <p><span className="key">Following : </span>{this.state.githubData.following}</p>
                 <p><span className="key">Public repos : </span>{this.state.githubData.public_repos}</p>
                 <ul>
                   {repos}
-                  {this.state.githubData.public_repos > 3 ? <a target="_blank" href={this.state.githubData.html_url}>En voir plus</a> : ''}
+                  {this.state.githubData.public_repos > 3
+                    ? <a target="_blank" href={this.state.githubData.html_url}>En voir plus</a>
+                    : ''
+                  }
                 </ul>
               </div>
             </div>
