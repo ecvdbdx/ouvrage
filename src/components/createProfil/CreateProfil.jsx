@@ -52,9 +52,8 @@ export default class CreateProfil extends React.Component {
           birthdate: value.birthdate,
           avatar: value.avatar
         }, function (err) {
-          if (err) {
+          if (err)
             console.error(err);
-          }
         });
       })
       .catch((error) => {

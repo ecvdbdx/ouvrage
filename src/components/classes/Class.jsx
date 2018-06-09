@@ -4,7 +4,14 @@ import Student from './Student.jsx';
 
 export default class Class extends Component {
   render () {
-    var myStudents = this.props.students.map((item, index) => <Student key={index} goToProfile={this.props.studentClick}{...this.props.students[index]} />);
+    var myStudents = this.props.students.map(
+      (item, index) =>
+        (<Student
+          key={index}
+          goToProfile={this.props.studentClick}
+          {...this.props.students[index]}
+        />)
+    );
     return (
       <div>
         <h2 id="speciality">{ this.props.speciality }</h2>

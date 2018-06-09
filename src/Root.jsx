@@ -1,8 +1,9 @@
 import React from 'react';
+
 import CreateProfil from './components/createProfil/CreateProfil.jsx';
 import Profile from './components/profile/Profile.jsx';
 import Chat from './components/chat/Chat.jsx';
-import Class from './components/classes/Class.jsx';
+import ClassNavigator from './components/ClassNavigator.jsx';
 import Home from './components/home/Home.jsx';
 import Header from './components/Header.jsx';
 
@@ -23,7 +24,7 @@ export default class Root extends React.Component {
       student: props.students[0],
       myClass: {},
       myClassStudents: {}
-  };
+    };
 
     this.oneClass = this.oneClass.bind(this);
     this.getRoute = this.getRoute.bind(this);
@@ -47,21 +48,21 @@ export default class Root extends React.Component {
   render () {
     let content;
     switch (this.state.route) {
-      case 'home':
-        content = (<Home promos={this.props.promos} students={this.props.students} oneClass={this.oneClass}/>);
-        break;
-      case 'createProfil':
-        content = (<CreateProfil/>);
-        break;
-      case 'profil':
-        content = (<Profile student={this.state.student}/>);
-        break;
-      case 'chat':
-        content = (<Chat students={this.props.students}/>);
-        break;
-      case 'oneClass':
-        content = (<Class key={this.state.myClass.id} {...this.state.myClass} students={this.state.myClassStudents} studentClick={this.goToProfile}/>);
-        break;
+    case 'home':
+      content = (<Home promos={this.props.promos} students={this.props.students} oneClass={this.oneClass}/>);
+      break;
+    case 'createProfil':
+      content = (<CreateProfil/>);
+      break;
+    case 'profil':
+      content = (<Profile student={this.state.student}/>);
+      break;
+    case 'chat':
+      content = (<Chat students={this.props.students}/>);
+      break;
+    case 'oneClass':
+      content = (<ClassNavigator promos={this.props.promos} students={this.props.students} />);
+      break;
     }
 
     return (<div>

@@ -21,7 +21,8 @@
   "rules": {
     "indent": [
       "warn",
-      2
+      2,
+      { "MemberExpression": "off" }
     ],
     "quotes": [
       "error",
@@ -31,6 +32,9 @@
       "error",
       "always"
     ],
-    "one-var": 0
+    "one-var": 0,
+    "brace-style": ["error", "stroustrup"],
+    "curly": ["error", "multi-or-nest"],
+    "operator-linebreak": ["warn", "before"]
   }
 }
