@@ -35,15 +35,13 @@ exports[`renders correctly 1`] = `
             className="promo-content"
           >
             <img
-              src="https://barknbrewwi.com/wp-content/uploads/2017/05/bark-and-brew-dog-img.png"
+              src="https://fakeimg.pl/250x100/"
             />
             <div
               className="content-side"
             >
               <p>
-                 Délégué : 
-                 AKA 
-                hmoncenis
+                Pas de délégué
               </p>
               <button
                 onClick={[Function]}
@@ -68,15 +66,13 @@ exports[`renders correctly 1`] = `
             className="promo-content"
           >
             <img
-              src="https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg"
+              src="https://fakeimg.pl/250x100/"
             />
             <div
               className="content-side"
             >
               <p>
-                 Délégué : 
-                 AKA 
-                antoinesinety
+                Pas de délégué
               </p>
               <button
                 onClick={[Function]}
@@ -101,15 +97,13 @@ exports[`renders correctly 1`] = `
             className="promo-content"
           >
             <img
-              src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+              src="https://fakeimg.pl/250x100/"
             />
             <div
               className="content-side"
             >
               <p>
-                 Délégué : 
-                 AKA 
-                mdewaele
+                Pas de délégué
               </p>
               <button
                 onClick={[Function]}
@@ -134,15 +128,13 @@ exports[`renders correctly 1`] = `
             className="promo-content"
           >
             <img
-              src="https://img.freepik.com/free-photo/cute-golden-retriever-dog_1204-387.jpg?size=338&ext=jpg"
+              src="https://fakeimg.pl/250x100/"
             />
             <div
               className="content-side"
             >
               <p>
-                 Délégué : 
-                 AKA 
-                vivianeglz
+                Pas de délégué
               </p>
               <button
                 onClick={[Function]}
@@ -167,15 +159,13 @@ exports[`renders correctly 1`] = `
             className="promo-content"
           >
             <img
-              src="https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg"
+              src="https://fakeimg.pl/250x100/"
             />
             <div
               className="content-side"
             >
               <p>
-                 Délégué : 
-                 AKA 
-                epatrois
+                Pas de délégué
               </p>
               <button
                 onClick={[Function]}
@@ -200,15 +190,13 @@ exports[`renders correctly 1`] = `
             className="promo-content"
           >
             <img
-              src="https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg"
+              src="https://fakeimg.pl/250x100/"
             />
             <div
               className="content-side"
             >
               <p>
-                 Délégué : 
-                 AKA 
-                antoinesinety
+                Pas de délégué
               </p>
               <button
                 onClick={[Function]}
@@ -233,15 +221,13 @@ exports[`renders correctly 1`] = `
             className="promo-content"
           >
             <img
-              src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+              src="https://fakeimg.pl/250x100/"
             />
             <div
               className="content-side"
             >
               <p>
-                 Délégué : 
-                 AKA 
-                mdewaele
+                Pas de délégué
               </p>
               <button
                 onClick={[Function]}
@@ -266,15 +252,13 @@ exports[`renders correctly 1`] = `
             className="promo-content"
           >
             <img
-              src="https://img.freepik.com/free-photo/cute-golden-retriever-dog_1204-387.jpg?size=338&ext=jpg"
+              src="https://fakeimg.pl/250x100/"
             />
             <div
               className="content-side"
             >
               <p>
-                 Délégué : 
-                 AKA 
-                vivianeglz
+                Pas de délégué
               </p>
               <button
                 onClick={[Function]}
