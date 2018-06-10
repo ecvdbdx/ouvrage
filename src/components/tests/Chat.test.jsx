@@ -1,12 +1,8 @@
 import React from 'react';
-import Chat from './../chat/Chat';
-import renderer from 'react-test-renderer';
-import students from './../../../mocks/students.json';
+import Chat from '../chat/Chat';
+import { shallow } from 'enzyme';
 
-it('renders correctly', () => {
-  const tree = renderer
-  .create(<Chat students={students} />)
-  .toJSON();
-
-  expect(tree).toMatchSnapshot();
+it('renders correctly', async () => {
+  const wrapper = shallow(<Chat />);
+  expect(wrapper).toMatchSnapshot();
 });

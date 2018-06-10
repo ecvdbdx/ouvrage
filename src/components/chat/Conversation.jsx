@@ -14,23 +14,27 @@ export default class Conversation extends React.Component {
     this.handleChange = this.handleChange.bind(this);
     this.scrollDown = this.scrollDown.bind(this);
     this.setAutoScroll = this.setAutoScroll.bind(this);
-
-    if (this.props.currentContact) {
-      this.retrieveConversation(this.props.currentContact, this.props.me);
-      setInterval(() => {
-        this.retrieveConversation(this.props.currentContact, this.props.me);
-      }, 2000);
-    }
+    this.interval = null;
   }
 
   componentDidMount () {
-    this.refMessageList = React.createRef();
+    if (this.props.currentContact) {
+      this.retrieveConversation(this.props.currentContact, this.props.me);
+      this.interval = setInterval(() => {
+        this.retrieveConversation(this.props.currentContact, this.props.me);
+      }, 2000);
+    }
   }
 
   componentWillReceiveProps (nextProps) {
     if (nextProps.currentContact !== this.props.currentContact)
       this.retrieveConversation(nextProps.currentContact, this.props.me);
   }
+
+  componentWillUnmount () {
+    clearInterval(this.interval);
+  }
+
 
   retrieveConversation (contact, me) {
     getConversation(contact, me).then((messages) => {
