@@ -2,7 +2,7 @@ import React from 'react';
 import Contacts from './Contacts.jsx';
 import Conversation from './Conversation.jsx';
 import ChooseMe from './ChooseMe.jsx';
-import ChatApi from './ChatApi.js';
+import { getStudents } from '../../utils/airtable';
 
 export default class Chat extends React.Component {
   constructor () {
@@ -14,8 +14,10 @@ export default class Chat extends React.Component {
       me: null,
       students: []
     };
+  }
 
-    ChatApi.getStudents().then((students) => {
+  componentDidMount () {
+    getStudents().then((students) => {
       this.setState({
         students: students,
         me: null
@@ -38,10 +40,11 @@ export default class Chat extends React.Component {
   }
 
   render () {
-    const currentContactActif = this.state.currentContact !== null;
-    const isMe = this.state.me === null;
+    if (this.state.students.length === 0) return null;
+    const isIdentified = this.state.me !== null;
+    const isConversationOpened = this.state.currentContact !== null;
 
-    const component = isMe ?
+    const component = !isIdentified ?
       (
         <ChooseMe students={this.state.students} selectMe={this.selectMe} />
       ) : (
@@ -50,7 +53,7 @@ export default class Chat extends React.Component {
             currentContact={this.state.currentContact}
             openConversation={this.openConversation} />
           {
-            currentContactActif ?
+            isConversationOpened ?
               (
                 <Conversation currentContact={this.state.currentContact} me={this.state.me} />
               ) : null

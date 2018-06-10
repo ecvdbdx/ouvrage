@@ -1,6 +1,6 @@
 import React from 'react';
 import Message from './Message.jsx';
-import ChatApi from './ChatApi';
+import { getConversation, sendMessage } from '../../utils/airtable';
 
 export default class Conversation extends React.Component {
   constructor (props) {
@@ -15,8 +15,6 @@ export default class Conversation extends React.Component {
     this.scrollDown = this.scrollDown.bind(this);
     this.setAutoScroll = this.setAutoScroll.bind(this);
 
-    this.refMessageList = React.createRef();
-
     if (this.props.currentContact) {
       this.retrieveConversation(this.props.currentContact, this.props.me);
       setInterval(() => {
@@ -25,13 +23,17 @@ export default class Conversation extends React.Component {
     }
   }
 
+  componentDidMount () {
+    this.refMessageList = React.createRef();
+  }
+
   componentWillReceiveProps (nextProps) {
     if (nextProps.currentContact !== this.props.currentContact)
       this.retrieveConversation(nextProps.currentContact, this.props.me);
   }
 
   retrieveConversation (contact, me) {
-    ChatApi.getConversation(contact, me).then((messages) => {
+    getConversation(contact, me).then((messages) => {
       this.setState({
         messages: messages
       });
@@ -52,7 +54,7 @@ export default class Conversation extends React.Component {
       const message = textField.value;
       const me = this.props.me;
       const user = this.props.currentContact;
-      ChatApi.sendMessage(message, me, user).then((record) => {
+      sendMessage(message, me, user).then((record) => {
         let messages = this.state.messages;
         messages.push(record.fields);
         this.setState({
