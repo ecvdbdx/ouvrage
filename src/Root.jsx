@@ -108,7 +108,7 @@ export default class Root extends React.Component {
         content = (<Profile student={this.state.student}/>);
         break;
       case 'chat':
-        content = (<Chat students={this.state.students}/>);
+        content = (<Chat/>);
         break;
       case 'oneClass':
         content = (<ClassNavigator promos={this.state.promos} students={this.state.students} />);

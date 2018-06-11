@@ -1,33 +1,38 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<div
+<section
   className="conversation"
+  onScroll={[Function]}
 >
   <div>
     <header>
       <h2>
-        epatrois
+        Manu
+         
+        Patrois
       </h2>
+      <img
+        className="user-avatar"
+        src="https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg"
+      />
     </header>
-    <section>
-      <h3>
-        <div
-          className="user-avatar"
-        >
-          <img
-            src="https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg"
-          />
-        </div>
-        <div
-          className="user-info"
-        >
-          <a>
-            epatrois
-          </a>
-        </div>
-      </h3>
-    </section>
+    <main>
+      <ul
+        className="message-list"
+      />
+    </main>
+    <footer
+      className="message-section"
+    >
+      <input
+        onChange={[Function]}
+        onKeyPress={[Function]}
+        placeholder="Votre message..."
+        type="text"
+        value=""
+      />
+    </footer>
   </div>
-</div>
+</section>
 `;

@@ -1,0 +1,24 @@
+.message-list {
+	display: flex;
+	flex-direction: column;
+	max-width: 80%;
+	margin: 30px auto;
+	padding-bottom: 40px;
+}
+
+.message-list li.user {
+	margin-bottom: 30px;
+	background-color: #F1F0F0;
+	align-self: flex-start;
+	padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.message-list li.fake {
+	margin-bottom: 30px;
+	background-color: #061161;
+	align-self: flex-end;
+	padding: 10px 20px;
+  border-radius: 20px;
+  color: #fff;
+}
