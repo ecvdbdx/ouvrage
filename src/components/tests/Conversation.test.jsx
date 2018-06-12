@@ -1,11 +1,12 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
-import students from '../../../mocks/students.json';
+import { shallow } from 'enzyme';
+
 import Conversation from '../chat/Conversation.jsx';
 
+import students from '../../../mocks/students.json';
+
+
 it('renders correctly', () => {
-  const tree = renderer
-    .create(<Conversation currentContact={students[0]} me={students[1]} />)
-    .toJSON();
-  expect(tree).toMatchSnapshot();
+  const wrapper = shallow(<Conversation currentContact={students[0]} me={students[1]} />);
+  expect(wrapper).toMatchSnapshot();
 });

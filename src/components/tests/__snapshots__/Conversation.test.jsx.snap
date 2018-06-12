@@ -1,38 +1,424 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<section
-  className="conversation"
-  onScroll={[Function]}
->
-  <div>
-    <header>
-      <h2>
-        Manu
-         
-        Patrois
-      </h2>
-      <img
-        className="user-avatar"
-        src="https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg"
-      />
-    </header>
-    <main>
-      <ul
-        className="message-list"
-      />
-    </main>
-    <footer
-      className="message-section"
-    >
-      <input
-        onChange={[Function]}
-        onKeyPress={[Function]}
-        placeholder="Votre message..."
-        type="text"
-        value=""
-      />
-    </footer>
-  </div>
-</section>
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Conversation
+    currentContact={
+      Object {
+        "avatar": "https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg",
+        "firstName": "Manu",
+        "id": "2",
+        "lastName": "Patrois",
+        "username": "epatrois",
+      }
+    }
+    me={
+      Object {
+        "avatar": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+        "birthdate": "838921463",
+        "email": "maxencedewaele@gmail.com",
+        "firstName": "Maxence",
+        "id": "5",
+        "lastName": "De Waele",
+        "username": "mdewaele",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div>
+        <header>
+          <h2>
+            Manu
+             
+            Patrois
+          </h2>
+          <img
+            className="user-avatar"
+            src="https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg"
+          />
+        </header>
+        <main>
+          <ul
+            className="message-list"
+          />
+        </main>
+        <footer
+          className="message-section"
+        >
+          <input
+            onChange={[Function]}
+            onKeyPress={[Function]}
+            placeholder="Votre message..."
+            type="text"
+            value=""
+          />
+        </footer>
+      </div>,
+      "className": "conversation",
+      "onScroll": [Function],
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <header>
+            <h2>
+              Manu
+               
+              Patrois
+            </h2>
+            <img
+              className="user-avatar"
+              src="https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg"
+            />
+          </header>,
+          <main>
+            <ul
+              className="message-list"
+            />
+          </main>,
+          <footer
+            className="message-section"
+          >
+            <input
+              onChange={[Function]}
+              onKeyPress={[Function]}
+              placeholder="Votre message..."
+              type="text"
+              value=""
+            />
+          </footer>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2>
+                Manu
+                 
+                Patrois
+              </h2>,
+              <img
+                className="user-avatar"
+                src="https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg"
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Manu",
+                  " ",
+                  "Patrois",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Manu",
+                " ",
+                "Patrois",
+              ],
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "user-avatar",
+                "src": "https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+          ],
+          "type": "header",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <ul
+              className="message-list"
+            />,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [],
+              "className": "message-list",
+            },
+            "ref": null,
+            "rendered": Array [],
+            "type": "ul",
+          },
+          "type": "main",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <input
+              onChange={[Function]}
+              onKeyPress={[Function]}
+              placeholder="Votre message..."
+              type="text"
+              value=""
+            />,
+            "className": "message-section",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "onChange": [Function],
+              "onKeyPress": [Function],
+              "placeholder": "Votre message...",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          "type": "footer",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div>
+          <header>
+            <h2>
+              Manu
+               
+              Patrois
+            </h2>
+            <img
+              className="user-avatar"
+              src="https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg"
+            />
+          </header>
+          <main>
+            <ul
+              className="message-list"
+            />
+          </main>
+          <footer
+            className="message-section"
+          >
+            <input
+              onChange={[Function]}
+              onKeyPress={[Function]}
+              placeholder="Votre message..."
+              type="text"
+              value=""
+            />
+          </footer>
+        </div>,
+        "className": "conversation",
+        "onScroll": [Function],
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <header>
+              <h2>
+                Manu
+                 
+                Patrois
+              </h2>
+              <img
+                className="user-avatar"
+                src="https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg"
+              />
+            </header>,
+            <main>
+              <ul
+                className="message-list"
+              />
+            </main>,
+            <footer
+              className="message-section"
+            >
+              <input
+                onChange={[Function]}
+                onKeyPress={[Function]}
+                placeholder="Votre message..."
+                type="text"
+                value=""
+              />
+            </footer>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h2>
+                  Manu
+                   
+                  Patrois
+                </h2>,
+                <img
+                  className="user-avatar"
+                  src="https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg"
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Manu",
+                    " ",
+                    "Patrois",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Manu",
+                  " ",
+                  "Patrois",
+                ],
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "user-avatar",
+                  "src": "https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+            ],
+            "type": "header",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <ul
+                className="message-list"
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [],
+                "className": "message-list",
+              },
+              "ref": null,
+              "rendered": Array [],
+              "type": "ul",
+            },
+            "type": "main",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <input
+                onChange={[Function]}
+                onKeyPress={[Function]}
+                placeholder="Votre message..."
+                type="text"
+                value=""
+              />,
+              "className": "message-section",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+                "onKeyPress": [Function],
+                "placeholder": "Votre message...",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            "type": "footer",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
 `;

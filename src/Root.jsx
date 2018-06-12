@@ -1,10 +1,10 @@
 import React from 'react';
 
-import CreateProfil from './components/createProfil/CreateProfil.jsx';
+import CreateProfil from './components/profile/CreateProfile.jsx';
 import Profile from './components/profile/Profile.jsx';
 import Chat from './components/chat/Chat.jsx';
-import ClassNavigator from './components/ClassNavigator.jsx';
-import Home from './components/home/Home.jsx';
+import ClassNavigator from './components/class/ClassNavigator.jsx';
+import Home from './components/Home.jsx';
 import Header from './components/Header.jsx';
 import airtable from './airtable/config.js';
 
@@ -39,7 +39,7 @@ export default class Root extends React.Component {
       let students = [];
       records.forEach(function (record) {
         students.push({
-          aid: record.id,
+          airtable_id: record.id,
           ...record.fields
         });
       });
@@ -63,7 +63,7 @@ export default class Root extends React.Component {
         var chief = record.fields.idChief;
 
         promos.push({
-          aid: record.id,
+          airtable_id: record.id,
           ...record.fields,
           idChief: chief && chief[0]
         });
@@ -87,7 +87,7 @@ export default class Root extends React.Component {
   }
 
   oneClass (myClass, students) {
-    const studentsClass = students.filter(student => myClass.students.includes(student.aid));
+    const studentsClass = students.filter(student => myClass.students.includes(student.airtable_id));
     this.setState({ route: 'oneClass', myClass: myClass, myClassStudents: studentsClass });
   }
 

@@ -1,0 +1,3227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Contacts
+    currentContact={
+      Object {
+        "avatar": "https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg",
+        "firstName": "Manu",
+        "id": "2",
+        "lastName": "Patrois",
+        "username": "epatrois",
+      }
+    }
+    openConversation={[MockFunction]}
+    students={
+      Array [
+        Object {
+          "avatar": "https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg",
+          "firstName": "Manu",
+          "id": "2",
+          "lastName": "Patrois",
+          "username": "epatrois",
+        },
+        Object {
+          "avatar": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+          "birthdate": "838921463",
+          "email": "maxencedewaele@gmail.com",
+          "firstName": "Maxence",
+          "id": "5",
+          "lastName": "De Waele",
+          "username": "mdewaele",
+        },
+        Object {
+          "avatar": "https://s3.amazonaws.com/mixture-mixed/21975/17188/img/photos/portraits/dogs/golden-retriever.jpg",
+          "birthdate": "14/05/1413",
+          "email": "vincentrodrigu@hotmail.fr",
+          "firstName": "Vincent",
+          "id": "8",
+          "lastName": "Rodriguez",
+          "username": "rodrigodelanoche",
+        },
+        Object {
+          "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwMFoeG86Nz19Ve8Cf2FqpdiMd9Q8r6cYS1lgmPKZCxJfvb7kK",
+          "email": "emilie.40@hotmail.com",
+          "firstName": "Emilie",
+          "id": "6",
+          "lastName": "Rozis",
+          "username": "erozis",
+        },
+        Object {
+          "avatar": "https://barknbrewwi.com/wp-content/uploads/2017/05/bark-and-brew-dog-img.png",
+          "firstName": "Hubert",
+          "id": "1",
+          "lastName": "Montcenis",
+          "username": "hmoncenis",
+        },
+        Object {
+          "avatar": "https://img.freepik.com/free-photo/cute-golden-retriever-dog_1204-387.jpg?size=338&ext=jpg",
+          "birthdate": "02/06/1995",
+          "email": "viviane.gonzalez@outlook.fr",
+          "firstName": "Viviane",
+          "id": "7",
+          "lastName": "Gonzalez",
+          "username": "vivianeglz",
+        },
+        Object {
+          "avatar": "https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg",
+          "birthdate": "08/06/1995",
+          "email": "fake@yopmail.fr",
+          "firstName": "Antoine",
+          "id": "3",
+          "lastName": "de Sinety",
+          "username": "antoinesinety",
+        },
+        Object {
+          "avatar": "https://scontent-cdt1-1.xx.fbcdn.net/v/t1.15752-9/31564082_10211602740766358_7499107362326708224_n.jpg?_nc_cat=0&oh=625d3b20b837757df071c3425c13e903&oe=5B506021",
+          "birthdate": "08/12/2003",
+          "email": "floindrix@gmail.com",
+          "first_name": "Florian",
+          "id": "9",
+          "last_name": "Crétin(ptdr)",
+          "username": "Floflo36",
+        },
+        Object {
+          "avatar": "https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg",
+          "email": "thomas.gauzin@gmail.com",
+          "firstName": "Thomas",
+          "id": "4",
+          "lastName": "Gauzin",
+          "username": "tgauzin",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2>
+          Les contacts
+        </h2>,
+        <ul>
+          <li
+            className="active"
+            onClick={[Function]}
+          >
+            <div
+              className="contact-conv"
+            >
+              <img
+                alt="Photo de profil de epatrois"
+                src="https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg"
+              />
+              <p>
+                Manu
+                 
+                Patrois
+                <span
+                  className="username"
+                >
+                  (
+                  epatrois
+                  )
+                </span>
+              </p>
+            </div>
+          </li>
+          <li
+            className=""
+            onClick={[Function]}
+          >
+            <div
+              className="contact-conv"
+            >
+              <img
+                alt="Photo de profil de mdewaele"
+                src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+              />
+              <p>
+                Maxence
+                 
+                De Waele
+                <span
+                  className="username"
+                >
+                  (
+                  mdewaele
+                  )
+                </span>
+              </p>
+            </div>
+          </li>
+          <li
+            className=""
+            onClick={[Function]}
+          >
+            <div
+              className="contact-conv"
+            >
+              <img
+                alt="Photo de profil de rodrigodelanoche"
+                src="https://s3.amazonaws.com/mixture-mixed/21975/17188/img/photos/portraits/dogs/golden-retriever.jpg"
+              />
+              <p>
+                Vincent
+                 
+                Rodriguez
+                <span
+                  className="username"
+                >
+                  (
+                  rodrigodelanoche
+                  )
+                </span>
+              </p>
+            </div>
+          </li>
+          <li
+            className=""
+            onClick={[Function]}
+          >
+            <div
+              className="contact-conv"
+            >
+              <img
+                alt="Photo de profil de erozis"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwMFoeG86Nz19Ve8Cf2FqpdiMd9Q8r6cYS1lgmPKZCxJfvb7kK"
+              />
+              <p>
+                Emilie
+                 
+                Rozis
+                <span
+                  className="username"
+                >
+                  (
+                  erozis
+                  )
+                </span>
+              </p>
+            </div>
+          </li>
+          <li
+            className=""
+            onClick={[Function]}
+          >
+            <div
+              className="contact-conv"
+            >
+              <img
+                alt="Photo de profil de hmoncenis"
+                src="https://barknbrewwi.com/wp-content/uploads/2017/05/bark-and-brew-dog-img.png"
+              />
+              <p>
+                Hubert
+                 
+                Montcenis
+                <span
+                  className="username"
+                >
+                  (
+                  hmoncenis
+                  )
+                </span>
+              </p>
+            </div>
+          </li>
+          <li
+            className=""
+            onClick={[Function]}
+          >
+            <div
+              className="contact-conv"
+            >
+              <img
+                alt="Photo de profil de vivianeglz"
+                src="https://img.freepik.com/free-photo/cute-golden-retriever-dog_1204-387.jpg?size=338&ext=jpg"
+              />
+              <p>
+                Viviane
+                 
+                Gonzalez
+                <span
+                  className="username"
+                >
+                  (
+                  vivianeglz
+                  )
+                </span>
+              </p>
+            </div>
+          </li>
+          <li
+            className=""
+            onClick={[Function]}
+          >
+            <div
+              className="contact-conv"
+            >
+              <img
+                alt="Photo de profil de antoinesinety"
+                src="https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg"
+              />
+              <p>
+                Antoine
+                 
+                de Sinety
+                <span
+                  className="username"
+                >
+                  (
+                  antoinesinety
+                  )
+                </span>
+              </p>
+            </div>
+          </li>
+          <li
+            className=""
+            onClick={[Function]}
+          >
+            <div
+              className="contact-conv"
+            >
+              <img
+                alt="Photo de profil de Floflo36"
+                src="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.15752-9/31564082_10211602740766358_7499107362326708224_n.jpg?_nc_cat=0&oh=625d3b20b837757df071c3425c13e903&oe=5B506021"
+              />
+              <p>
+                 
+                <span
+                  className="username"
+                >
+                  (
+                  Floflo36
+                  )
+                </span>
+              </p>
+            </div>
+          </li>
+          <li
+            className=""
+            onClick={[Function]}
+          >
+            <div
+              className="contact-conv"
+            >
+              <img
+                alt="Photo de profil de tgauzin"
+                src="https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg"
+              />
+              <p>
+                Thomas
+                 
+                Gauzin
+                <span
+                  className="username"
+                >
+                  (
+                  tgauzin
+                  )
+                </span>
+              </p>
+            </div>
+          </li>
+        </ul>,
+      ],
+      "className": "list-conversations",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Les contacts",
+        },
+        "ref": null,
+        "rendered": "Les contacts",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li
+              className="active"
+              onClick={[Function]}
+            >
+              <div
+                className="contact-conv"
+              >
+                <img
+                  alt="Photo de profil de epatrois"
+                  src="https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg"
+                />
+                <p>
+                  Manu
+                   
+                  Patrois
+                  <span
+                    className="username"
+                  >
+                    (
+                    epatrois
+                    )
+                  </span>
+                </p>
+              </div>
+            </li>,
+            <li
+              className=""
+              onClick={[Function]}
+            >
+              <div
+                className="contact-conv"
+              >
+                <img
+                  alt="Photo de profil de mdewaele"
+                  src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+                />
+                <p>
+                  Maxence
+                   
+                  De Waele
+                  <span
+                    className="username"
+                  >
+                    (
+                    mdewaele
+                    )
+                  </span>
+                </p>
+              </div>
+            </li>,
+            <li
+              className=""
+              onClick={[Function]}
+            >
+              <div
+                className="contact-conv"
+              >
+                <img
+                  alt="Photo de profil de rodrigodelanoche"
+                  src="https://s3.amazonaws.com/mixture-mixed/21975/17188/img/photos/portraits/dogs/golden-retriever.jpg"
+                />
+                <p>
+                  Vincent
+                   
+                  Rodriguez
+                  <span
+                    className="username"
+                  >
+                    (
+                    rodrigodelanoche
+                    )
+                  </span>
+                </p>
+              </div>
+            </li>,
+            <li
+              className=""
+              onClick={[Function]}
+            >
+              <div
+                className="contact-conv"
+              >
+                <img
+                  alt="Photo de profil de erozis"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwMFoeG86Nz19Ve8Cf2FqpdiMd9Q8r6cYS1lgmPKZCxJfvb7kK"
+                />
+                <p>
+                  Emilie
+                   
+                  Rozis
+                  <span
+                    className="username"
+                  >
+                    (
+                    erozis
+                    )
+                  </span>
+                </p>
+              </div>
+            </li>,
+            <li
+              className=""
+              onClick={[Function]}
+            >
+              <div
+                className="contact-conv"
+              >
+                <img
+                  alt="Photo de profil de hmoncenis"
+                  src="https://barknbrewwi.com/wp-content/uploads/2017/05/bark-and-brew-dog-img.png"
+                />
+                <p>
+                  Hubert
+                   
+                  Montcenis
+                  <span
+                    className="username"
+                  >
+                    (
+                    hmoncenis
+                    )
+                  </span>
+                </p>
+              </div>
+            </li>,
+            <li
+              className=""
+              onClick={[Function]}
+            >
+              <div
+                className="contact-conv"
+              >
+                <img
+                  alt="Photo de profil de vivianeglz"
+                  src="https://img.freepik.com/free-photo/cute-golden-retriever-dog_1204-387.jpg?size=338&ext=jpg"
+                />
+                <p>
+                  Viviane
+                   
+                  Gonzalez
+                  <span
+                    className="username"
+                  >
+                    (
+                    vivianeglz
+                    )
+                  </span>
+                </p>
+              </div>
+            </li>,
+            <li
+              className=""
+              onClick={[Function]}
+            >
+              <div
+                className="contact-conv"
+              >
+                <img
+                  alt="Photo de profil de antoinesinety"
+                  src="https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg"
+                />
+                <p>
+                  Antoine
+                   
+                  de Sinety
+                  <span
+                    className="username"
+                  >
+                    (
+                    antoinesinety
+                    )
+                  </span>
+                </p>
+              </div>
+            </li>,
+            <li
+              className=""
+              onClick={[Function]}
+            >
+              <div
+                className="contact-conv"
+              >
+                <img
+                  alt="Photo de profil de Floflo36"
+                  src="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.15752-9/31564082_10211602740766358_7499107362326708224_n.jpg?_nc_cat=0&oh=625d3b20b837757df071c3425c13e903&oe=5B506021"
+                />
+                <p>
+                   
+                  <span
+                    className="username"
+                  >
+                    (
+                    Floflo36
+                    )
+                  </span>
+                </p>
+              </div>
+            </li>,
+            <li
+              className=""
+              onClick={[Function]}
+            >
+              <div
+                className="contact-conv"
+              >
+                <img
+                  alt="Photo de profil de tgauzin"
+                  src="https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg"
+                />
+                <p>
+                  Thomas
+                   
+                  Gauzin
+                  <span
+                    className="username"
+                  >
+                    (
+                    tgauzin
+                    )
+                  </span>
+                </p>
+              </div>
+            </li>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="contact-conv"
+              >
+                <img
+                  alt="Photo de profil de epatrois"
+                  src="https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg"
+                />
+                <p>
+                  Manu
+                   
+                  Patrois
+                  <span
+                    className="username"
+                  >
+                    (
+                    epatrois
+                    )
+                  </span>
+                </p>
+              </div>,
+              "className": "active",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="Photo de profil de epatrois"
+                    src="https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg"
+                  />,
+                  <p>
+                    Manu
+                     
+                    Patrois
+                    <span
+                      className="username"
+                    >
+                      (
+                      epatrois
+                      )
+                    </span>
+                  </p>,
+                ],
+                "className": "contact-conv",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "Photo de profil de epatrois",
+                    "src": "https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Manu",
+                      " ",
+                      "Patrois",
+                      <span
+                        className="username"
+                      >
+                        (
+                        epatrois
+                        )
+                      </span>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Manu",
+                    " ",
+                    "Patrois",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "(",
+                          "epatrois",
+                          ")",
+                        ],
+                        "className": "username",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "(",
+                        "epatrois",
+                        ")",
+                      ],
+                      "type": "span",
+                    },
+                  ],
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="contact-conv"
+              >
+                <img
+                  alt="Photo de profil de mdewaele"
+                  src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+                />
+                <p>
+                  Maxence
+                   
+                  De Waele
+                  <span
+                    className="username"
+                  >
+                    (
+                    mdewaele
+                    )
+                  </span>
+                </p>
+              </div>,
+              "className": "",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="Photo de profil de mdewaele"
+                    src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+                  />,
+                  <p>
+                    Maxence
+                     
+                    De Waele
+                    <span
+                      className="username"
+                    >
+                      (
+                      mdewaele
+                      )
+                    </span>
+                  </p>,
+                ],
+                "className": "contact-conv",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "Photo de profil de mdewaele",
+                    "src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Maxence",
+                      " ",
+                      "De Waele",
+                      <span
+                        className="username"
+                      >
+                        (
+                        mdewaele
+                        )
+                      </span>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Maxence",
+                    " ",
+                    "De Waele",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "(",
+                          "mdewaele",
+                          ")",
+                        ],
+                        "className": "username",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "(",
+                        "mdewaele",
+                        ")",
+                      ],
+                      "type": "span",
+                    },
+                  ],
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="contact-conv"
+              >
+                <img
+                  alt="Photo de profil de rodrigodelanoche"
+                  src="https://s3.amazonaws.com/mixture-mixed/21975/17188/img/photos/portraits/dogs/golden-retriever.jpg"
+                />
+                <p>
+                  Vincent
+                   
+                  Rodriguez
+                  <span
+                    className="username"
+                  >
+                    (
+                    rodrigodelanoche
+                    )
+                  </span>
+                </p>
+              </div>,
+              "className": "",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="Photo de profil de rodrigodelanoche"
+                    src="https://s3.amazonaws.com/mixture-mixed/21975/17188/img/photos/portraits/dogs/golden-retriever.jpg"
+                  />,
+                  <p>
+                    Vincent
+                     
+                    Rodriguez
+                    <span
+                      className="username"
+                    >
+                      (
+                      rodrigodelanoche
+                      )
+                    </span>
+                  </p>,
+                ],
+                "className": "contact-conv",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "Photo de profil de rodrigodelanoche",
+                    "src": "https://s3.amazonaws.com/mixture-mixed/21975/17188/img/photos/portraits/dogs/golden-retriever.jpg",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Vincent",
+                      " ",
+                      "Rodriguez",
+                      <span
+                        className="username"
+                      >
+                        (
+                        rodrigodelanoche
+                        )
+                      </span>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Vincent",
+                    " ",
+                    "Rodriguez",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "(",
+                          "rodrigodelanoche",
+                          ")",
+                        ],
+                        "className": "username",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "(",
+                        "rodrigodelanoche",
+                        ")",
+                      ],
+                      "type": "span",
+                    },
+                  ],
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "3",
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="contact-conv"
+              >
+                <img
+                  alt="Photo de profil de erozis"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwMFoeG86Nz19Ve8Cf2FqpdiMd9Q8r6cYS1lgmPKZCxJfvb7kK"
+                />
+                <p>
+                  Emilie
+                   
+                  Rozis
+                  <span
+                    className="username"
+                  >
+                    (
+                    erozis
+                    )
+                  </span>
+                </p>
+              </div>,
+              "className": "",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="Photo de profil de erozis"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwMFoeG86Nz19Ve8Cf2FqpdiMd9Q8r6cYS1lgmPKZCxJfvb7kK"
+                  />,
+                  <p>
+                    Emilie
+                     
+                    Rozis
+                    <span
+                      className="username"
+                    >
+                      (
+                      erozis
+                      )
+                    </span>
+                  </p>,
+                ],
+                "className": "contact-conv",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "Photo de profil de erozis",
+                    "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwMFoeG86Nz19Ve8Cf2FqpdiMd9Q8r6cYS1lgmPKZCxJfvb7kK",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Emilie",
+                      " ",
+                      "Rozis",
+                      <span
+                        className="username"
+                      >
+                        (
+                        erozis
+                        )
+                      </span>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Emilie",
+                    " ",
+                    "Rozis",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "(",
+                          "erozis",
+                          ")",
+                        ],
+                        "className": "username",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "(",
+                        "erozis",
+                        ")",
+                      ],
+                      "type": "span",
+                    },
+                  ],
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "4",
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="contact-conv"
+              >
+                <img
+                  alt="Photo de profil de hmoncenis"
+                  src="https://barknbrewwi.com/wp-content/uploads/2017/05/bark-and-brew-dog-img.png"
+                />
+                <p>
+                  Hubert
+                   
+                  Montcenis
+                  <span
+                    className="username"
+                  >
+                    (
+                    hmoncenis
+                    )
+                  </span>
+                </p>
+              </div>,
+              "className": "",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="Photo de profil de hmoncenis"
+                    src="https://barknbrewwi.com/wp-content/uploads/2017/05/bark-and-brew-dog-img.png"
+                  />,
+                  <p>
+                    Hubert
+                     
+                    Montcenis
+                    <span
+                      className="username"
+                    >
+                      (
+                      hmoncenis
+                      )
+                    </span>
+                  </p>,
+                ],
+                "className": "contact-conv",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "Photo de profil de hmoncenis",
+                    "src": "https://barknbrewwi.com/wp-content/uploads/2017/05/bark-and-brew-dog-img.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Hubert",
+                      " ",
+                      "Montcenis",
+                      <span
+                        className="username"
+                      >
+                        (
+                        hmoncenis
+                        )
+                      </span>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Hubert",
+                    " ",
+                    "Montcenis",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "(",
+                          "hmoncenis",
+                          ")",
+                        ],
+                        "className": "username",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "(",
+                        "hmoncenis",
+                        ")",
+                      ],
+                      "type": "span",
+                    },
+                  ],
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "5",
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="contact-conv"
+              >
+                <img
+                  alt="Photo de profil de vivianeglz"
+                  src="https://img.freepik.com/free-photo/cute-golden-retriever-dog_1204-387.jpg?size=338&ext=jpg"
+                />
+                <p>
+                  Viviane
+                   
+                  Gonzalez
+                  <span
+                    className="username"
+                  >
+                    (
+                    vivianeglz
+                    )
+                  </span>
+                </p>
+              </div>,
+              "className": "",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="Photo de profil de vivianeglz"
+                    src="https://img.freepik.com/free-photo/cute-golden-retriever-dog_1204-387.jpg?size=338&ext=jpg"
+                  />,
+                  <p>
+                    Viviane
+                     
+                    Gonzalez
+                    <span
+                      className="username"
+                    >
+                      (
+                      vivianeglz
+                      )
+                    </span>
+                  </p>,
+                ],
+                "className": "contact-conv",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "Photo de profil de vivianeglz",
+                    "src": "https://img.freepik.com/free-photo/cute-golden-retriever-dog_1204-387.jpg?size=338&ext=jpg",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Viviane",
+                      " ",
+                      "Gonzalez",
+                      <span
+                        className="username"
+                      >
+                        (
+                        vivianeglz
+                        )
+                      </span>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Viviane",
+                    " ",
+                    "Gonzalez",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "(",
+                          "vivianeglz",
+                          ")",
+                        ],
+                        "className": "username",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "(",
+                        "vivianeglz",
+                        ")",
+                      ],
+                      "type": "span",
+                    },
+                  ],
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "6",
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="contact-conv"
+              >
+                <img
+                  alt="Photo de profil de antoinesinety"
+                  src="https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg"
+                />
+                <p>
+                  Antoine
+                   
+                  de Sinety
+                  <span
+                    className="username"
+                  >
+                    (
+                    antoinesinety
+                    )
+                  </span>
+                </p>
+              </div>,
+              "className": "",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="Photo de profil de antoinesinety"
+                    src="https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg"
+                  />,
+                  <p>
+                    Antoine
+                     
+                    de Sinety
+                    <span
+                      className="username"
+                    >
+                      (
+                      antoinesinety
+                      )
+                    </span>
+                  </p>,
+                ],
+                "className": "contact-conv",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "Photo de profil de antoinesinety",
+                    "src": "https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Antoine",
+                      " ",
+                      "de Sinety",
+                      <span
+                        className="username"
+                      >
+                        (
+                        antoinesinety
+                        )
+                      </span>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Antoine",
+                    " ",
+                    "de Sinety",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "(",
+                          "antoinesinety",
+                          ")",
+                        ],
+                        "className": "username",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "(",
+                        "antoinesinety",
+                        ")",
+                      ],
+                      "type": "span",
+                    },
+                  ],
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "7",
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="contact-conv"
+              >
+                <img
+                  alt="Photo de profil de Floflo36"
+                  src="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.15752-9/31564082_10211602740766358_7499107362326708224_n.jpg?_nc_cat=0&oh=625d3b20b837757df071c3425c13e903&oe=5B506021"
+                />
+                <p>
+                   
+                  <span
+                    className="username"
+                  >
+                    (
+                    Floflo36
+                    )
+                  </span>
+                </p>
+              </div>,
+              "className": "",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="Photo de profil de Floflo36"
+                    src="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.15752-9/31564082_10211602740766358_7499107362326708224_n.jpg?_nc_cat=0&oh=625d3b20b837757df071c3425c13e903&oe=5B506021"
+                  />,
+                  <p>
+                     
+                    <span
+                      className="username"
+                    >
+                      (
+                      Floflo36
+                      )
+                    </span>
+                  </p>,
+                ],
+                "className": "contact-conv",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "Photo de profil de Floflo36",
+                    "src": "https://scontent-cdt1-1.xx.fbcdn.net/v/t1.15752-9/31564082_10211602740766358_7499107362326708224_n.jpg?_nc_cat=0&oh=625d3b20b837757df071c3425c13e903&oe=5B506021",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      undefined,
+                      " ",
+                      undefined,
+                      <span
+                        className="username"
+                      >
+                        (
+                        Floflo36
+                        )
+                      </span>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    undefined,
+                    " ",
+                    undefined,
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "(",
+                          "Floflo36",
+                          ")",
+                        ],
+                        "className": "username",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "(",
+                        "Floflo36",
+                        ")",
+                      ],
+                      "type": "span",
+                    },
+                  ],
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "8",
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="contact-conv"
+              >
+                <img
+                  alt="Photo de profil de tgauzin"
+                  src="https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg"
+                />
+                <p>
+                  Thomas
+                   
+                  Gauzin
+                  <span
+                    className="username"
+                  >
+                    (
+                    tgauzin
+                    )
+                  </span>
+                </p>
+              </div>,
+              "className": "",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="Photo de profil de tgauzin"
+                    src="https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg"
+                  />,
+                  <p>
+                    Thomas
+                     
+                    Gauzin
+                    <span
+                      className="username"
+                    >
+                      (
+                      tgauzin
+                      )
+                    </span>
+                  </p>,
+                ],
+                "className": "contact-conv",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "Photo de profil de tgauzin",
+                    "src": "https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Thomas",
+                      " ",
+                      "Gauzin",
+                      <span
+                        className="username"
+                      >
+                        (
+                        tgauzin
+                        )
+                      </span>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Thomas",
+                    " ",
+                    "Gauzin",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "(",
+                          "tgauzin",
+                          ")",
+                        ],
+                        "className": "username",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "(",
+                        "tgauzin",
+                        ")",
+                      ],
+                      "type": "span",
+                    },
+                  ],
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            Les contacts
+          </h2>,
+          <ul>
+            <li
+              className="active"
+              onClick={[Function]}
+            >
+              <div
+                className="contact-conv"
+              >
+                <img
+                  alt="Photo de profil de epatrois"
+                  src="https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg"
+                />
+                <p>
+                  Manu
+                   
+                  Patrois
+                  <span
+                    className="username"
+                  >
+                    (
+                    epatrois
+                    )
+                  </span>
+                </p>
+              </div>
+            </li>
+            <li
+              className=""
+              onClick={[Function]}
+            >
+              <div
+                className="contact-conv"
+              >
+                <img
+                  alt="Photo de profil de mdewaele"
+                  src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+                />
+                <p>
+                  Maxence
+                   
+                  De Waele
+                  <span
+                    className="username"
+                  >
+                    (
+                    mdewaele
+                    )
+                  </span>
+                </p>
+              </div>
+            </li>
+            <li
+              className=""
+              onClick={[Function]}
+            >
+              <div
+                className="contact-conv"
+              >
+                <img
+                  alt="Photo de profil de rodrigodelanoche"
+                  src="https://s3.amazonaws.com/mixture-mixed/21975/17188/img/photos/portraits/dogs/golden-retriever.jpg"
+                />
+                <p>
+                  Vincent
+                   
+                  Rodriguez
+                  <span
+                    className="username"
+                  >
+                    (
+                    rodrigodelanoche
+                    )
+                  </span>
+                </p>
+              </div>
+            </li>
+            <li
+              className=""
+              onClick={[Function]}
+            >
+              <div
+                className="contact-conv"
+              >
+                <img
+                  alt="Photo de profil de erozis"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwMFoeG86Nz19Ve8Cf2FqpdiMd9Q8r6cYS1lgmPKZCxJfvb7kK"
+                />
+                <p>
+                  Emilie
+                   
+                  Rozis
+                  <span
+                    className="username"
+                  >
+                    (
+                    erozis
+                    )
+                  </span>
+                </p>
+              </div>
+            </li>
+            <li
+              className=""
+              onClick={[Function]}
+            >
+              <div
+                className="contact-conv"
+              >
+                <img
+                  alt="Photo de profil de hmoncenis"
+                  src="https://barknbrewwi.com/wp-content/uploads/2017/05/bark-and-brew-dog-img.png"
+                />
+                <p>
+                  Hubert
+                   
+                  Montcenis
+                  <span
+                    className="username"
+                  >
+                    (
+                    hmoncenis
+                    )
+                  </span>
+                </p>
+              </div>
+            </li>
+            <li
+              className=""
+              onClick={[Function]}
+            >
+              <div
+                className="contact-conv"
+              >
+                <img
+                  alt="Photo de profil de vivianeglz"
+                  src="https://img.freepik.com/free-photo/cute-golden-retriever-dog_1204-387.jpg?size=338&ext=jpg"
+                />
+                <p>
+                  Viviane
+                   
+                  Gonzalez
+                  <span
+                    className="username"
+                  >
+                    (
+                    vivianeglz
+                    )
+                  </span>
+                </p>
+              </div>
+            </li>
+            <li
+              className=""
+              onClick={[Function]}
+            >
+              <div
+                className="contact-conv"
+              >
+                <img
+                  alt="Photo de profil de antoinesinety"
+                  src="https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg"
+                />
+                <p>
+                  Antoine
+                   
+                  de Sinety
+                  <span
+                    className="username"
+                  >
+                    (
+                    antoinesinety
+                    )
+                  </span>
+                </p>
+              </div>
+            </li>
+            <li
+              className=""
+              onClick={[Function]}
+            >
+              <div
+                className="contact-conv"
+              >
+                <img
+                  alt="Photo de profil de Floflo36"
+                  src="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.15752-9/31564082_10211602740766358_7499107362326708224_n.jpg?_nc_cat=0&oh=625d3b20b837757df071c3425c13e903&oe=5B506021"
+                />
+                <p>
+                   
+                  <span
+                    className="username"
+                  >
+                    (
+                    Floflo36
+                    )
+                  </span>
+                </p>
+              </div>
+            </li>
+            <li
+              className=""
+              onClick={[Function]}
+            >
+              <div
+                className="contact-conv"
+              >
+                <img
+                  alt="Photo de profil de tgauzin"
+                  src="https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg"
+                />
+                <p>
+                  Thomas
+                   
+                  Gauzin
+                  <span
+                    className="username"
+                  >
+                    (
+                    tgauzin
+                    )
+                  </span>
+                </p>
+              </div>
+            </li>
+          </ul>,
+        ],
+        "className": "list-conversations",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Les contacts",
+          },
+          "ref": null,
+          "rendered": "Les contacts",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li
+                className="active"
+                onClick={[Function]}
+              >
+                <div
+                  className="contact-conv"
+                >
+                  <img
+                    alt="Photo de profil de epatrois"
+                    src="https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg"
+                  />
+                  <p>
+                    Manu
+                     
+                    Patrois
+                    <span
+                      className="username"
+                    >
+                      (
+                      epatrois
+                      )
+                    </span>
+                  </p>
+                </div>
+              </li>,
+              <li
+                className=""
+                onClick={[Function]}
+              >
+                <div
+                  className="contact-conv"
+                >
+                  <img
+                    alt="Photo de profil de mdewaele"
+                    src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+                  />
+                  <p>
+                    Maxence
+                     
+                    De Waele
+                    <span
+                      className="username"
+                    >
+                      (
+                      mdewaele
+                      )
+                    </span>
+                  </p>
+                </div>
+              </li>,
+              <li
+                className=""
+                onClick={[Function]}
+              >
+                <div
+                  className="contact-conv"
+                >
+                  <img
+                    alt="Photo de profil de rodrigodelanoche"
+                    src="https://s3.amazonaws.com/mixture-mixed/21975/17188/img/photos/portraits/dogs/golden-retriever.jpg"
+                  />
+                  <p>
+                    Vincent
+                     
+                    Rodriguez
+                    <span
+                      className="username"
+                    >
+                      (
+                      rodrigodelanoche
+                      )
+                    </span>
+                  </p>
+                </div>
+              </li>,
+              <li
+                className=""
+                onClick={[Function]}
+              >
+                <div
+                  className="contact-conv"
+                >
+                  <img
+                    alt="Photo de profil de erozis"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwMFoeG86Nz19Ve8Cf2FqpdiMd9Q8r6cYS1lgmPKZCxJfvb7kK"
+                  />
+                  <p>
+                    Emilie
+                     
+                    Rozis
+                    <span
+                      className="username"
+                    >
+                      (
+                      erozis
+                      )
+                    </span>
+                  </p>
+                </div>
+              </li>,
+              <li
+                className=""
+                onClick={[Function]}
+              >
+                <div
+                  className="contact-conv"
+                >
+                  <img
+                    alt="Photo de profil de hmoncenis"
+                    src="https://barknbrewwi.com/wp-content/uploads/2017/05/bark-and-brew-dog-img.png"
+                  />
+                  <p>
+                    Hubert
+                     
+                    Montcenis
+                    <span
+                      className="username"
+                    >
+                      (
+                      hmoncenis
+                      )
+                    </span>
+                  </p>
+                </div>
+              </li>,
+              <li
+                className=""
+                onClick={[Function]}
+              >
+                <div
+                  className="contact-conv"
+                >
+                  <img
+                    alt="Photo de profil de vivianeglz"
+                    src="https://img.freepik.com/free-photo/cute-golden-retriever-dog_1204-387.jpg?size=338&ext=jpg"
+                  />
+                  <p>
+                    Viviane
+                     
+                    Gonzalez
+                    <span
+                      className="username"
+                    >
+                      (
+                      vivianeglz
+                      )
+                    </span>
+                  </p>
+                </div>
+              </li>,
+              <li
+                className=""
+                onClick={[Function]}
+              >
+                <div
+                  className="contact-conv"
+                >
+                  <img
+                    alt="Photo de profil de antoinesinety"
+                    src="https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg"
+                  />
+                  <p>
+                    Antoine
+                     
+                    de Sinety
+                    <span
+                      className="username"
+                    >
+                      (
+                      antoinesinety
+                      )
+                    </span>
+                  </p>
+                </div>
+              </li>,
+              <li
+                className=""
+                onClick={[Function]}
+              >
+                <div
+                  className="contact-conv"
+                >
+                  <img
+                    alt="Photo de profil de Floflo36"
+                    src="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.15752-9/31564082_10211602740766358_7499107362326708224_n.jpg?_nc_cat=0&oh=625d3b20b837757df071c3425c13e903&oe=5B506021"
+                  />
+                  <p>
+                     
+                    <span
+                      className="username"
+                    >
+                      (
+                      Floflo36
+                      )
+                    </span>
+                  </p>
+                </div>
+              </li>,
+              <li
+                className=""
+                onClick={[Function]}
+              >
+                <div
+                  className="contact-conv"
+                >
+                  <img
+                    alt="Photo de profil de tgauzin"
+                    src="https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg"
+                  />
+                  <p>
+                    Thomas
+                     
+                    Gauzin
+                    <span
+                      className="username"
+                    >
+                      (
+                      tgauzin
+                      )
+                    </span>
+                  </p>
+                </div>
+              </li>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="contact-conv"
+                >
+                  <img
+                    alt="Photo de profil de epatrois"
+                    src="https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg"
+                  />
+                  <p>
+                    Manu
+                     
+                    Patrois
+                    <span
+                      className="username"
+                    >
+                      (
+                      epatrois
+                      )
+                    </span>
+                  </p>
+                </div>,
+                "className": "active",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <img
+                      alt="Photo de profil de epatrois"
+                      src="https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg"
+                    />,
+                    <p>
+                      Manu
+                       
+                      Patrois
+                      <span
+                        className="username"
+                      >
+                        (
+                        epatrois
+                        )
+                      </span>
+                    </p>,
+                  ],
+                  "className": "contact-conv",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "Photo de profil de epatrois",
+                      "src": "https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "Manu",
+                        " ",
+                        "Patrois",
+                        <span
+                          className="username"
+                        >
+                          (
+                          epatrois
+                          )
+                        </span>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Manu",
+                      " ",
+                      "Patrois",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            "(",
+                            "epatrois",
+                            ")",
+                          ],
+                          "className": "username",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "(",
+                          "epatrois",
+                          ")",
+                        ],
+                        "type": "span",
+                      },
+                    ],
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="contact-conv"
+                >
+                  <img
+                    alt="Photo de profil de mdewaele"
+                    src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+                  />
+                  <p>
+                    Maxence
+                     
+                    De Waele
+                    <span
+                      className="username"
+                    >
+                      (
+                      mdewaele
+                      )
+                    </span>
+                  </p>
+                </div>,
+                "className": "",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <img
+                      alt="Photo de profil de mdewaele"
+                      src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+                    />,
+                    <p>
+                      Maxence
+                       
+                      De Waele
+                      <span
+                        className="username"
+                      >
+                        (
+                        mdewaele
+                        )
+                      </span>
+                    </p>,
+                  ],
+                  "className": "contact-conv",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "Photo de profil de mdewaele",
+                      "src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "Maxence",
+                        " ",
+                        "De Waele",
+                        <span
+                          className="username"
+                        >
+                          (
+                          mdewaele
+                          )
+                        </span>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Maxence",
+                      " ",
+                      "De Waele",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            "(",
+                            "mdewaele",
+                            ")",
+                          ],
+                          "className": "username",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "(",
+                          "mdewaele",
+                          ")",
+                        ],
+                        "type": "span",
+                      },
+                    ],
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="contact-conv"
+                >
+                  <img
+                    alt="Photo de profil de rodrigodelanoche"
+                    src="https://s3.amazonaws.com/mixture-mixed/21975/17188/img/photos/portraits/dogs/golden-retriever.jpg"
+                  />
+                  <p>
+                    Vincent
+                     
+                    Rodriguez
+                    <span
+                      className="username"
+                    >
+                      (
+                      rodrigodelanoche
+                      )
+                    </span>
+                  </p>
+                </div>,
+                "className": "",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <img
+                      alt="Photo de profil de rodrigodelanoche"
+                      src="https://s3.amazonaws.com/mixture-mixed/21975/17188/img/photos/portraits/dogs/golden-retriever.jpg"
+                    />,
+                    <p>
+                      Vincent
+                       
+                      Rodriguez
+                      <span
+                        className="username"
+                      >
+                        (
+                        rodrigodelanoche
+                        )
+                      </span>
+                    </p>,
+                  ],
+                  "className": "contact-conv",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "Photo de profil de rodrigodelanoche",
+                      "src": "https://s3.amazonaws.com/mixture-mixed/21975/17188/img/photos/portraits/dogs/golden-retriever.jpg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "Vincent",
+                        " ",
+                        "Rodriguez",
+                        <span
+                          className="username"
+                        >
+                          (
+                          rodrigodelanoche
+                          )
+                        </span>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Vincent",
+                      " ",
+                      "Rodriguez",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            "(",
+                            "rodrigodelanoche",
+                            ")",
+                          ],
+                          "className": "username",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "(",
+                          "rodrigodelanoche",
+                          ")",
+                        ],
+                        "type": "span",
+                      },
+                    ],
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "3",
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="contact-conv"
+                >
+                  <img
+                    alt="Photo de profil de erozis"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwMFoeG86Nz19Ve8Cf2FqpdiMd9Q8r6cYS1lgmPKZCxJfvb7kK"
+                  />
+                  <p>
+                    Emilie
+                     
+                    Rozis
+                    <span
+                      className="username"
+                    >
+                      (
+                      erozis
+                      )
+                    </span>
+                  </p>
+                </div>,
+                "className": "",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <img
+                      alt="Photo de profil de erozis"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwMFoeG86Nz19Ve8Cf2FqpdiMd9Q8r6cYS1lgmPKZCxJfvb7kK"
+                    />,
+                    <p>
+                      Emilie
+                       
+                      Rozis
+                      <span
+                        className="username"
+                      >
+                        (
+                        erozis
+                        )
+                      </span>
+                    </p>,
+                  ],
+                  "className": "contact-conv",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "Photo de profil de erozis",
+                      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwMFoeG86Nz19Ve8Cf2FqpdiMd9Q8r6cYS1lgmPKZCxJfvb7kK",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "Emilie",
+                        " ",
+                        "Rozis",
+                        <span
+                          className="username"
+                        >
+                          (
+                          erozis
+                          )
+                        </span>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Emilie",
+                      " ",
+                      "Rozis",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            "(",
+                            "erozis",
+                            ")",
+                          ],
+                          "className": "username",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "(",
+                          "erozis",
+                          ")",
+                        ],
+                        "type": "span",
+                      },
+                    ],
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "4",
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="contact-conv"
+                >
+                  <img
+                    alt="Photo de profil de hmoncenis"
+                    src="https://barknbrewwi.com/wp-content/uploads/2017/05/bark-and-brew-dog-img.png"
+                  />
+                  <p>
+                    Hubert
+                     
+                    Montcenis
+                    <span
+                      className="username"
+                    >
+                      (
+                      hmoncenis
+                      )
+                    </span>
+                  </p>
+                </div>,
+                "className": "",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <img
+                      alt="Photo de profil de hmoncenis"
+                      src="https://barknbrewwi.com/wp-content/uploads/2017/05/bark-and-brew-dog-img.png"
+                    />,
+                    <p>
+                      Hubert
+                       
+                      Montcenis
+                      <span
+                        className="username"
+                      >
+                        (
+                        hmoncenis
+                        )
+                      </span>
+                    </p>,
+                  ],
+                  "className": "contact-conv",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "Photo de profil de hmoncenis",
+                      "src": "https://barknbrewwi.com/wp-content/uploads/2017/05/bark-and-brew-dog-img.png",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "Hubert",
+                        " ",
+                        "Montcenis",
+                        <span
+                          className="username"
+                        >
+                          (
+                          hmoncenis
+                          )
+                        </span>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Hubert",
+                      " ",
+                      "Montcenis",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            "(",
+                            "hmoncenis",
+                            ")",
+                          ],
+                          "className": "username",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "(",
+                          "hmoncenis",
+                          ")",
+                        ],
+                        "type": "span",
+                      },
+                    ],
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "5",
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="contact-conv"
+                >
+                  <img
+                    alt="Photo de profil de vivianeglz"
+                    src="https://img.freepik.com/free-photo/cute-golden-retriever-dog_1204-387.jpg?size=338&ext=jpg"
+                  />
+                  <p>
+                    Viviane
+                     
+                    Gonzalez
+                    <span
+                      className="username"
+                    >
+                      (
+                      vivianeglz
+                      )
+                    </span>
+                  </p>
+                </div>,
+                "className": "",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <img
+                      alt="Photo de profil de vivianeglz"
+                      src="https://img.freepik.com/free-photo/cute-golden-retriever-dog_1204-387.jpg?size=338&ext=jpg"
+                    />,
+                    <p>
+                      Viviane
+                       
+                      Gonzalez
+                      <span
+                        className="username"
+                      >
+                        (
+                        vivianeglz
+                        )
+                      </span>
+                    </p>,
+                  ],
+                  "className": "contact-conv",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "Photo de profil de vivianeglz",
+                      "src": "https://img.freepik.com/free-photo/cute-golden-retriever-dog_1204-387.jpg?size=338&ext=jpg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "Viviane",
+                        " ",
+                        "Gonzalez",
+                        <span
+                          className="username"
+                        >
+                          (
+                          vivianeglz
+                          )
+                        </span>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Viviane",
+                      " ",
+                      "Gonzalez",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            "(",
+                            "vivianeglz",
+                            ")",
+                          ],
+                          "className": "username",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "(",
+                          "vivianeglz",
+                          ")",
+                        ],
+                        "type": "span",
+                      },
+                    ],
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "6",
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="contact-conv"
+                >
+                  <img
+                    alt="Photo de profil de antoinesinety"
+                    src="https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg"
+                  />
+                  <p>
+                    Antoine
+                     
+                    de Sinety
+                    <span
+                      className="username"
+                    >
+                      (
+                      antoinesinety
+                      )
+                    </span>
+                  </p>
+                </div>,
+                "className": "",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <img
+                      alt="Photo de profil de antoinesinety"
+                      src="https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg"
+                    />,
+                    <p>
+                      Antoine
+                       
+                      de Sinety
+                      <span
+                        className="username"
+                      >
+                        (
+                        antoinesinety
+                        )
+                      </span>
+                    </p>,
+                  ],
+                  "className": "contact-conv",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "Photo de profil de antoinesinety",
+                      "src": "https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "Antoine",
+                        " ",
+                        "de Sinety",
+                        <span
+                          className="username"
+                        >
+                          (
+                          antoinesinety
+                          )
+                        </span>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Antoine",
+                      " ",
+                      "de Sinety",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            "(",
+                            "antoinesinety",
+                            ")",
+                          ],
+                          "className": "username",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "(",
+                          "antoinesinety",
+                          ")",
+                        ],
+                        "type": "span",
+                      },
+                    ],
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "7",
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="contact-conv"
+                >
+                  <img
+                    alt="Photo de profil de Floflo36"
+                    src="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.15752-9/31564082_10211602740766358_7499107362326708224_n.jpg?_nc_cat=0&oh=625d3b20b837757df071c3425c13e903&oe=5B506021"
+                  />
+                  <p>
+                     
+                    <span
+                      className="username"
+                    >
+                      (
+                      Floflo36
+                      )
+                    </span>
+                  </p>
+                </div>,
+                "className": "",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <img
+                      alt="Photo de profil de Floflo36"
+                      src="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.15752-9/31564082_10211602740766358_7499107362326708224_n.jpg?_nc_cat=0&oh=625d3b20b837757df071c3425c13e903&oe=5B506021"
+                    />,
+                    <p>
+                       
+                      <span
+                        className="username"
+                      >
+                        (
+                        Floflo36
+                        )
+                      </span>
+                    </p>,
+                  ],
+                  "className": "contact-conv",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "Photo de profil de Floflo36",
+                      "src": "https://scontent-cdt1-1.xx.fbcdn.net/v/t1.15752-9/31564082_10211602740766358_7499107362326708224_n.jpg?_nc_cat=0&oh=625d3b20b837757df071c3425c13e903&oe=5B506021",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        undefined,
+                        " ",
+                        undefined,
+                        <span
+                          className="username"
+                        >
+                          (
+                          Floflo36
+                          )
+                        </span>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      undefined,
+                      " ",
+                      undefined,
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            "(",
+                            "Floflo36",
+                            ")",
+                          ],
+                          "className": "username",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "(",
+                          "Floflo36",
+                          ")",
+                        ],
+                        "type": "span",
+                      },
+                    ],
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "8",
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="contact-conv"
+                >
+                  <img
+                    alt="Photo de profil de tgauzin"
+                    src="https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg"
+                  />
+                  <p>
+                    Thomas
+                     
+                    Gauzin
+                    <span
+                      className="username"
+                    >
+                      (
+                      tgauzin
+                      )
+                    </span>
+                  </p>
+                </div>,
+                "className": "",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <img
+                      alt="Photo de profil de tgauzin"
+                      src="https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg"
+                    />,
+                    <p>
+                      Thomas
+                       
+                      Gauzin
+                      <span
+                        className="username"
+                      >
+                        (
+                        tgauzin
+                        )
+                      </span>
+                    </p>,
+                  ],
+                  "className": "contact-conv",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "Photo de profil de tgauzin",
+                      "src": "https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "Thomas",
+                        " ",
+                        "Gauzin",
+                        <span
+                          className="username"
+                        >
+                          (
+                          tgauzin
+                          )
+                        </span>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Thomas",
+                      " ",
+                      "Gauzin",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            "(",
+                            "tgauzin",
+                            ")",
+                          ],
+                          "className": "username",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "(",
+                          "tgauzin",
+                          ")",
+                        ],
+                        "type": "span",
+                      },
+                    ],
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

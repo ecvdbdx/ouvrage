@@ -1,16 +1,20 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
-import students from './../../../mocks/students';
+import { shallow } from 'enzyme';
+
 import Contacts from '../chat/Contacts';
+
+import students from './../../../mocks/students';
 
 const openConversationMock = jest.fn();
 
 it('renders correctly', () => {
-  const tree = renderer
-    .create(<Contacts students={students}
+  const wrapper = shallow(
+    <Contacts
+      students={students}
       currentContact={students[0]}
-      openConversation={openConversationMock} />)
-    .toJSON();
-  expect(tree).toMatchSnapshot();
+      openConversation={openConversationMock}
+    />
+  );
+  expect(wrapper).toMatchSnapshot();
 });
 

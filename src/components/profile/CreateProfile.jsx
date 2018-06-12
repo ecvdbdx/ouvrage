@@ -11,7 +11,7 @@ const schema = {
   avatar: Joi.string()
 };
 
-export default class CreateProfil extends React.Component {
+export default class CreateProfile extends React.Component {
   constructor () {
     super();
 

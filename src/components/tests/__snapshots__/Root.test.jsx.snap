@@ -1,58 +1,321 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<div>
-  <header>
-    <h1>
-      Ouvrage - ECV Digital Bordeaux
-    </h1>
-    <p>
-      Ouvrage
-    </p>
-  </header>
-  <div>
-    <button
-      onClick={[Function]}
-    >
-      Accueil
-    </button>
-    <button
-      onClick={[Function]}
-    >
-      Accéder au chat
-    </button>
-    <button
-      onClick={[Function]}
-    >
-      Mon profil
-    </button>
-    <button
-      onClick={[Function]}
-    >
-      Créer un profil
-    </button>
-  </div>
-  <div>
-    <section>
-      <header>
-        <h2>
-          L'ECV DIGITAL
-        </h2>
-      </header>
-      <p>
-        L’ECV Digital a été créée afin de combler les besoins du marché de l’emploi qui manque cruellement de profils web pour accompagner la transformation digitale de toutes les entreprises et de l’économie en général. Située à Paris, Nantes, Bordeaux et Aix-en-Provence, l’ECV Digital, l’école du numérique et du Web, forme à tous les métiers du digital. Issue du groupe ECV (École de Communication Visuelle), l’école se positionne comme une école généraliste du secteur internet. Son objectif est de former des profils polyvalents intégrant les compétences techniques, créatives et marketing.
-      </p>
-    </section>
-    <section>
-      <header>
-        <h2>
-          Voici la liste des classes
-        </h2>
-      </header>
-      <ol
-        className="grid-3"
-      />
-    </section>
-  </div>
-</div>
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Root />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Header
+          title="Ouvrage"
+        />,
+        <div>
+          <button
+            onClick={[Function]}
+          >
+            Accueil
+          </button>
+          <button
+            onClick={[Function]}
+          >
+            Accéder au chat
+          </button>
+          <button
+            onClick={[Function]}
+          >
+            Mon profil
+          </button>
+          <button
+            onClick={[Function]}
+          >
+            Créer un profil
+          </button>
+        </div>,
+        <Home
+          oneClass={[Function]}
+          promos={Array []}
+          students={Array []}
+        />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "title": "Ouvrage",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <button
+              onClick={[Function]}
+            >
+              Accueil
+            </button>,
+            <button
+              onClick={[Function]}
+            >
+              Accéder au chat
+            </button>,
+            <button
+              onClick={[Function]}
+            >
+              Mon profil
+            </button>,
+            <button
+              onClick={[Function]}
+            >
+              Créer un profil
+            </button>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Accueil",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Accueil",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Accéder au chat",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Accéder au chat",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Mon profil",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Mon profil",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Créer un profil",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Créer un profil",
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "oneClass": [Function],
+          "promos": Array [],
+          "students": Array [],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Header
+            title="Ouvrage"
+          />,
+          <div>
+            <button
+              onClick={[Function]}
+            >
+              Accueil
+            </button>
+            <button
+              onClick={[Function]}
+            >
+              Accéder au chat
+            </button>
+            <button
+              onClick={[Function]}
+            >
+              Mon profil
+            </button>
+            <button
+              onClick={[Function]}
+            >
+              Créer un profil
+            </button>
+          </div>,
+          <Home
+            oneClass={[Function]}
+            promos={Array []}
+            students={Array []}
+          />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "title": "Ouvrage",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <button
+                onClick={[Function]}
+              >
+                Accueil
+              </button>,
+              <button
+                onClick={[Function]}
+              >
+                Accéder au chat
+              </button>,
+              <button
+                onClick={[Function]}
+              >
+                Mon profil
+              </button>,
+              <button
+                onClick={[Function]}
+              >
+                Créer un profil
+              </button>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Accueil",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Accueil",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Accéder au chat",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Accéder au chat",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Mon profil",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Mon profil",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Créer un profil",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Créer un profil",
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "oneClass": [Function],
+            "promos": Array [],
+            "students": Array [],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
 `;

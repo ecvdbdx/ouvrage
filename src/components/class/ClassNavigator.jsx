@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Class from './classes/Class.jsx';
+import Class from './Class.jsx';
 
 export default class ClassNavigator extends React.Component {
   constructor (props) {

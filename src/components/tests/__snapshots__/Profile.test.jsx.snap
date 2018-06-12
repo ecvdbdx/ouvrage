@@ -1,116 +1,1493 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<div
-  id="show-profile"
->
-  <div
-    className="wrap-header"
-  >
-    <h1
-      className="title"
-    >
-      Vincent
-       
-      Rodriguez
-    </h1>
-    <button
-      onClick={[Function]}
-    >
-      Modifier
-    </button>
-    <button
-      onClick={[Function]}
-    >
-      Supprimer
-    </button>
-  </div>
-  <div
-    className="wrap-content"
-  >
-    <div
-      className="wrap-datas"
-    >
-      <div
-        className="avatar"
-      >
-        <img
-          alt="avatar"
-          src="https://s3.amazonaws.com/mixture-mixed/21975/17188/img/photos/portraits/dogs/golden-retriever.jpg"
-        />
-      </div>
-      <div
-        className="github"
-      >
-        <h2
-          className="subtitle"
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Profile
+    student={
+      Object {
+        "avatar": "https://s3.amazonaws.com/mixture-mixed/21975/17188/img/photos/portraits/dogs/golden-retriever.jpg",
+        "birthdate": "14/05/1413",
+        "email": "vincentrodrigu@hotmail.fr",
+        "firstName": "Vincent",
+        "id": "8",
+        "lastName": "Rodriguez",
+        "username": "rodrigodelanoche",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="wrap-header"
         >
-          Profil Github
-        </h2>
-        <p>
-          <span
-            className="key"
+          <h1
+            className="title"
           >
-            Login : 
-          </span>
-        </p>
-        <p>
-          <span
-            className="key"
+            Vincent
+             
+            Rodriguez
+          </h1>
+          <EditBtn
+            handleClick={[Function]}
+          />
+          <button
+            onClick={[Function]}
           >
-            Created at : 
-          </span>
-          10-06-2018
-        </p>
-        <p>
-          <span
-            className="key"
+            Supprimer
+          </button>
+        </div>,
+        <div
+          className="wrap-content"
+        >
+          <div
+            className="wrap-datas"
           >
-            Followers : 
-          </span>
-        </p>
-        <p>
-          <span
-            className="key"
+            <div
+              className="avatar"
+            >
+              <img
+                alt="avatar"
+                src="https://s3.amazonaws.com/mixture-mixed/21975/17188/img/photos/portraits/dogs/golden-retriever.jpg"
+              />
+            </div>
+            <div
+              className="github"
+            >
+              <h2
+                className="subtitle"
+              >
+                Profil Github
+              </h2>
+              <p>
+                <span
+                  className="key"
+                >
+                  Login : 
+                </span>
+              </p>
+              <p>
+                <span
+                  className="key"
+                >
+                  Created at : 
+                </span>
+                12-06-2018
+              </p>
+              <p>
+                <span
+                  className="key"
+                >
+                  Followers : 
+                </span>
+              </p>
+              <p>
+                <span
+                  className="key"
+                >
+                  Following : 
+                </span>
+              </p>
+              <p>
+                <span
+                  className="key"
+                >
+                  Public repos : 
+                </span>
+              </p>
+              <ul>
+                
+              </ul>
+            </div>
+          </div>
+          <div
+            className="content"
           >
-            Following : 
-          </span>
-        </p>
-        <p>
-          <span
-            className="key"
+            <h2
+              className="subtitle"
+            >
+              Profil personnel
+            </h2>
+            <p>
+              Vincent
+                
+              Rodriguez
+            </p>
+            <p>
+              rodrigodelanoche
+            </p>
+            <p>
+              vincentrodrigu@hotmail.fr
+            </p>
+            <p>
+              2018-06-12
+            </p>
+          </div>
+        </div>,
+      ],
+      "id": "show-profile",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h1
+              className="title"
+            >
+              Vincent
+               
+              Rodriguez
+            </h1>,
+            <EditBtn
+              handleClick={[Function]}
+            />,
+            <button
+              onClick={[Function]}
+            >
+              Supprimer
+            </button>,
+          ],
+          "className": "wrap-header",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Vincent",
+                " ",
+                "Rodriguez",
+              ],
+              "className": "title",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Vincent",
+              " ",
+              "Rodriguez",
+            ],
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "handleClick": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Supprimer",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Supprimer",
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="wrap-datas"
+            >
+              <div
+                className="avatar"
+              >
+                <img
+                  alt="avatar"
+                  src="https://s3.amazonaws.com/mixture-mixed/21975/17188/img/photos/portraits/dogs/golden-retriever.jpg"
+                />
+              </div>
+              <div
+                className="github"
+              >
+                <h2
+                  className="subtitle"
+                >
+                  Profil Github
+                </h2>
+                <p>
+                  <span
+                    className="key"
+                  >
+                    Login : 
+                  </span>
+                </p>
+                <p>
+                  <span
+                    className="key"
+                  >
+                    Created at : 
+                  </span>
+                  12-06-2018
+                </p>
+                <p>
+                  <span
+                    className="key"
+                  >
+                    Followers : 
+                  </span>
+                </p>
+                <p>
+                  <span
+                    className="key"
+                  >
+                    Following : 
+                  </span>
+                </p>
+                <p>
+                  <span
+                    className="key"
+                  >
+                    Public repos : 
+                  </span>
+                </p>
+                <ul>
+                  
+                </ul>
+              </div>
+            </div>,
+            <div
+              className="content"
+            >
+              <h2
+                className="subtitle"
+              >
+                Profil personnel
+              </h2>
+              <p>
+                Vincent
+                  
+                Rodriguez
+              </p>
+              <p>
+                rodrigodelanoche
+              </p>
+              <p>
+                vincentrodrigu@hotmail.fr
+              </p>
+              <p>
+                2018-06-12
+              </p>
+            </div>,
+          ],
+          "className": "wrap-content",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="avatar"
+                >
+                  <img
+                    alt="avatar"
+                    src="https://s3.amazonaws.com/mixture-mixed/21975/17188/img/photos/portraits/dogs/golden-retriever.jpg"
+                  />
+                </div>,
+                <div
+                  className="github"
+                >
+                  <h2
+                    className="subtitle"
+                  >
+                    Profil Github
+                  </h2>
+                  <p>
+                    <span
+                      className="key"
+                    >
+                      Login : 
+                    </span>
+                  </p>
+                  <p>
+                    <span
+                      className="key"
+                    >
+                      Created at : 
+                    </span>
+                    12-06-2018
+                  </p>
+                  <p>
+                    <span
+                      className="key"
+                    >
+                      Followers : 
+                    </span>
+                  </p>
+                  <p>
+                    <span
+                      className="key"
+                    >
+                      Following : 
+                    </span>
+                  </p>
+                  <p>
+                    <span
+                      className="key"
+                    >
+                      Public repos : 
+                    </span>
+                  </p>
+                  <ul>
+                    
+                  </ul>
+                </div>,
+              ],
+              "className": "wrap-datas",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <img
+                    alt="avatar"
+                    src="https://s3.amazonaws.com/mixture-mixed/21975/17188/img/photos/portraits/dogs/golden-retriever.jpg"
+                  />,
+                  "className": "avatar",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "avatar",
+                    "src": "https://s3.amazonaws.com/mixture-mixed/21975/17188/img/photos/portraits/dogs/golden-retriever.jpg",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <h2
+                      className="subtitle"
+                    >
+                      Profil Github
+                    </h2>,
+                    <p>
+                      <span
+                        className="key"
+                      >
+                        Login : 
+                      </span>
+                    </p>,
+                    <p>
+                      <span
+                        className="key"
+                      >
+                        Created at : 
+                      </span>
+                      12-06-2018
+                    </p>,
+                    <p>
+                      <span
+                        className="key"
+                      >
+                        Followers : 
+                      </span>
+                    </p>,
+                    <p>
+                      <span
+                        className="key"
+                      >
+                        Following : 
+                      </span>
+                    </p>,
+                    <p>
+                      <span
+                        className="key"
+                      >
+                        Public repos : 
+                      </span>
+                    </p>,
+                    <ul>
+                      
+                    </ul>,
+                  ],
+                  "className": "github",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Profil Github",
+                      "className": "subtitle",
+                    },
+                    "ref": null,
+                    "rendered": "Profil Github",
+                    "type": "h2",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <span
+                          className="key"
+                        >
+                          Login : 
+                        </span>,
+                        undefined,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Login : ",
+                          "className": "key",
+                        },
+                        "ref": null,
+                        "rendered": "Login : ",
+                        "type": "span",
+                      },
+                      undefined,
+                    ],
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <span
+                          className="key"
+                        >
+                          Created at : 
+                        </span>,
+                        "12-06-2018",
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Created at : ",
+                          "className": "key",
+                        },
+                        "ref": null,
+                        "rendered": "Created at : ",
+                        "type": "span",
+                      },
+                      "12-06-2018",
+                    ],
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <span
+                          className="key"
+                        >
+                          Followers : 
+                        </span>,
+                        undefined,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Followers : ",
+                          "className": "key",
+                        },
+                        "ref": null,
+                        "rendered": "Followers : ",
+                        "type": "span",
+                      },
+                      undefined,
+                    ],
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <span
+                          className="key"
+                        >
+                          Following : 
+                        </span>,
+                        undefined,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Following : ",
+                          "className": "key",
+                        },
+                        "ref": null,
+                        "rendered": "Following : ",
+                        "type": "span",
+                      },
+                      undefined,
+                    ],
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <span
+                          className="key"
+                        >
+                          Public repos : 
+                        </span>,
+                        undefined,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Public repos : ",
+                          "className": "key",
+                        },
+                        "ref": null,
+                        "rendered": "Public repos : ",
+                        "type": "span",
+                      },
+                      undefined,
+                    ],
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        Array [],
+                        "",
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "",
+                    ],
+                    "type": "ul",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h2
+                  className="subtitle"
+                >
+                  Profil personnel
+                </h2>,
+                <p>
+                  Vincent
+                    
+                  Rodriguez
+                </p>,
+                <p>
+                  rodrigodelanoche
+                </p>,
+                <p>
+                  vincentrodrigu@hotmail.fr
+                </p>,
+                <p>
+                  2018-06-12
+                </p>,
+              ],
+              "className": "content",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Profil personnel",
+                  "className": "subtitle",
+                },
+                "ref": null,
+                "rendered": "Profil personnel",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Vincent",
+                    "  ",
+                    "Rodriguez",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Vincent",
+                  "  ",
+                  "Rodriguez",
+                ],
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "rodrigodelanoche",
+                },
+                "ref": null,
+                "rendered": "rodrigodelanoche",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "vincentrodrigu@hotmail.fr",
+                },
+                "ref": null,
+                "rendered": "vincentrodrigu@hotmail.fr",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "2018-06-12",
+                },
+                "ref": null,
+                "rendered": "2018-06-12",
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="wrap-header"
           >
-            Public repos : 
-          </span>
-        </p>
-        <ul>
-          
-        </ul>
-      </div>
-    </div>
-    <div
-      className="content"
-    >
-      <h2
-        className="subtitle"
-      >
-        Profil personnel
-      </h2>
-      <p>
-        Vincent
-          
-        Rodriguez
-      </p>
-      <p>
-        rodrigodelanoche
-      </p>
-      <p>
-        vincentrodrigu@hotmail.fr
-      </p>
-      <p>
-        2018-06-10
-      </p>
-    </div>
-  </div>
-</div>
+            <h1
+              className="title"
+            >
+              Vincent
+               
+              Rodriguez
+            </h1>
+            <EditBtn
+              handleClick={[Function]}
+            />
+            <button
+              onClick={[Function]}
+            >
+              Supprimer
+            </button>
+          </div>,
+          <div
+            className="wrap-content"
+          >
+            <div
+              className="wrap-datas"
+            >
+              <div
+                className="avatar"
+              >
+                <img
+                  alt="avatar"
+                  src="https://s3.amazonaws.com/mixture-mixed/21975/17188/img/photos/portraits/dogs/golden-retriever.jpg"
+                />
+              </div>
+              <div
+                className="github"
+              >
+                <h2
+                  className="subtitle"
+                >
+                  Profil Github
+                </h2>
+                <p>
+                  <span
+                    className="key"
+                  >
+                    Login : 
+                  </span>
+                </p>
+                <p>
+                  <span
+                    className="key"
+                  >
+                    Created at : 
+                  </span>
+                  12-06-2018
+                </p>
+                <p>
+                  <span
+                    className="key"
+                  >
+                    Followers : 
+                  </span>
+                </p>
+                <p>
+                  <span
+                    className="key"
+                  >
+                    Following : 
+                  </span>
+                </p>
+                <p>
+                  <span
+                    className="key"
+                  >
+                    Public repos : 
+                  </span>
+                </p>
+                <ul>
+                  
+                </ul>
+              </div>
+            </div>
+            <div
+              className="content"
+            >
+              <h2
+                className="subtitle"
+              >
+                Profil personnel
+              </h2>
+              <p>
+                Vincent
+                  
+                Rodriguez
+              </p>
+              <p>
+                rodrigodelanoche
+              </p>
+              <p>
+                vincentrodrigu@hotmail.fr
+              </p>
+              <p>
+                2018-06-12
+              </p>
+            </div>
+          </div>,
+        ],
+        "id": "show-profile",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h1
+                className="title"
+              >
+                Vincent
+                 
+                Rodriguez
+              </h1>,
+              <EditBtn
+                handleClick={[Function]}
+              />,
+              <button
+                onClick={[Function]}
+              >
+                Supprimer
+              </button>,
+            ],
+            "className": "wrap-header",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Vincent",
+                  " ",
+                  "Rodriguez",
+                ],
+                "className": "title",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Vincent",
+                " ",
+                "Rodriguez",
+              ],
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "handleClick": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Supprimer",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Supprimer",
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="wrap-datas"
+              >
+                <div
+                  className="avatar"
+                >
+                  <img
+                    alt="avatar"
+                    src="https://s3.amazonaws.com/mixture-mixed/21975/17188/img/photos/portraits/dogs/golden-retriever.jpg"
+                  />
+                </div>
+                <div
+                  className="github"
+                >
+                  <h2
+                    className="subtitle"
+                  >
+                    Profil Github
+                  </h2>
+                  <p>
+                    <span
+                      className="key"
+                    >
+                      Login : 
+                    </span>
+                  </p>
+                  <p>
+                    <span
+                      className="key"
+                    >
+                      Created at : 
+                    </span>
+                    12-06-2018
+                  </p>
+                  <p>
+                    <span
+                      className="key"
+                    >
+                      Followers : 
+                    </span>
+                  </p>
+                  <p>
+                    <span
+                      className="key"
+                    >
+                      Following : 
+                    </span>
+                  </p>
+                  <p>
+                    <span
+                      className="key"
+                    >
+                      Public repos : 
+                    </span>
+                  </p>
+                  <ul>
+                    
+                  </ul>
+                </div>
+              </div>,
+              <div
+                className="content"
+              >
+                <h2
+                  className="subtitle"
+                >
+                  Profil personnel
+                </h2>
+                <p>
+                  Vincent
+                    
+                  Rodriguez
+                </p>
+                <p>
+                  rodrigodelanoche
+                </p>
+                <p>
+                  vincentrodrigu@hotmail.fr
+                </p>
+                <p>
+                  2018-06-12
+                </p>
+              </div>,
+            ],
+            "className": "wrap-content",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="avatar"
+                  >
+                    <img
+                      alt="avatar"
+                      src="https://s3.amazonaws.com/mixture-mixed/21975/17188/img/photos/portraits/dogs/golden-retriever.jpg"
+                    />
+                  </div>,
+                  <div
+                    className="github"
+                  >
+                    <h2
+                      className="subtitle"
+                    >
+                      Profil Github
+                    </h2>
+                    <p>
+                      <span
+                        className="key"
+                      >
+                        Login : 
+                      </span>
+                    </p>
+                    <p>
+                      <span
+                        className="key"
+                      >
+                        Created at : 
+                      </span>
+                      12-06-2018
+                    </p>
+                    <p>
+                      <span
+                        className="key"
+                      >
+                        Followers : 
+                      </span>
+                    </p>
+                    <p>
+                      <span
+                        className="key"
+                      >
+                        Following : 
+                      </span>
+                    </p>
+                    <p>
+                      <span
+                        className="key"
+                      >
+                        Public repos : 
+                      </span>
+                    </p>
+                    <ul>
+                      
+                    </ul>
+                  </div>,
+                ],
+                "className": "wrap-datas",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <img
+                      alt="avatar"
+                      src="https://s3.amazonaws.com/mixture-mixed/21975/17188/img/photos/portraits/dogs/golden-retriever.jpg"
+                    />,
+                    "className": "avatar",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "avatar",
+                      "src": "https://s3.amazonaws.com/mixture-mixed/21975/17188/img/photos/portraits/dogs/golden-retriever.jpg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h2
+                        className="subtitle"
+                      >
+                        Profil Github
+                      </h2>,
+                      <p>
+                        <span
+                          className="key"
+                        >
+                          Login : 
+                        </span>
+                      </p>,
+                      <p>
+                        <span
+                          className="key"
+                        >
+                          Created at : 
+                        </span>
+                        12-06-2018
+                      </p>,
+                      <p>
+                        <span
+                          className="key"
+                        >
+                          Followers : 
+                        </span>
+                      </p>,
+                      <p>
+                        <span
+                          className="key"
+                        >
+                          Following : 
+                        </span>
+                      </p>,
+                      <p>
+                        <span
+                          className="key"
+                        >
+                          Public repos : 
+                        </span>
+                      </p>,
+                      <ul>
+                        
+                      </ul>,
+                    ],
+                    "className": "github",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Profil Github",
+                        "className": "subtitle",
+                      },
+                      "ref": null,
+                      "rendered": "Profil Github",
+                      "type": "h2",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <span
+                            className="key"
+                          >
+                            Login : 
+                          </span>,
+                          undefined,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Login : ",
+                            "className": "key",
+                          },
+                          "ref": null,
+                          "rendered": "Login : ",
+                          "type": "span",
+                        },
+                        undefined,
+                      ],
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <span
+                            className="key"
+                          >
+                            Created at : 
+                          </span>,
+                          "12-06-2018",
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Created at : ",
+                            "className": "key",
+                          },
+                          "ref": null,
+                          "rendered": "Created at : ",
+                          "type": "span",
+                        },
+                        "12-06-2018",
+                      ],
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <span
+                            className="key"
+                          >
+                            Followers : 
+                          </span>,
+                          undefined,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Followers : ",
+                            "className": "key",
+                          },
+                          "ref": null,
+                          "rendered": "Followers : ",
+                          "type": "span",
+                        },
+                        undefined,
+                      ],
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <span
+                            className="key"
+                          >
+                            Following : 
+                          </span>,
+                          undefined,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Following : ",
+                            "className": "key",
+                          },
+                          "ref": null,
+                          "rendered": "Following : ",
+                          "type": "span",
+                        },
+                        undefined,
+                      ],
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <span
+                            className="key"
+                          >
+                            Public repos : 
+                          </span>,
+                          undefined,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Public repos : ",
+                            "className": "key",
+                          },
+                          "ref": null,
+                          "rendered": "Public repos : ",
+                          "type": "span",
+                        },
+                        undefined,
+                      ],
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          Array [],
+                          "",
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "",
+                      ],
+                      "type": "ul",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h2
+                    className="subtitle"
+                  >
+                    Profil personnel
+                  </h2>,
+                  <p>
+                    Vincent
+                      
+                    Rodriguez
+                  </p>,
+                  <p>
+                    rodrigodelanoche
+                  </p>,
+                  <p>
+                    vincentrodrigu@hotmail.fr
+                  </p>,
+                  <p>
+                    2018-06-12
+                  </p>,
+                ],
+                "className": "content",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Profil personnel",
+                    "className": "subtitle",
+                  },
+                  "ref": null,
+                  "rendered": "Profil personnel",
+                  "type": "h2",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Vincent",
+                      "  ",
+                      "Rodriguez",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Vincent",
+                    "  ",
+                    "Rodriguez",
+                  ],
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "rodrigodelanoche",
+                  },
+                  "ref": null,
+                  "rendered": "rodrigodelanoche",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "vincentrodrigu@hotmail.fr",
+                  },
+                  "ref": null,
+                  "rendered": "vincentrodrigu@hotmail.fr",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "2018-06-12",
+                  },
+                  "ref": null,
+                  "rendered": "2018-06-12",
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
 `;

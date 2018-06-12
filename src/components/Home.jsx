@@ -43,7 +43,7 @@ class PromoList extends React.Component {
         key={promo.id}
         oneClass={this.props.oneClass}
         students={this.props.students}
-        chief={this.props.students.filter(student => student.aid === promo.idChief)[0]}/>)
+        chief={this.props.students.filter(student => student.airtable_id === promo.idChief)[0]}/>)
     );
     return (
       <ol className="grid-3">

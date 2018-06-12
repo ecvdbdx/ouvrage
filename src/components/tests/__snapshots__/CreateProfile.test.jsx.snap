@@ -1,0 +1,457 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CreateProfile />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <form>
+          <input
+            name="first_name"
+            onChange={[Function]}
+            placeholder="Firstname"
+            type="text"
+            value=""
+          />
+          <input
+            name="username"
+            onChange={[Function]}
+            placeholder="Username"
+            type="text"
+            value=""
+          />
+          <input
+            name="last_name"
+            onChange={[Function]}
+            placeholder="Lastname"
+            type="text"
+            value=""
+          />
+          <input
+            name="email"
+            onChange={[Function]}
+            placeholder="Email"
+            type="email"
+            value=""
+          />
+          <input
+            name="birthdate"
+            onChange={[Function]}
+            placeholder="Birthdate"
+            type="date"
+            value=""
+          />
+          <input
+            name="avatar"
+            onChange={[Function]}
+            type="file"
+            value=""
+          />
+        </form>,
+        <button
+          onClick={[Function]}
+        >
+          Add profil
+        </button>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <input
+              name="first_name"
+              onChange={[Function]}
+              placeholder="Firstname"
+              type="text"
+              value=""
+            />,
+            <input
+              name="username"
+              onChange={[Function]}
+              placeholder="Username"
+              type="text"
+              value=""
+            />,
+            <input
+              name="last_name"
+              onChange={[Function]}
+              placeholder="Lastname"
+              type="text"
+              value=""
+            />,
+            <input
+              name="email"
+              onChange={[Function]}
+              placeholder="Email"
+              type="email"
+              value=""
+            />,
+            <input
+              name="birthdate"
+              onChange={[Function]}
+              placeholder="Birthdate"
+              type="date"
+              value=""
+            />,
+            <input
+              name="avatar"
+              onChange={[Function]}
+              type="file"
+              value=""
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "name": "first_name",
+              "onChange": [Function],
+              "placeholder": "Firstname",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "name": "username",
+              "onChange": [Function],
+              "placeholder": "Username",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "name": "last_name",
+              "onChange": [Function],
+              "placeholder": "Lastname",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "name": "email",
+              "onChange": [Function],
+              "placeholder": "Email",
+              "type": "email",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "name": "birthdate",
+              "onChange": [Function],
+              "placeholder": "Birthdate",
+              "type": "date",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "name": "avatar",
+              "onChange": [Function],
+              "type": "file",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "form",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Add profil",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Add profil",
+        "type": "button",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <form>
+            <input
+              name="first_name"
+              onChange={[Function]}
+              placeholder="Firstname"
+              type="text"
+              value=""
+            />
+            <input
+              name="username"
+              onChange={[Function]}
+              placeholder="Username"
+              type="text"
+              value=""
+            />
+            <input
+              name="last_name"
+              onChange={[Function]}
+              placeholder="Lastname"
+              type="text"
+              value=""
+            />
+            <input
+              name="email"
+              onChange={[Function]}
+              placeholder="Email"
+              type="email"
+              value=""
+            />
+            <input
+              name="birthdate"
+              onChange={[Function]}
+              placeholder="Birthdate"
+              type="date"
+              value=""
+            />
+            <input
+              name="avatar"
+              onChange={[Function]}
+              type="file"
+              value=""
+            />
+          </form>,
+          <button
+            onClick={[Function]}
+          >
+            Add profil
+          </button>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <input
+                name="first_name"
+                onChange={[Function]}
+                placeholder="Firstname"
+                type="text"
+                value=""
+              />,
+              <input
+                name="username"
+                onChange={[Function]}
+                placeholder="Username"
+                type="text"
+                value=""
+              />,
+              <input
+                name="last_name"
+                onChange={[Function]}
+                placeholder="Lastname"
+                type="text"
+                value=""
+              />,
+              <input
+                name="email"
+                onChange={[Function]}
+                placeholder="Email"
+                type="email"
+                value=""
+              />,
+              <input
+                name="birthdate"
+                onChange={[Function]}
+                placeholder="Birthdate"
+                type="date"
+                value=""
+              />,
+              <input
+                name="avatar"
+                onChange={[Function]}
+                type="file"
+                value=""
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "first_name",
+                "onChange": [Function],
+                "placeholder": "Firstname",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "username",
+                "onChange": [Function],
+                "placeholder": "Username",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "last_name",
+                "onChange": [Function],
+                "placeholder": "Lastname",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "email",
+                "onChange": [Function],
+                "placeholder": "Email",
+                "type": "email",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "birthdate",
+                "onChange": [Function],
+                "placeholder": "Birthdate",
+                "type": "date",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "avatar",
+                "onChange": [Function],
+                "type": "file",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "form",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Add profil",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Add profil",
+          "type": "button",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
