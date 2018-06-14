@@ -14,8 +14,8 @@ export default class ClassNavigator extends React.Component {
 
     this.state = {
       availableYears: availableYears,
-      currentYear: '2017/2018',
-      currentSpeciality: 'development'
+      currentYear: this.props.selectedClass.year,
+      currentSpeciality: this.props.selectedClass.speciality
     };
     this.nextYear = this.nextYear.bind(this);
     this.previousYear = this.previousYear.bind(this);
@@ -45,10 +45,11 @@ export default class ClassNavigator extends React.Component {
   }
 
   render () {
-    var currentClass = this.props.promos.filter(
-      oneClass => this.state.currentSpeciality === oneClass.speciality && this.state.currentYear === oneClass.year
+    var currentClass = this.props.promos.find(
+      myClass => this.state.currentSpeciality === myClass.speciality && this.state.currentYear === myClass.year
     );
-    var studentsClass = this.props.students.filter(stud => currentClass[0].students.includes(stud.id));
+
+    var studentsClass = this.props.students.filter(stud => currentClass.students.includes(stud.airtable_id));
 
     var nameClasses = this.props.promos
       .filter(theClass => this.state.currentYear === theClass.year)
