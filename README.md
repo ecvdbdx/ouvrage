@@ -19,7 +19,7 @@ La spécialité UX aurait un rôle de suivi sur l'année.
 Les responsables de chaque spécialité pourraient être Product Owner.
 
 
-### Premiers pas
+### Premiers pas (Printemps 2018)
 
 Dans un premier temps, le projet sera un simple visualiseur de profils Github, basé sur l’API Github.
 Il permettra de voir les différentes classes et les profils Github des élèves.
@@ -28,18 +28,17 @@ D'autres APIs peuvent être envisagées pour intégrer les élèves ne possédan
 
 Cette première application sera "factice", sans application serveur, et hébergée sur Github Pages. Cette esquisse est développée uniquement par les élèves de M1 développement.
 
+### Lancer le projet
 
-#### Organisation Printemps 2018
+```
+npm install
+npm run watch
+```
 
-Les élèves sont répartis en 5 groupes de 2.
-Chaque groupe devra travailler en peer programing, en veuillant bien à relayer au clavier. Chaque élève devra ainsi proposer des Pull Request.
+N'oubliez pas de créer un fichier `airtableConfig.json` sur le modèle de `airtableConfig_sample.json`, en intégrant les bons token et clé pour Airtable.
 
-Les 5 groupes travailleront sur les sujets suivants:
+### Lancer les tests
 
-1. Structure principale de l’app + page d’accueil avec les classes et années
-2. Composant Classe + vignette profil + navigation entre années et spécialités
-3. Composant Profil + édition de profil
-4. Composant Création de profil
-5. Composant Liste d’amis (fake) + chat (fake)
-
-Les élèves devront se mettre d’accord entre eux sur la structure des données.
+```
+npm run test
+```
