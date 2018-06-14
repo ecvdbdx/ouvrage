@@ -1,0 +1,5 @@
+{
+  "endpointUrl" : "https://api.airtable.com",
+  "base": "my_base_token",
+  "apiKey": "my_airtable_key"
+}
