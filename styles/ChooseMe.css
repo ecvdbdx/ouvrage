@@ -15,7 +15,7 @@
 .modal h1 {
 	display: block;
 	text-align: center;
-	padding: 40px 0; 
+	padding: 40px 0;
 }
 
 .modal ul {
@@ -37,7 +37,7 @@
 }
 
 .modal img {
-	  border-radius: 50%;
+	 border-radius: 50%;
   max-width: 50px;
   max-height: 50px;
   margin-right: 10px;

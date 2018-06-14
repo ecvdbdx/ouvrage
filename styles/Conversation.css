@@ -1,57 +1,56 @@
 .conversation {
-    border-bottom: 1px solid rgba(0, 0, 0, .05);
-    min-height: 100vh;
-    padding: 12px;
-    position: relative;
-    max-height: 100vh;
-    overflow-y: scroll;
+  border-bottom: 1px solid rgba(0, 0, 0, .05);
+  min-height: 100vh;
+  padding: 12px;
+  position: relative;
+  max-height: 100vh;
+  overflow-y: scroll;
 }
 
 .conversation header{
-    border-bottom: 1px solid rgba(0, 0, 0, .10);
-    min-height: 70px;
-    position: relative;
-    margin-left: -12px;
-    margin-right: -12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;   
+  border-bottom: 1px solid rgba(0, 0, 0, .10);
+  min-height: 70px;
+  position: relative;
+  margin-left: -12px;
+  margin-right: -12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .conversation header .username {
-margin-left: 10px;}
-
-.conversation .user-avatar{
-    background-color: rgba(0, 0, 0, .05);
-    border-radius: 50%;
-    overflow: hidden;
-    height: 60px;
-    width: 60px;
-    position: absolute;
-    top: 0;
-    left: 10px;
+  margin-left: 10px;
 }
 
 .conversation .user-avatar{
+  background-color: rgba(0, 0, 0, .05);
+  border-radius: 50%;
+  overflow: hidden;
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: 0;
+  left: 10px;
 }
+
 .conversation .user-info{
-    display: inline-block;
-    vertical-align: top;
-    padding-left: 10px;
-    margin-left: 20px;
-    line-height: 15px;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 10px;
+  margin-left: 20px;
+  line-height: 15px;
 }
 .conversation h3{
-    display: inline-block;
-    vertical-align: top;
-    padding-left: 10px;
-    margin-top: 5px;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 10px;
+  margin-top: 5px;
 }
 .conversation .user-info a{
-    color: #365899;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 16px;
+  color: #365899;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
  }
 
 .message-section {

@@ -1,275 +1,1543 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<div>
-  <section>
-    <header>
-      <h2>
-        L'ECV DIGITAL
-      </h2>
-    </header>
-    <p>
-      L’ECV Digital a été créée afin de combler les besoins du marché de l’emploi qui manque cruellement de profils web pour accompagner la transformation digitale de toutes les entreprises et de l’économie en général. Située à Paris, Nantes, Bordeaux et Aix-en-Provence, l’ECV Digital, l’école du numérique et du Web, forme à tous les métiers du digital. Issue du groupe ECV (École de Communication Visuelle), l’école se positionne comme une école généraliste du secteur internet. Son objectif est de former des profils polyvalents intégrant les compétences techniques, créatives et marketing.
-    </p>
-  </section>
-  <section>
-    <header>
-      <h2>
-        Voici la liste des classes
-      </h2>
-    </header>
-    <ol
-      className="grid-3"
-    >
-      <li>
-        <article>
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Home
+    promos={
+      Array [
+        Object {
+          "avatar": "image.jpeg",
+          "degree": "m1",
+          "id": "1",
+          "idChief": "1",
+          "speciality": "development",
+          "students": Array [
+            "1",
+          ],
+          "year": "2017/2018",
+        },
+        Object {
+          "avatar": "image-design.jpeg",
+          "degree": "m1",
+          "id": "2",
+          "idChief": "3",
+          "speciality": "design",
+          "students": Array [
+            "3",
+            "4",
+          ],
+          "year": "2017/2018",
+        },
+        Object {
+          "avatar": "image-ux.jpeg",
+          "degree": "m1",
+          "id": "3",
+          "idChief": "5",
+          "speciality": "ux",
+          "students": Array [
+            "5",
+            "6",
+            "8",
+          ],
+          "year": "2017/2018",
+        },
+        Object {
+          "avatar": "image-marketing.jpeg",
+          "degree": "m1",
+          "id": "4",
+          "idChief": "7",
+          "speciality": "marketing",
+          "students": Array [
+            "7",
+          ],
+          "year": "2017/2018",
+        },
+        Object {
+          "avatar": "image.jpeg",
+          "degree": "m1",
+          "id": "5",
+          "idChief": "2",
+          "speciality": "development",
+          "students": Array [
+            "2",
+          ],
+          "year": "2018/2019",
+        },
+        Object {
+          "avatar": "image-design.jpeg",
+          "degree": "m1",
+          "id": "6",
+          "idChief": "3",
+          "speciality": "design",
+          "students": Array [
+            "3",
+            "4",
+          ],
+          "year": "2018/2019",
+        },
+        Object {
+          "avatar": "image-ux.jpeg",
+          "degree": "m1",
+          "id": "7",
+          "idChief": "5",
+          "speciality": "ux",
+          "students": Array [
+            "5",
+            "6",
+            "8",
+          ],
+          "year": "2018/2019",
+        },
+        Object {
+          "avatar": "image-marketing.jpeg",
+          "degree": "m1",
+          "id": "8",
+          "idChief": "7",
+          "speciality": "marketing",
+          "students": Array [
+            "7",
+          ],
+          "year": "2018/2019",
+        },
+      ]
+    }
+    students={
+      Array [
+        Object {
+          "avatar": "https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg",
+          "firstName": "Manu",
+          "id": "2",
+          "lastName": "Patrois",
+          "username": "epatrois",
+        },
+        Object {
+          "avatar": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+          "birthdate": "838921463",
+          "email": "maxencedewaele@gmail.com",
+          "firstName": "Maxence",
+          "id": "5",
+          "lastName": "De Waele",
+          "username": "mdewaele",
+        },
+        Object {
+          "avatar": "https://s3.amazonaws.com/mixture-mixed/21975/17188/img/photos/portraits/dogs/golden-retriever.jpg",
+          "birthdate": "14/05/1413",
+          "email": "vincentrodrigu@hotmail.fr",
+          "firstName": "Vincent",
+          "id": "8",
+          "lastName": "Rodriguez",
+          "username": "rodrigodelanoche",
+        },
+        Object {
+          "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwMFoeG86Nz19Ve8Cf2FqpdiMd9Q8r6cYS1lgmPKZCxJfvb7kK",
+          "email": "emilie.40@hotmail.com",
+          "firstName": "Emilie",
+          "id": "6",
+          "lastName": "Rozis",
+          "username": "erozis",
+        },
+        Object {
+          "avatar": "https://barknbrewwi.com/wp-content/uploads/2017/05/bark-and-brew-dog-img.png",
+          "firstName": "Hubert",
+          "id": "1",
+          "lastName": "Montcenis",
+          "username": "hmoncenis",
+        },
+        Object {
+          "avatar": "https://img.freepik.com/free-photo/cute-golden-retriever-dog_1204-387.jpg?size=338&ext=jpg",
+          "birthdate": "02/06/1995",
+          "email": "viviane.gonzalez@outlook.fr",
+          "firstName": "Viviane",
+          "id": "7",
+          "lastName": "Gonzalez",
+          "username": "vivianeglz",
+        },
+        Object {
+          "avatar": "https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg",
+          "birthdate": "08/06/1995",
+          "email": "fake@yopmail.fr",
+          "firstName": "Antoine",
+          "id": "3",
+          "lastName": "de Sinety",
+          "username": "antoinesinety",
+        },
+        Object {
+          "avatar": "https://scontent-cdt1-1.xx.fbcdn.net/v/t1.15752-9/31564082_10211602740766358_7499107362326708224_n.jpg?_nc_cat=0&oh=625d3b20b837757df071c3425c13e903&oe=5B506021",
+          "birthdate": "08/12/2003",
+          "email": "floindrix@gmail.com",
+          "first_name": "Florian",
+          "id": "9",
+          "last_name": "Crétin(ptdr)",
+          "username": "Floflo36",
+        },
+        Object {
+          "avatar": "https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg",
+          "email": "thomas.gauzin@gmail.com",
+          "firstName": "Thomas",
+          "id": "4",
+          "lastName": "Gauzin",
+          "username": "tgauzin",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <section>
           <header>
-            <h3>
-              m1
-              <span>
-                2017/2018
-              </span>
-            </h3>
+            <h2>
+              L'ECV DIGITAL
+            </h2>
           </header>
-          <div
-            className="promo-content"
-          >
-            <img
-              src="https://fakeimg.pl/250x100/"
-            />
-            <div
-              className="content-side"
-            >
-              <p>
-                Pas de délégué
-              </p>
-              <button
-                onClick={[Function]}
-              >
-                Voir la classe
-              </button>
-            </div>
-          </div>
-        </article>
-      </li>
-      <li>
-        <article>
+          <p>
+            L’ECV Digital a été créée afin de combler les besoins du marché de l’emploi qui manque cruellement de profils web pour accompagner la transformation digitale de toutes les entreprises et de l’économie en général. Située à Paris, Nantes, Bordeaux et Aix-en-Provence, l’ECV Digital, l’école du numérique et du Web, forme à tous les métiers du digital. Issue du groupe ECV (École de Communication Visuelle), l’école se positionne comme une école généraliste du secteur internet. Son objectif est de former des profils polyvalents intégrant les compétences techniques, créatives et marketing.
+          </p>
+        </section>,
+        <section>
           <header>
-            <h3>
-              m1
-              <span>
-                2017/2018
-              </span>
-            </h3>
+            <h2>
+              Voici la liste des classes
+            </h2>
           </header>
-          <div
-            className="promo-content"
-          >
-            <img
-              src="https://fakeimg.pl/250x100/"
+          <PromoList
+            oneClass={undefined}
+            promos={
+              Array [
+                Object {
+                  "avatar": "image.jpeg",
+                  "degree": "m1",
+                  "id": "1",
+                  "idChief": "1",
+                  "speciality": "development",
+                  "students": Array [
+                    "1",
+                  ],
+                  "year": "2017/2018",
+                },
+                Object {
+                  "avatar": "image-design.jpeg",
+                  "degree": "m1",
+                  "id": "2",
+                  "idChief": "3",
+                  "speciality": "design",
+                  "students": Array [
+                    "3",
+                    "4",
+                  ],
+                  "year": "2017/2018",
+                },
+                Object {
+                  "avatar": "image-ux.jpeg",
+                  "degree": "m1",
+                  "id": "3",
+                  "idChief": "5",
+                  "speciality": "ux",
+                  "students": Array [
+                    "5",
+                    "6",
+                    "8",
+                  ],
+                  "year": "2017/2018",
+                },
+                Object {
+                  "avatar": "image-marketing.jpeg",
+                  "degree": "m1",
+                  "id": "4",
+                  "idChief": "7",
+                  "speciality": "marketing",
+                  "students": Array [
+                    "7",
+                  ],
+                  "year": "2017/2018",
+                },
+                Object {
+                  "avatar": "image.jpeg",
+                  "degree": "m1",
+                  "id": "5",
+                  "idChief": "2",
+                  "speciality": "development",
+                  "students": Array [
+                    "2",
+                  ],
+                  "year": "2018/2019",
+                },
+                Object {
+                  "avatar": "image-design.jpeg",
+                  "degree": "m1",
+                  "id": "6",
+                  "idChief": "3",
+                  "speciality": "design",
+                  "students": Array [
+                    "3",
+                    "4",
+                  ],
+                  "year": "2018/2019",
+                },
+                Object {
+                  "avatar": "image-ux.jpeg",
+                  "degree": "m1",
+                  "id": "7",
+                  "idChief": "5",
+                  "speciality": "ux",
+                  "students": Array [
+                    "5",
+                    "6",
+                    "8",
+                  ],
+                  "year": "2018/2019",
+                },
+                Object {
+                  "avatar": "image-marketing.jpeg",
+                  "degree": "m1",
+                  "id": "8",
+                  "idChief": "7",
+                  "speciality": "marketing",
+                  "students": Array [
+                    "7",
+                  ],
+                  "year": "2018/2019",
+                },
+              ]
+            }
+            students={
+              Array [
+                Object {
+                  "avatar": "https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg",
+                  "firstName": "Manu",
+                  "id": "2",
+                  "lastName": "Patrois",
+                  "username": "epatrois",
+                },
+                Object {
+                  "avatar": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+                  "birthdate": "838921463",
+                  "email": "maxencedewaele@gmail.com",
+                  "firstName": "Maxence",
+                  "id": "5",
+                  "lastName": "De Waele",
+                  "username": "mdewaele",
+                },
+                Object {
+                  "avatar": "https://s3.amazonaws.com/mixture-mixed/21975/17188/img/photos/portraits/dogs/golden-retriever.jpg",
+                  "birthdate": "14/05/1413",
+                  "email": "vincentrodrigu@hotmail.fr",
+                  "firstName": "Vincent",
+                  "id": "8",
+                  "lastName": "Rodriguez",
+                  "username": "rodrigodelanoche",
+                },
+                Object {
+                  "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwMFoeG86Nz19Ve8Cf2FqpdiMd9Q8r6cYS1lgmPKZCxJfvb7kK",
+                  "email": "emilie.40@hotmail.com",
+                  "firstName": "Emilie",
+                  "id": "6",
+                  "lastName": "Rozis",
+                  "username": "erozis",
+                },
+                Object {
+                  "avatar": "https://barknbrewwi.com/wp-content/uploads/2017/05/bark-and-brew-dog-img.png",
+                  "firstName": "Hubert",
+                  "id": "1",
+                  "lastName": "Montcenis",
+                  "username": "hmoncenis",
+                },
+                Object {
+                  "avatar": "https://img.freepik.com/free-photo/cute-golden-retriever-dog_1204-387.jpg?size=338&ext=jpg",
+                  "birthdate": "02/06/1995",
+                  "email": "viviane.gonzalez@outlook.fr",
+                  "firstName": "Viviane",
+                  "id": "7",
+                  "lastName": "Gonzalez",
+                  "username": "vivianeglz",
+                },
+                Object {
+                  "avatar": "https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg",
+                  "birthdate": "08/06/1995",
+                  "email": "fake@yopmail.fr",
+                  "firstName": "Antoine",
+                  "id": "3",
+                  "lastName": "de Sinety",
+                  "username": "antoinesinety",
+                },
+                Object {
+                  "avatar": "https://scontent-cdt1-1.xx.fbcdn.net/v/t1.15752-9/31564082_10211602740766358_7499107362326708224_n.jpg?_nc_cat=0&oh=625d3b20b837757df071c3425c13e903&oe=5B506021",
+                  "birthdate": "08/12/2003",
+                  "email": "floindrix@gmail.com",
+                  "first_name": "Florian",
+                  "id": "9",
+                  "last_name": "Crétin(ptdr)",
+                  "username": "Floflo36",
+                },
+                Object {
+                  "avatar": "https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg",
+                  "email": "thomas.gauzin@gmail.com",
+                  "firstName": "Thomas",
+                  "id": "4",
+                  "lastName": "Gauzin",
+                  "username": "tgauzin",
+                },
+              ]
+            }
+          />
+        </section>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <header>
+              <h2>
+                L'ECV DIGITAL
+              </h2>
+            </header>,
+            <p>
+              L’ECV Digital a été créée afin de combler les besoins du marché de l’emploi qui manque cruellement de profils web pour accompagner la transformation digitale de toutes les entreprises et de l’économie en général. Située à Paris, Nantes, Bordeaux et Aix-en-Provence, l’ECV Digital, l’école du numérique et du Web, forme à tous les métiers du digital. Issue du groupe ECV (École de Communication Visuelle), l’école se positionne comme une école généraliste du secteur internet. Son objectif est de former des profils polyvalents intégrant les compétences techniques, créatives et marketing.
+            </p>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <h2>
+                L'ECV DIGITAL
+              </h2>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "L'ECV DIGITAL",
+              },
+              "ref": null,
+              "rendered": "L'ECV DIGITAL",
+              "type": "h2",
+            },
+            "type": "header",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "L’ECV Digital a été créée afin de combler les besoins du marché de l’emploi qui manque cruellement de profils web pour accompagner la transformation digitale de toutes les entreprises et de l’économie en général. Située à Paris, Nantes, Bordeaux et Aix-en-Provence, l’ECV Digital, l’école du numérique et du Web, forme à tous les métiers du digital. Issue du groupe ECV (École de Communication Visuelle), l’école se positionne comme une école généraliste du secteur internet. Son objectif est de former des profils polyvalents intégrant les compétences techniques, créatives et marketing.",
+            },
+            "ref": null,
+            "rendered": "L’ECV Digital a été créée afin de combler les besoins du marché de l’emploi qui manque cruellement de profils web pour accompagner la transformation digitale de toutes les entreprises et de l’économie en général. Située à Paris, Nantes, Bordeaux et Aix-en-Provence, l’ECV Digital, l’école du numérique et du Web, forme à tous les métiers du digital. Issue du groupe ECV (École de Communication Visuelle), l’école se positionne comme une école généraliste du secteur internet. Son objectif est de former des profils polyvalents intégrant les compétences techniques, créatives et marketing.",
+            "type": "p",
+          },
+        ],
+        "type": "section",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <header>
+              <h2>
+                Voici la liste des classes
+              </h2>
+            </header>,
+            <PromoList
+              oneClass={undefined}
+              promos={
+                Array [
+                  Object {
+                    "avatar": "image.jpeg",
+                    "degree": "m1",
+                    "id": "1",
+                    "idChief": "1",
+                    "speciality": "development",
+                    "students": Array [
+                      "1",
+                    ],
+                    "year": "2017/2018",
+                  },
+                  Object {
+                    "avatar": "image-design.jpeg",
+                    "degree": "m1",
+                    "id": "2",
+                    "idChief": "3",
+                    "speciality": "design",
+                    "students": Array [
+                      "3",
+                      "4",
+                    ],
+                    "year": "2017/2018",
+                  },
+                  Object {
+                    "avatar": "image-ux.jpeg",
+                    "degree": "m1",
+                    "id": "3",
+                    "idChief": "5",
+                    "speciality": "ux",
+                    "students": Array [
+                      "5",
+                      "6",
+                      "8",
+                    ],
+                    "year": "2017/2018",
+                  },
+                  Object {
+                    "avatar": "image-marketing.jpeg",
+                    "degree": "m1",
+                    "id": "4",
+                    "idChief": "7",
+                    "speciality": "marketing",
+                    "students": Array [
+                      "7",
+                    ],
+                    "year": "2017/2018",
+                  },
+                  Object {
+                    "avatar": "image.jpeg",
+                    "degree": "m1",
+                    "id": "5",
+                    "idChief": "2",
+                    "speciality": "development",
+                    "students": Array [
+                      "2",
+                    ],
+                    "year": "2018/2019",
+                  },
+                  Object {
+                    "avatar": "image-design.jpeg",
+                    "degree": "m1",
+                    "id": "6",
+                    "idChief": "3",
+                    "speciality": "design",
+                    "students": Array [
+                      "3",
+                      "4",
+                    ],
+                    "year": "2018/2019",
+                  },
+                  Object {
+                    "avatar": "image-ux.jpeg",
+                    "degree": "m1",
+                    "id": "7",
+                    "idChief": "5",
+                    "speciality": "ux",
+                    "students": Array [
+                      "5",
+                      "6",
+                      "8",
+                    ],
+                    "year": "2018/2019",
+                  },
+                  Object {
+                    "avatar": "image-marketing.jpeg",
+                    "degree": "m1",
+                    "id": "8",
+                    "idChief": "7",
+                    "speciality": "marketing",
+                    "students": Array [
+                      "7",
+                    ],
+                    "year": "2018/2019",
+                  },
+                ]
+              }
+              students={
+                Array [
+                  Object {
+                    "avatar": "https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg",
+                    "firstName": "Manu",
+                    "id": "2",
+                    "lastName": "Patrois",
+                    "username": "epatrois",
+                  },
+                  Object {
+                    "avatar": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+                    "birthdate": "838921463",
+                    "email": "maxencedewaele@gmail.com",
+                    "firstName": "Maxence",
+                    "id": "5",
+                    "lastName": "De Waele",
+                    "username": "mdewaele",
+                  },
+                  Object {
+                    "avatar": "https://s3.amazonaws.com/mixture-mixed/21975/17188/img/photos/portraits/dogs/golden-retriever.jpg",
+                    "birthdate": "14/05/1413",
+                    "email": "vincentrodrigu@hotmail.fr",
+                    "firstName": "Vincent",
+                    "id": "8",
+                    "lastName": "Rodriguez",
+                    "username": "rodrigodelanoche",
+                  },
+                  Object {
+                    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwMFoeG86Nz19Ve8Cf2FqpdiMd9Q8r6cYS1lgmPKZCxJfvb7kK",
+                    "email": "emilie.40@hotmail.com",
+                    "firstName": "Emilie",
+                    "id": "6",
+                    "lastName": "Rozis",
+                    "username": "erozis",
+                  },
+                  Object {
+                    "avatar": "https://barknbrewwi.com/wp-content/uploads/2017/05/bark-and-brew-dog-img.png",
+                    "firstName": "Hubert",
+                    "id": "1",
+                    "lastName": "Montcenis",
+                    "username": "hmoncenis",
+                  },
+                  Object {
+                    "avatar": "https://img.freepik.com/free-photo/cute-golden-retriever-dog_1204-387.jpg?size=338&ext=jpg",
+                    "birthdate": "02/06/1995",
+                    "email": "viviane.gonzalez@outlook.fr",
+                    "firstName": "Viviane",
+                    "id": "7",
+                    "lastName": "Gonzalez",
+                    "username": "vivianeglz",
+                  },
+                  Object {
+                    "avatar": "https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg",
+                    "birthdate": "08/06/1995",
+                    "email": "fake@yopmail.fr",
+                    "firstName": "Antoine",
+                    "id": "3",
+                    "lastName": "de Sinety",
+                    "username": "antoinesinety",
+                  },
+                  Object {
+                    "avatar": "https://scontent-cdt1-1.xx.fbcdn.net/v/t1.15752-9/31564082_10211602740766358_7499107362326708224_n.jpg?_nc_cat=0&oh=625d3b20b837757df071c3425c13e903&oe=5B506021",
+                    "birthdate": "08/12/2003",
+                    "email": "floindrix@gmail.com",
+                    "first_name": "Florian",
+                    "id": "9",
+                    "last_name": "Crétin(ptdr)",
+                    "username": "Floflo36",
+                  },
+                  Object {
+                    "avatar": "https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg",
+                    "email": "thomas.gauzin@gmail.com",
+                    "firstName": "Thomas",
+                    "id": "4",
+                    "lastName": "Gauzin",
+                    "username": "tgauzin",
+                  },
+                ]
+              }
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <h2>
+                Voici la liste des classes
+              </h2>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Voici la liste des classes",
+              },
+              "ref": null,
+              "rendered": "Voici la liste des classes",
+              "type": "h2",
+            },
+            "type": "header",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "oneClass": undefined,
+              "promos": Array [
+                Object {
+                  "avatar": "image.jpeg",
+                  "degree": "m1",
+                  "id": "1",
+                  "idChief": "1",
+                  "speciality": "development",
+                  "students": Array [
+                    "1",
+                  ],
+                  "year": "2017/2018",
+                },
+                Object {
+                  "avatar": "image-design.jpeg",
+                  "degree": "m1",
+                  "id": "2",
+                  "idChief": "3",
+                  "speciality": "design",
+                  "students": Array [
+                    "3",
+                    "4",
+                  ],
+                  "year": "2017/2018",
+                },
+                Object {
+                  "avatar": "image-ux.jpeg",
+                  "degree": "m1",
+                  "id": "3",
+                  "idChief": "5",
+                  "speciality": "ux",
+                  "students": Array [
+                    "5",
+                    "6",
+                    "8",
+                  ],
+                  "year": "2017/2018",
+                },
+                Object {
+                  "avatar": "image-marketing.jpeg",
+                  "degree": "m1",
+                  "id": "4",
+                  "idChief": "7",
+                  "speciality": "marketing",
+                  "students": Array [
+                    "7",
+                  ],
+                  "year": "2017/2018",
+                },
+                Object {
+                  "avatar": "image.jpeg",
+                  "degree": "m1",
+                  "id": "5",
+                  "idChief": "2",
+                  "speciality": "development",
+                  "students": Array [
+                    "2",
+                  ],
+                  "year": "2018/2019",
+                },
+                Object {
+                  "avatar": "image-design.jpeg",
+                  "degree": "m1",
+                  "id": "6",
+                  "idChief": "3",
+                  "speciality": "design",
+                  "students": Array [
+                    "3",
+                    "4",
+                  ],
+                  "year": "2018/2019",
+                },
+                Object {
+                  "avatar": "image-ux.jpeg",
+                  "degree": "m1",
+                  "id": "7",
+                  "idChief": "5",
+                  "speciality": "ux",
+                  "students": Array [
+                    "5",
+                    "6",
+                    "8",
+                  ],
+                  "year": "2018/2019",
+                },
+                Object {
+                  "avatar": "image-marketing.jpeg",
+                  "degree": "m1",
+                  "id": "8",
+                  "idChief": "7",
+                  "speciality": "marketing",
+                  "students": Array [
+                    "7",
+                  ],
+                  "year": "2018/2019",
+                },
+              ],
+              "students": Array [
+                Object {
+                  "avatar": "https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg",
+                  "firstName": "Manu",
+                  "id": "2",
+                  "lastName": "Patrois",
+                  "username": "epatrois",
+                },
+                Object {
+                  "avatar": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+                  "birthdate": "838921463",
+                  "email": "maxencedewaele@gmail.com",
+                  "firstName": "Maxence",
+                  "id": "5",
+                  "lastName": "De Waele",
+                  "username": "mdewaele",
+                },
+                Object {
+                  "avatar": "https://s3.amazonaws.com/mixture-mixed/21975/17188/img/photos/portraits/dogs/golden-retriever.jpg",
+                  "birthdate": "14/05/1413",
+                  "email": "vincentrodrigu@hotmail.fr",
+                  "firstName": "Vincent",
+                  "id": "8",
+                  "lastName": "Rodriguez",
+                  "username": "rodrigodelanoche",
+                },
+                Object {
+                  "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwMFoeG86Nz19Ve8Cf2FqpdiMd9Q8r6cYS1lgmPKZCxJfvb7kK",
+                  "email": "emilie.40@hotmail.com",
+                  "firstName": "Emilie",
+                  "id": "6",
+                  "lastName": "Rozis",
+                  "username": "erozis",
+                },
+                Object {
+                  "avatar": "https://barknbrewwi.com/wp-content/uploads/2017/05/bark-and-brew-dog-img.png",
+                  "firstName": "Hubert",
+                  "id": "1",
+                  "lastName": "Montcenis",
+                  "username": "hmoncenis",
+                },
+                Object {
+                  "avatar": "https://img.freepik.com/free-photo/cute-golden-retriever-dog_1204-387.jpg?size=338&ext=jpg",
+                  "birthdate": "02/06/1995",
+                  "email": "viviane.gonzalez@outlook.fr",
+                  "firstName": "Viviane",
+                  "id": "7",
+                  "lastName": "Gonzalez",
+                  "username": "vivianeglz",
+                },
+                Object {
+                  "avatar": "https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg",
+                  "birthdate": "08/06/1995",
+                  "email": "fake@yopmail.fr",
+                  "firstName": "Antoine",
+                  "id": "3",
+                  "lastName": "de Sinety",
+                  "username": "antoinesinety",
+                },
+                Object {
+                  "avatar": "https://scontent-cdt1-1.xx.fbcdn.net/v/t1.15752-9/31564082_10211602740766358_7499107362326708224_n.jpg?_nc_cat=0&oh=625d3b20b837757df071c3425c13e903&oe=5B506021",
+                  "birthdate": "08/12/2003",
+                  "email": "floindrix@gmail.com",
+                  "first_name": "Florian",
+                  "id": "9",
+                  "last_name": "Crétin(ptdr)",
+                  "username": "Floflo36",
+                },
+                Object {
+                  "avatar": "https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg",
+                  "email": "thomas.gauzin@gmail.com",
+                  "firstName": "Thomas",
+                  "id": "4",
+                  "lastName": "Gauzin",
+                  "username": "tgauzin",
+                },
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "section",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <section>
+            <header>
+              <h2>
+                L'ECV DIGITAL
+              </h2>
+            </header>
+            <p>
+              L’ECV Digital a été créée afin de combler les besoins du marché de l’emploi qui manque cruellement de profils web pour accompagner la transformation digitale de toutes les entreprises et de l’économie en général. Située à Paris, Nantes, Bordeaux et Aix-en-Provence, l’ECV Digital, l’école du numérique et du Web, forme à tous les métiers du digital. Issue du groupe ECV (École de Communication Visuelle), l’école se positionne comme une école généraliste du secteur internet. Son objectif est de former des profils polyvalents intégrant les compétences techniques, créatives et marketing.
+            </p>
+          </section>,
+          <section>
+            <header>
+              <h2>
+                Voici la liste des classes
+              </h2>
+            </header>
+            <PromoList
+              oneClass={undefined}
+              promos={
+                Array [
+                  Object {
+                    "avatar": "image.jpeg",
+                    "degree": "m1",
+                    "id": "1",
+                    "idChief": "1",
+                    "speciality": "development",
+                    "students": Array [
+                      "1",
+                    ],
+                    "year": "2017/2018",
+                  },
+                  Object {
+                    "avatar": "image-design.jpeg",
+                    "degree": "m1",
+                    "id": "2",
+                    "idChief": "3",
+                    "speciality": "design",
+                    "students": Array [
+                      "3",
+                      "4",
+                    ],
+                    "year": "2017/2018",
+                  },
+                  Object {
+                    "avatar": "image-ux.jpeg",
+                    "degree": "m1",
+                    "id": "3",
+                    "idChief": "5",
+                    "speciality": "ux",
+                    "students": Array [
+                      "5",
+                      "6",
+                      "8",
+                    ],
+                    "year": "2017/2018",
+                  },
+                  Object {
+                    "avatar": "image-marketing.jpeg",
+                    "degree": "m1",
+                    "id": "4",
+                    "idChief": "7",
+                    "speciality": "marketing",
+                    "students": Array [
+                      "7",
+                    ],
+                    "year": "2017/2018",
+                  },
+                  Object {
+                    "avatar": "image.jpeg",
+                    "degree": "m1",
+                    "id": "5",
+                    "idChief": "2",
+                    "speciality": "development",
+                    "students": Array [
+                      "2",
+                    ],
+                    "year": "2018/2019",
+                  },
+                  Object {
+                    "avatar": "image-design.jpeg",
+                    "degree": "m1",
+                    "id": "6",
+                    "idChief": "3",
+                    "speciality": "design",
+                    "students": Array [
+                      "3",
+                      "4",
+                    ],
+                    "year": "2018/2019",
+                  },
+                  Object {
+                    "avatar": "image-ux.jpeg",
+                    "degree": "m1",
+                    "id": "7",
+                    "idChief": "5",
+                    "speciality": "ux",
+                    "students": Array [
+                      "5",
+                      "6",
+                      "8",
+                    ],
+                    "year": "2018/2019",
+                  },
+                  Object {
+                    "avatar": "image-marketing.jpeg",
+                    "degree": "m1",
+                    "id": "8",
+                    "idChief": "7",
+                    "speciality": "marketing",
+                    "students": Array [
+                      "7",
+                    ],
+                    "year": "2018/2019",
+                  },
+                ]
+              }
+              students={
+                Array [
+                  Object {
+                    "avatar": "https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg",
+                    "firstName": "Manu",
+                    "id": "2",
+                    "lastName": "Patrois",
+                    "username": "epatrois",
+                  },
+                  Object {
+                    "avatar": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+                    "birthdate": "838921463",
+                    "email": "maxencedewaele@gmail.com",
+                    "firstName": "Maxence",
+                    "id": "5",
+                    "lastName": "De Waele",
+                    "username": "mdewaele",
+                  },
+                  Object {
+                    "avatar": "https://s3.amazonaws.com/mixture-mixed/21975/17188/img/photos/portraits/dogs/golden-retriever.jpg",
+                    "birthdate": "14/05/1413",
+                    "email": "vincentrodrigu@hotmail.fr",
+                    "firstName": "Vincent",
+                    "id": "8",
+                    "lastName": "Rodriguez",
+                    "username": "rodrigodelanoche",
+                  },
+                  Object {
+                    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwMFoeG86Nz19Ve8Cf2FqpdiMd9Q8r6cYS1lgmPKZCxJfvb7kK",
+                    "email": "emilie.40@hotmail.com",
+                    "firstName": "Emilie",
+                    "id": "6",
+                    "lastName": "Rozis",
+                    "username": "erozis",
+                  },
+                  Object {
+                    "avatar": "https://barknbrewwi.com/wp-content/uploads/2017/05/bark-and-brew-dog-img.png",
+                    "firstName": "Hubert",
+                    "id": "1",
+                    "lastName": "Montcenis",
+                    "username": "hmoncenis",
+                  },
+                  Object {
+                    "avatar": "https://img.freepik.com/free-photo/cute-golden-retriever-dog_1204-387.jpg?size=338&ext=jpg",
+                    "birthdate": "02/06/1995",
+                    "email": "viviane.gonzalez@outlook.fr",
+                    "firstName": "Viviane",
+                    "id": "7",
+                    "lastName": "Gonzalez",
+                    "username": "vivianeglz",
+                  },
+                  Object {
+                    "avatar": "https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg",
+                    "birthdate": "08/06/1995",
+                    "email": "fake@yopmail.fr",
+                    "firstName": "Antoine",
+                    "id": "3",
+                    "lastName": "de Sinety",
+                    "username": "antoinesinety",
+                  },
+                  Object {
+                    "avatar": "https://scontent-cdt1-1.xx.fbcdn.net/v/t1.15752-9/31564082_10211602740766358_7499107362326708224_n.jpg?_nc_cat=0&oh=625d3b20b837757df071c3425c13e903&oe=5B506021",
+                    "birthdate": "08/12/2003",
+                    "email": "floindrix@gmail.com",
+                    "first_name": "Florian",
+                    "id": "9",
+                    "last_name": "Crétin(ptdr)",
+                    "username": "Floflo36",
+                  },
+                  Object {
+                    "avatar": "https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg",
+                    "email": "thomas.gauzin@gmail.com",
+                    "firstName": "Thomas",
+                    "id": "4",
+                    "lastName": "Gauzin",
+                    "username": "tgauzin",
+                  },
+                ]
+              }
             />
-            <div
-              className="content-side"
-            >
+          </section>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <header>
+                <h2>
+                  L'ECV DIGITAL
+                </h2>
+              </header>,
               <p>
-                Pas de délégué
-              </p>
-              <button
-                onClick={[Function]}
-              >
-                Voir la classe
-              </button>
-            </div>
-          </div>
-        </article>
-      </li>
-      <li>
-        <article>
-          <header>
-            <h3>
-              m1
-              <span>
-                2017/2018
-              </span>
-            </h3>
-          </header>
-          <div
-            className="promo-content"
-          >
-            <img
-              src="https://fakeimg.pl/250x100/"
-            />
-            <div
-              className="content-side"
-            >
-              <p>
-                Pas de délégué
-              </p>
-              <button
-                onClick={[Function]}
-              >
-                Voir la classe
-              </button>
-            </div>
-          </div>
-        </article>
-      </li>
-      <li>
-        <article>
-          <header>
-            <h3>
-              m1
-              <span>
-                2017/2018
-              </span>
-            </h3>
-          </header>
-          <div
-            className="promo-content"
-          >
-            <img
-              src="https://fakeimg.pl/250x100/"
-            />
-            <div
-              className="content-side"
-            >
-              <p>
-                Pas de délégué
-              </p>
-              <button
-                onClick={[Function]}
-              >
-                Voir la classe
-              </button>
-            </div>
-          </div>
-        </article>
-      </li>
-      <li>
-        <article>
-          <header>
-            <h3>
-              m1
-              <span>
-                2018/2019
-              </span>
-            </h3>
-          </header>
-          <div
-            className="promo-content"
-          >
-            <img
-              src="https://fakeimg.pl/250x100/"
-            />
-            <div
-              className="content-side"
-            >
-              <p>
-                Pas de délégué
-              </p>
-              <button
-                onClick={[Function]}
-              >
-                Voir la classe
-              </button>
-            </div>
-          </div>
-        </article>
-      </li>
-      <li>
-        <article>
-          <header>
-            <h3>
-              m1
-              <span>
-                2018/2019
-              </span>
-            </h3>
-          </header>
-          <div
-            className="promo-content"
-          >
-            <img
-              src="https://fakeimg.pl/250x100/"
-            />
-            <div
-              className="content-side"
-            >
-              <p>
-                Pas de délégué
-              </p>
-              <button
-                onClick={[Function]}
-              >
-                Voir la classe
-              </button>
-            </div>
-          </div>
-        </article>
-      </li>
-      <li>
-        <article>
-          <header>
-            <h3>
-              m1
-              <span>
-                2018/2019
-              </span>
-            </h3>
-          </header>
-          <div
-            className="promo-content"
-          >
-            <img
-              src="https://fakeimg.pl/250x100/"
-            />
-            <div
-              className="content-side"
-            >
-              <p>
-                Pas de délégué
-              </p>
-              <button
-                onClick={[Function]}
-              >
-                Voir la classe
-              </button>
-            </div>
-          </div>
-        </article>
-      </li>
-      <li>
-        <article>
-          <header>
-            <h3>
-              m1
-              <span>
-                2018/2019
-              </span>
-            </h3>
-          </header>
-          <div
-            className="promo-content"
-          >
-            <img
-              src="https://fakeimg.pl/250x100/"
-            />
-            <div
-              className="content-side"
-            >
-              <p>
-                Pas de délégué
-              </p>
-              <button
-                onClick={[Function]}
-              >
-                Voir la classe
-              </button>
-            </div>
-          </div>
-        </article>
-      </li>
-    </ol>
-  </section>
-</div>
+                L’ECV Digital a été créée afin de combler les besoins du marché de l’emploi qui manque cruellement de profils web pour accompagner la transformation digitale de toutes les entreprises et de l’économie en général. Située à Paris, Nantes, Bordeaux et Aix-en-Provence, l’ECV Digital, l’école du numérique et du Web, forme à tous les métiers du digital. Issue du groupe ECV (École de Communication Visuelle), l’école se positionne comme une école généraliste du secteur internet. Son objectif est de former des profils polyvalents intégrant les compétences techniques, créatives et marketing.
+              </p>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <h2>
+                  L'ECV DIGITAL
+                </h2>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "L'ECV DIGITAL",
+                },
+                "ref": null,
+                "rendered": "L'ECV DIGITAL",
+                "type": "h2",
+              },
+              "type": "header",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "L’ECV Digital a été créée afin de combler les besoins du marché de l’emploi qui manque cruellement de profils web pour accompagner la transformation digitale de toutes les entreprises et de l’économie en général. Située à Paris, Nantes, Bordeaux et Aix-en-Provence, l’ECV Digital, l’école du numérique et du Web, forme à tous les métiers du digital. Issue du groupe ECV (École de Communication Visuelle), l’école se positionne comme une école généraliste du secteur internet. Son objectif est de former des profils polyvalents intégrant les compétences techniques, créatives et marketing.",
+              },
+              "ref": null,
+              "rendered": "L’ECV Digital a été créée afin de combler les besoins du marché de l’emploi qui manque cruellement de profils web pour accompagner la transformation digitale de toutes les entreprises et de l’économie en général. Située à Paris, Nantes, Bordeaux et Aix-en-Provence, l’ECV Digital, l’école du numérique et du Web, forme à tous les métiers du digital. Issue du groupe ECV (École de Communication Visuelle), l’école se positionne comme une école généraliste du secteur internet. Son objectif est de former des profils polyvalents intégrant les compétences techniques, créatives et marketing.",
+              "type": "p",
+            },
+          ],
+          "type": "section",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <header>
+                <h2>
+                  Voici la liste des classes
+                </h2>
+              </header>,
+              <PromoList
+                oneClass={undefined}
+                promos={
+                  Array [
+                    Object {
+                      "avatar": "image.jpeg",
+                      "degree": "m1",
+                      "id": "1",
+                      "idChief": "1",
+                      "speciality": "development",
+                      "students": Array [
+                        "1",
+                      ],
+                      "year": "2017/2018",
+                    },
+                    Object {
+                      "avatar": "image-design.jpeg",
+                      "degree": "m1",
+                      "id": "2",
+                      "idChief": "3",
+                      "speciality": "design",
+                      "students": Array [
+                        "3",
+                        "4",
+                      ],
+                      "year": "2017/2018",
+                    },
+                    Object {
+                      "avatar": "image-ux.jpeg",
+                      "degree": "m1",
+                      "id": "3",
+                      "idChief": "5",
+                      "speciality": "ux",
+                      "students": Array [
+                        "5",
+                        "6",
+                        "8",
+                      ],
+                      "year": "2017/2018",
+                    },
+                    Object {
+                      "avatar": "image-marketing.jpeg",
+                      "degree": "m1",
+                      "id": "4",
+                      "idChief": "7",
+                      "speciality": "marketing",
+                      "students": Array [
+                        "7",
+                      ],
+                      "year": "2017/2018",
+                    },
+                    Object {
+                      "avatar": "image.jpeg",
+                      "degree": "m1",
+                      "id": "5",
+                      "idChief": "2",
+                      "speciality": "development",
+                      "students": Array [
+                        "2",
+                      ],
+                      "year": "2018/2019",
+                    },
+                    Object {
+                      "avatar": "image-design.jpeg",
+                      "degree": "m1",
+                      "id": "6",
+                      "idChief": "3",
+                      "speciality": "design",
+                      "students": Array [
+                        "3",
+                        "4",
+                      ],
+                      "year": "2018/2019",
+                    },
+                    Object {
+                      "avatar": "image-ux.jpeg",
+                      "degree": "m1",
+                      "id": "7",
+                      "idChief": "5",
+                      "speciality": "ux",
+                      "students": Array [
+                        "5",
+                        "6",
+                        "8",
+                      ],
+                      "year": "2018/2019",
+                    },
+                    Object {
+                      "avatar": "image-marketing.jpeg",
+                      "degree": "m1",
+                      "id": "8",
+                      "idChief": "7",
+                      "speciality": "marketing",
+                      "students": Array [
+                        "7",
+                      ],
+                      "year": "2018/2019",
+                    },
+                  ]
+                }
+                students={
+                  Array [
+                    Object {
+                      "avatar": "https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg",
+                      "firstName": "Manu",
+                      "id": "2",
+                      "lastName": "Patrois",
+                      "username": "epatrois",
+                    },
+                    Object {
+                      "avatar": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+                      "birthdate": "838921463",
+                      "email": "maxencedewaele@gmail.com",
+                      "firstName": "Maxence",
+                      "id": "5",
+                      "lastName": "De Waele",
+                      "username": "mdewaele",
+                    },
+                    Object {
+                      "avatar": "https://s3.amazonaws.com/mixture-mixed/21975/17188/img/photos/portraits/dogs/golden-retriever.jpg",
+                      "birthdate": "14/05/1413",
+                      "email": "vincentrodrigu@hotmail.fr",
+                      "firstName": "Vincent",
+                      "id": "8",
+                      "lastName": "Rodriguez",
+                      "username": "rodrigodelanoche",
+                    },
+                    Object {
+                      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwMFoeG86Nz19Ve8Cf2FqpdiMd9Q8r6cYS1lgmPKZCxJfvb7kK",
+                      "email": "emilie.40@hotmail.com",
+                      "firstName": "Emilie",
+                      "id": "6",
+                      "lastName": "Rozis",
+                      "username": "erozis",
+                    },
+                    Object {
+                      "avatar": "https://barknbrewwi.com/wp-content/uploads/2017/05/bark-and-brew-dog-img.png",
+                      "firstName": "Hubert",
+                      "id": "1",
+                      "lastName": "Montcenis",
+                      "username": "hmoncenis",
+                    },
+                    Object {
+                      "avatar": "https://img.freepik.com/free-photo/cute-golden-retriever-dog_1204-387.jpg?size=338&ext=jpg",
+                      "birthdate": "02/06/1995",
+                      "email": "viviane.gonzalez@outlook.fr",
+                      "firstName": "Viviane",
+                      "id": "7",
+                      "lastName": "Gonzalez",
+                      "username": "vivianeglz",
+                    },
+                    Object {
+                      "avatar": "https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg",
+                      "birthdate": "08/06/1995",
+                      "email": "fake@yopmail.fr",
+                      "firstName": "Antoine",
+                      "id": "3",
+                      "lastName": "de Sinety",
+                      "username": "antoinesinety",
+                    },
+                    Object {
+                      "avatar": "https://scontent-cdt1-1.xx.fbcdn.net/v/t1.15752-9/31564082_10211602740766358_7499107362326708224_n.jpg?_nc_cat=0&oh=625d3b20b837757df071c3425c13e903&oe=5B506021",
+                      "birthdate": "08/12/2003",
+                      "email": "floindrix@gmail.com",
+                      "first_name": "Florian",
+                      "id": "9",
+                      "last_name": "Crétin(ptdr)",
+                      "username": "Floflo36",
+                    },
+                    Object {
+                      "avatar": "https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg",
+                      "email": "thomas.gauzin@gmail.com",
+                      "firstName": "Thomas",
+                      "id": "4",
+                      "lastName": "Gauzin",
+                      "username": "tgauzin",
+                    },
+                  ]
+                }
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <h2>
+                  Voici la liste des classes
+                </h2>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Voici la liste des classes",
+                },
+                "ref": null,
+                "rendered": "Voici la liste des classes",
+                "type": "h2",
+              },
+              "type": "header",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "oneClass": undefined,
+                "promos": Array [
+                  Object {
+                    "avatar": "image.jpeg",
+                    "degree": "m1",
+                    "id": "1",
+                    "idChief": "1",
+                    "speciality": "development",
+                    "students": Array [
+                      "1",
+                    ],
+                    "year": "2017/2018",
+                  },
+                  Object {
+                    "avatar": "image-design.jpeg",
+                    "degree": "m1",
+                    "id": "2",
+                    "idChief": "3",
+                    "speciality": "design",
+                    "students": Array [
+                      "3",
+                      "4",
+                    ],
+                    "year": "2017/2018",
+                  },
+                  Object {
+                    "avatar": "image-ux.jpeg",
+                    "degree": "m1",
+                    "id": "3",
+                    "idChief": "5",
+                    "speciality": "ux",
+                    "students": Array [
+                      "5",
+                      "6",
+                      "8",
+                    ],
+                    "year": "2017/2018",
+                  },
+                  Object {
+                    "avatar": "image-marketing.jpeg",
+                    "degree": "m1",
+                    "id": "4",
+                    "idChief": "7",
+                    "speciality": "marketing",
+                    "students": Array [
+                      "7",
+                    ],
+                    "year": "2017/2018",
+                  },
+                  Object {
+                    "avatar": "image.jpeg",
+                    "degree": "m1",
+                    "id": "5",
+                    "idChief": "2",
+                    "speciality": "development",
+                    "students": Array [
+                      "2",
+                    ],
+                    "year": "2018/2019",
+                  },
+                  Object {
+                    "avatar": "image-design.jpeg",
+                    "degree": "m1",
+                    "id": "6",
+                    "idChief": "3",
+                    "speciality": "design",
+                    "students": Array [
+                      "3",
+                      "4",
+                    ],
+                    "year": "2018/2019",
+                  },
+                  Object {
+                    "avatar": "image-ux.jpeg",
+                    "degree": "m1",
+                    "id": "7",
+                    "idChief": "5",
+                    "speciality": "ux",
+                    "students": Array [
+                      "5",
+                      "6",
+                      "8",
+                    ],
+                    "year": "2018/2019",
+                  },
+                  Object {
+                    "avatar": "image-marketing.jpeg",
+                    "degree": "m1",
+                    "id": "8",
+                    "idChief": "7",
+                    "speciality": "marketing",
+                    "students": Array [
+                      "7",
+                    ],
+                    "year": "2018/2019",
+                  },
+                ],
+                "students": Array [
+                  Object {
+                    "avatar": "https://pbs.twimg.com/profile_images/781247417819725825/g8Rk4ljG_400x400.jpg",
+                    "firstName": "Manu",
+                    "id": "2",
+                    "lastName": "Patrois",
+                    "username": "epatrois",
+                  },
+                  Object {
+                    "avatar": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+                    "birthdate": "838921463",
+                    "email": "maxencedewaele@gmail.com",
+                    "firstName": "Maxence",
+                    "id": "5",
+                    "lastName": "De Waele",
+                    "username": "mdewaele",
+                  },
+                  Object {
+                    "avatar": "https://s3.amazonaws.com/mixture-mixed/21975/17188/img/photos/portraits/dogs/golden-retriever.jpg",
+                    "birthdate": "14/05/1413",
+                    "email": "vincentrodrigu@hotmail.fr",
+                    "firstName": "Vincent",
+                    "id": "8",
+                    "lastName": "Rodriguez",
+                    "username": "rodrigodelanoche",
+                  },
+                  Object {
+                    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwMFoeG86Nz19Ve8Cf2FqpdiMd9Q8r6cYS1lgmPKZCxJfvb7kK",
+                    "email": "emilie.40@hotmail.com",
+                    "firstName": "Emilie",
+                    "id": "6",
+                    "lastName": "Rozis",
+                    "username": "erozis",
+                  },
+                  Object {
+                    "avatar": "https://barknbrewwi.com/wp-content/uploads/2017/05/bark-and-brew-dog-img.png",
+                    "firstName": "Hubert",
+                    "id": "1",
+                    "lastName": "Montcenis",
+                    "username": "hmoncenis",
+                  },
+                  Object {
+                    "avatar": "https://img.freepik.com/free-photo/cute-golden-retriever-dog_1204-387.jpg?size=338&ext=jpg",
+                    "birthdate": "02/06/1995",
+                    "email": "viviane.gonzalez@outlook.fr",
+                    "firstName": "Viviane",
+                    "id": "7",
+                    "lastName": "Gonzalez",
+                    "username": "vivianeglz",
+                  },
+                  Object {
+                    "avatar": "https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg",
+                    "birthdate": "08/06/1995",
+                    "email": "fake@yopmail.fr",
+                    "firstName": "Antoine",
+                    "id": "3",
+                    "lastName": "de Sinety",
+                    "username": "antoinesinety",
+                  },
+                  Object {
+                    "avatar": "https://scontent-cdt1-1.xx.fbcdn.net/v/t1.15752-9/31564082_10211602740766358_7499107362326708224_n.jpg?_nc_cat=0&oh=625d3b20b837757df071c3425c13e903&oe=5B506021",
+                    "birthdate": "08/12/2003",
+                    "email": "floindrix@gmail.com",
+                    "first_name": "Florian",
+                    "id": "9",
+                    "last_name": "Crétin(ptdr)",
+                    "username": "Floflo36",
+                  },
+                  Object {
+                    "avatar": "https://cdn.petcarerx.com/LPPE/images/breedguidethumbs/Akita-dogs-photo.jpg",
+                    "email": "thomas.gauzin@gmail.com",
+                    "firstName": "Thomas",
+                    "id": "4",
+                    "lastName": "Gauzin",
+                    "username": "tgauzin",
+                  },
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "section",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
 `;

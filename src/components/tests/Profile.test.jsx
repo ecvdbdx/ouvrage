@@ -1,11 +1,11 @@
 import React from 'react';
+import { shallow } from 'enzyme';
+
 import Profile from './../profile/Profile';
-import renderer from 'react-test-renderer';
+
 import students from './../../../mocks/students.json';
 
 it('renders correctly', () => {
-  const tree = renderer
-    .create(<Profile student={students[2]}/>)
-    .toJSON();
-  expect(tree).toMatchSnapshot();
+  const wrapper = shallow(<Profile student={students[2]}/>);
+  expect(wrapper).toMatchSnapshot();
 });

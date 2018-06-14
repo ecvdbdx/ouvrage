@@ -10,7 +10,7 @@ export default class ChooseMe extends React.Component {
           <ul>
             {
               this.props.students.map((student, index) => (
-                <li key={index} onClick={() => {this.props.selectMe(student);}}>
+                <li key={index} onClick={() => this.props.selectMe(student)}>
                   <div>
                     <img src={student.avatar} alt={`Photo de profil de ${student.username}`}/>
                     <p>{student.firstName} {student.lastName} <span className="username">({student.username})</span></p>

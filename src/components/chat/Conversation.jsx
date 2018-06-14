@@ -35,7 +35,6 @@ export default class Conversation extends React.Component {
     clearInterval(this.interval);
   }
 
-
   retrieveConversation (contact, me) {
     getConversation(contact, me).then((messages) => {
       this.setState({
@@ -50,7 +49,6 @@ export default class Conversation extends React.Component {
       message: event.target.value
     });
   }
-
 
   submitMessage (event) {
     if (event.key === 'Enter') {
@@ -101,31 +99,29 @@ export default class Conversation extends React.Component {
 
     return (
       <section className="conversation" ref={this.refMessageList} onScroll={this.setAutoScroll}>
-        {
-          <div>
-            <header>
-              <h2>{currentContact.firstName} {currentContact.lastName}</h2>
-              <img src={currentContact.avatar} className="user-avatar"/>
-            </header>
-            <main>
-              <ul className="message-list">
-                {
-                  this.state.messages.map((message, index) => (
-                    <Message key={index} message={message} me={me}/>
-                  ))
-                }
-              </ul>
-            </main>
-            <footer className="message-section">
-              <input type="text"
-                placeholder="Votre message..."
-                onChange={this.handleChange}
-                value={this.state.message}
-                onKeyPress={this.submitMessage}
-              />
-            </footer>
-          </div>
-        }
+        <div>
+          <header>
+            <h2>{currentContact.firstName} {currentContact.lastName}</h2>
+            <img src={currentContact.avatar} className="user-avatar"/>
+          </header>
+          <main>
+            <ul className="message-list">
+              {
+                this.state.messages.map((message, index) => (
+                  <Message key={index} message={message} me={me}/>
+                ))
+              }
+            </ul>
+          </main>
+          <footer className="message-section">
+            <input type="text"
+              placeholder="Votre message..."
+              onChange={this.handleChange}
+              value={this.state.message}
+              onKeyPress={this.submitMessage}
+            />
+          </footer>
+        </div>
       </section>
     );
   }
