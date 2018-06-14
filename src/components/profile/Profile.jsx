@@ -1,8 +1,6 @@
 import React from 'react';
 import moment from 'moment';
-import 'isomorphic-fetch';
 import { getIdAirTable, destroyUser, editUser } from '../../utils/airtable';
-import 'isomorphic-fetch';
 
 const EditBtn = props => (<button onClick={props.handleClick}>Modifier</button>);
 

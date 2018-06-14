@@ -1,4 +1,5 @@
 import React from 'react';
+import 'isomorphic-fetch';
 import { shallow } from 'enzyme';
 
 import Profile from './../profile/Profile';
