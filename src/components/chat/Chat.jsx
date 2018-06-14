@@ -44,19 +44,17 @@ export default class Chat extends React.Component {
     const isIdentified = this.state.me !== null;
     const isConversationOpened = this.state.currentContact !== null;
 
-    const component = !isIdentified ?
-      (
-        <ChooseMe students={this.state.students} selectMe={this.selectMe} />
-      ) : (
+    const component = !isIdentified
+      ? (<ChooseMe students={this.state.students} selectMe={this.selectMe} />)
+      : (
         <div>
           <Contacts students={this.state.students}
             currentContact={this.state.currentContact}
             openConversation={this.openConversation} />
           {
-            isConversationOpened ?
-              (
-                <Conversation currentContact={this.state.currentContact} me={this.state.me} />
-              ) : null
+            isConversationOpened
+              ? (<Conversation currentContact={this.state.currentContact} me={this.state.me} />)
+              : null
           }
         </div>
       );

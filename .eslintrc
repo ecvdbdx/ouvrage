@@ -39,6 +39,7 @@
     "one-var": 0,
     "brace-style": ["error", "stroustrup"],
     "curly": ["error", "multi-or-nest"],
-    "operator-linebreak": ["warn", "before"]
+    "operator-linebreak": ["warn", "before"],
+    "react/prop-types": 0
   }
 }
